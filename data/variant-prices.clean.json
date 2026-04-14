@@ -1,0 +1,1646 @@
+{
+  "1": [
+    {
+      "n": "A",
+      "p": 29,
+      "a": true,
+      "i": "a8cc8234365f4ca28b258e8cc19f8c19"
+    },
+    {
+      "n": "B",
+      "p": 0,
+      "a": false,
+      "i": "5a1d2f5d2d274a49aa362fcade18c8f8"
+    },
+    {
+      "n": "C",
+      "p": 29,
+      "a": true,
+      "i": "4609cc676cf146cd8d8f219f82c376ff"
+    },
+    {
+      "n": "D",
+      "p": 29,
+      "a": true,
+      "i": "87cad5ea7aa44df6980928a23add4cf5"
+    },
+    {
+      "n": "E",
+      "p": 29,
+      "a": true,
+      "i": "12060a9e29474422a13c945e013822fb"
+    },
+    {
+      "n": "F",
+      "p": 29,
+      "a": true,
+      "i": "c2fc516ef16146d9b70d888d59ede9a4"
+    },
+    {
+      "n": "G",
+      "p": 29,
+      "a": true,
+      "i": "d143029bb437438f85b49e785dc3f4e8"
+    },
+    {
+      "n": "H",
+      "p": 29,
+      "a": true,
+      "i": "7cf8df6d88ee4cc18d364f9ee8a9f3a4"
+    },
+    {
+      "n": "I",
+      "p": 29,
+      "a": true,
+      "i": "871321ec2da94fb2acb18c6ae248d8c3"
+    },
+    {
+      "n": "J",
+      "p": 29,
+      "a": true,
+      "i": "2782c4656efb4719b9ca9fbee756e4cb"
+    },
+    {
+      "n": "K",
+      "p": 29,
+      "a": true,
+      "i": "4f6f7e41f0974ea6aaa712a512209eda"
+    },
+    {
+      "n": "L",
+      "p": 29,
+      "a": true,
+      "i": "27ab5fd769fd4f00a682dad16973e762"
+    },
+    {
+      "n": "M",
+      "p": 0,
+      "a": false,
+      "i": "cc18020a7dc648d0a6551c82606a6164"
+    },
+    {
+      "n": "N",
+      "p": 0,
+      "a": false,
+      "i": "19aa7f207f5c4538ba0219d4114f7761"
+    },
+    {
+      "n": "O",
+      "p": 0,
+      "a": false,
+      "i": "9cdec8a1f4ab43a688e409072a4e13ac"
+    }
+  ],
+  "2": [
+    {
+      "n": "Pink blossom calcite",
+      "p": 22,
+      "a": true,
+      "i": "3a60f53f590c4de280bb0ca2629e2ead"
+    },
+    {
+      "n": "White agate",
+      "p": 22,
+      "a": true,
+      "i": "441524c404524999bb5663c3402fd636"
+    },
+    {
+      "n": "Strawberry Quartz",
+      "p": 0,
+      "a": false,
+      "i": "4399317a8c30495a961cd1d25acf1452"
+    },
+    {
+      "n": "Calligraphy Jasper A",
+      "p": 0,
+      "a": false,
+      "i": "584a1d4311ad4397be9423b665720d00"
+    },
+    {
+      "n": "Calligraphy Jasper B",
+      "p": 22,
+      "a": true,
+      "i": "751b450603d1443982e71536c6626288"
+    },
+    {
+      "n": "Red Network Jasper A",
+      "p": 22,
+      "a": true,
+      "i": "70aec7b47b244ec39a917a930d126ff9"
+    },
+    {
+      "n": "Red network Jasper B",
+      "p": 0,
+      "a": false,
+      "i": "b0bca99ded9a484ab161b1e33bdbf164"
+    },
+    {
+      "n": "Green onyx A",
+      "p": 22,
+      "a": true,
+      "i": "7bc43092e28746029375aa936e337973"
+    },
+    {
+      "n": "Green onyx B",
+      "p": 0,
+      "a": false,
+      "i": "84fe8ea112c348f39e8e7ce49dd821f8"
+    },
+    {
+      "n": "Green Jade",
+      "p": 22,
+      "a": true,
+      "i": "50c611b9d6a34650a75849d10e97855d"
+    },
+    {
+      "n": "Pink Opal A",
+      "p": 0,
+      "a": false,
+      "i": "4b549e3dda8d4ee98cf578e9760a0762"
+    },
+    {
+      "n": "Pink opal B",
+      "p": 0,
+      "a": false,
+      "i": "17ed2d49a8874828841542416acb955b"
+    },
+    {
+      "n": "Qinghai Jade A",
+      "p": 0,
+      "a": false,
+      "i": "fe101747dacd4d8e9180633109a7cab1"
+    },
+    {
+      "n": "Qinghai Jade B",
+      "p": 0,
+      "a": false,
+      "i": "8da50cf6eefa4ebb976d82a8b99ec6b9"
+    },
+    {
+      "n": "Blue Jade A",
+      "p": 0,
+      "a": false,
+      "i": "2e1921e676cd4357ac72d45805b55112"
+    }
+  ],
+  "3": [
+    {
+      "n": "A",
+      "p": 42,
+      "a": true,
+      "i": "b0f3db6e49f74869b869dd92bca19919"
+    },
+    {
+      "n": "B",
+      "p": 42,
+      "a": true,
+      "i": "a1b414de2d904d15b945e38388e9bfa3"
+    },
+    {
+      "n": "C",
+      "p": 0,
+      "a": false,
+      "i": "29c19a00940f4758bf4e4d22f4f9388e"
+    },
+    {
+      "n": "D",
+      "p": 29,
+      "a": true,
+      "i": "5598dbf963e54c45bec7a1ea21eeccac"
+    },
+    {
+      "n": "E",
+      "p": 0,
+      "a": false,
+      "i": "f03304debf9b4d51955380b71f4e0ee9"
+    },
+    {
+      "n": "F",
+      "p": 33,
+      "a": true,
+      "i": "c417f5e0507448a194d00ecfabd3964e"
+    },
+    {
+      "n": "G",
+      "p": 0,
+      "a": false,
+      "i": "efec07687b034dce9b97ba9b278f1162"
+    },
+    {
+      "n": "H",
+      "p": 0,
+      "a": false,
+      "i": "556cda619bfb441797409594734a8819"
+    }
+  ],
+  "4": [
+    {
+      "n": "B",
+      "p": 49,
+      "a": true,
+      "i": "e5e4fca3839744bbb292507caabaa9af"
+    },
+    {
+      "n": "E",
+      "p": 81,
+      "a": true,
+      "i": "c6daeaad84e0489cb8183499e8bce7be"
+    },
+    {
+      "n": "F",
+      "p": 0,
+      "a": false,
+      "i": "7610f392fc9f4776bde1d3437af4173a"
+    },
+    {
+      "n": "G",
+      "p": 74,
+      "a": true,
+      "i": "b7c7a9f62b9d4184885dd51ae73da867"
+    },
+    {
+      "n": "H",
+      "p": 0,
+      "a": false,
+      "i": "5e0f377e9d114be1ab3b2659d6bbc0ac"
+    },
+    {
+      "n": "I",
+      "p": 77,
+      "a": true,
+      "i": "d1ed4857d29c4a58aa156b051e1a7608"
+    },
+    {
+      "n": "J",
+      "p": 69,
+      "a": true,
+      "i": "3264cb4d83684f5b80ef7e4c5531e468"
+    },
+    {
+      "n": "A",
+      "p": 81,
+      "a": true,
+      "i": "e736e06a927a42c39a6e345ce2acaa42"
+    },
+    {
+      "n": "C",
+      "p": 0,
+      "a": false,
+      "i": "c20b703f40914c3aa28a85719e26dbf3"
+    },
+    {
+      "n": "D",
+      "p": 63,
+      "a": true,
+      "i": "76ada36d3c1d4b79b2496e8113a99045"
+    }
+  ],
+  "5": [
+    {
+      "n": "C - medium star",
+      "p": 142,
+      "a": true,
+      "i": "5e6fbca8a6384c87aa803b7cd996c90f"
+    },
+    {
+      "n": "F - heart",
+      "p": 0,
+      "a": false,
+      "i": "b3245b86641844868d4a7ad5599c965b"
+    },
+    {
+      "n": "G - heart",
+      "p": 0,
+      "a": false,
+      "i": "0837876ddf4144c28234535c50c78fad"
+    },
+    {
+      "n": "H - heart",
+      "p": 0,
+      "a": false,
+      "i": "243b907168c54e08ac1a580ec7fa9d33"
+    },
+    {
+      "n": "I - moon",
+      "p": 0,
+      "a": false,
+      "i": "ec275d54ee634adab900503474621755"
+    },
+    {
+      "n": "J - moon",
+      "p": 0,
+      "a": false,
+      "i": "5437e7dc56964a23a9c36c79b8483d9e"
+    },
+    {
+      "n": "K - moon",
+      "p": 57,
+      "a": true,
+      "i": "e9e427193589451086bdce71e7d040c2"
+    },
+    {
+      "n": "L - moon",
+      "p": 0,
+      "a": false,
+      "i": "ef68e22974504be89d44fa70c92ba539"
+    },
+    {
+      "n": "M - moon",
+      "p": 0,
+      "a": false,
+      "i": "f205e03717bc4d8994591fb90cbaabec"
+    },
+    {
+      "n": "N - moon",
+      "p": 0,
+      "a": false,
+      "i": "4a05c6e9bbe441db8829a38f0ce5aecb"
+    }
+  ],
+  "6": [
+    {
+      "n": "A",
+      "p": 5,
+      "a": true,
+      "i": "d6c7b8aa6e7142c688fed15cf92e89a9"
+    },
+    {
+      "n": "B",
+      "p": 8,
+      "a": true,
+      "i": "49a3af19fb824647bdccbb5650713570"
+    },
+    {
+      "n": "C",
+      "p": 22,
+      "a": true,
+      "i": "29a9e84ca263487aae02bae427b49e9b"
+    },
+    {
+      "n": "D",
+      "p": 57,
+      "a": true,
+      "i": "a18f4b5db5734beb987af5d1a3aedaf2"
+    },
+    {
+      "n": "E",
+      "p": 25,
+      "a": true,
+      "i": "db1b0818b26346ffad1ae00516e6d286"
+    },
+    {
+      "n": "F",
+      "p": 10,
+      "a": true,
+      "i": "a0e499b128d843a6882d70ea6d046905"
+    },
+    {
+      "n": "G",
+      "p": 6,
+      "a": true,
+      "i": "ed54763599ee4b81b6a2c40c1a7cfb2d"
+    }
+  ],
+  "7": [
+    {
+      "n": "A-18” Silver",
+      "p": 40,
+      "a": true,
+      "i": "c85b31e80d774974a2d809cc77e00bee"
+    },
+    {
+      "n": "B-18” Silver",
+      "p": 40,
+      "a": true,
+      "i": "b3bca0b341244dee94eba985fa99425d"
+    },
+    {
+      "n": "C-18” Silver",
+      "p": 0,
+      "a": false,
+      "i": "eacbd635b138447d9564135cf2c5ca23"
+    },
+    {
+      "n": "D-20” Silver",
+      "p": 45,
+      "a": true,
+      "i": "d26647c647c04a428ebc0af8b40fe332"
+    },
+    {
+      "n": "E-20” Gold over 925",
+      "p": 47,
+      "a": true,
+      "i": "528ec6c335a046d29a8b03afd78ebc84"
+    },
+    {
+      "n": "F-20” Gold over 925",
+      "p": 47,
+      "a": true,
+      "i": "9cd8d6c03d8d4c1589ff78a2d3608abb"
+    },
+    {
+      "n": "G-16” Gold over 925",
+      "p": 45,
+      "a": true,
+      "i": "ae0de60f5e8f4df2ab594e623f13223f"
+    },
+    {
+      "n": "H-20” Silver",
+      "p": 0,
+      "a": false,
+      "i": "7a6c8c3b511a48e3b2d9078aa7962ac0"
+    },
+    {
+      "n": "I-20” Silver",
+      "p": 45,
+      "a": true,
+      "i": "62995e3faca346b0954e2bb179852323"
+    },
+    {
+      "n": "J-20” Silver",
+      "p": 0,
+      "a": false,
+      "i": "408da4d469ef4e729774383382bb9bd1"
+    }
+  ],
+  "8": [
+    {
+      "n": "Moon Phases and Palo Santo",
+      "p": 18,
+      "a": true,
+      "i": "f2d026cc396f423b80305dcfa9df49a3"
+    },
+    {
+      "n": "Large Selenite and Palo Santo",
+      "p": 8,
+      "a": true,
+      "i": "8d84fd6f5d3a44fc9c89eab733235311"
+    },
+    {
+      "n": "Palo Santo",
+      "p": 3,
+      "a": true,
+      "i": "3f9988d26ec849e0a23eab96c8176017"
+    },
+    {
+      "n": "Flower of Life Plate 4”",
+      "p": 14,
+      "a": true,
+      "i": "c5bff668597648e9b3a51f8e0ac2daf1"
+    },
+    {
+      "n": "Tree, Sun, and Moon Plate 4”",
+      "p": 14,
+      "a": true,
+      "i": "20b1f654802240bdb27b90671f999c43"
+    },
+    {
+      "n": "Moon Phases and Sun Plate 6”",
+      "p": 23,
+      "a": true,
+      "i": "cabaaf2a5cb7423caab9b21d8e3a68c4"
+    },
+    {
+      "n": "Heart with Wings",
+      "p": 8,
+      "a": true,
+      "i": "f1875dd484d44587ab537b2d65776e8e"
+    }
+  ],
+  "9": [
+    {
+      "n": "B",
+      "p": 20,
+      "a": true,
+      "i": "cd0398aa400149719999c7786330048a"
+    },
+    {
+      "n": "A",
+      "p": 36,
+      "a": true,
+      "i": "a67de9f434104844b5a3071d2c216ff5"
+    },
+    {
+      "n": "B-2",
+      "p": 56,
+      "a": true,
+      "i": "7cde3bbc813643128008b5599718fb0a"
+    },
+    {
+      "n": "C",
+      "p": 29,
+      "a": true,
+      "i": "743f4bca70394395be72a153e0f2f616"
+    },
+    {
+      "n": "D",
+      "p": 38,
+      "a": true,
+      "i": "71e8c714961c49c499458ed04792e67e"
+    },
+    {
+      "n": "E",
+      "p": 0,
+      "a": false,
+      "i": "6a9b444a73b84967818e2029b05e7ec0"
+    },
+    {
+      "n": "F",
+      "p": 69,
+      "a": true,
+      "i": "92407af025e342959738f49f3cca58ba"
+    },
+    {
+      "n": "G",
+      "p": 27,
+      "a": true,
+      "i": "137b69cfcfac422abb5734554d0e3916"
+    },
+    {
+      "n": "H",
+      "p": 57,
+      "a": true,
+      "i": "281e17a7eace4052823a07ec3f10be70"
+    },
+    {
+      "n": "I",
+      "p": 48,
+      "a": true,
+      "i": "711a6382204d452387f1870afd4209a3"
+    },
+    {
+      "n": "J",
+      "p": 37,
+      "a": true,
+      "i": "9292278c8d354884b40f6d32e7718a70"
+    },
+    {
+      "n": "K",
+      "p": 64,
+      "a": true,
+      "i": "9707d2cc1ee24d23be004b984620dd95"
+    },
+    {
+      "n": "L",
+      "p": 49,
+      "a": true,
+      "i": "c2395c23c9c24ed5902569aad8d89d00"
+    }
+  ],
+  "10": [
+    {
+      "n": "C",
+      "p": 40,
+      "a": true,
+      "i": "25da70809f2343a8ba3d829ac1336359"
+    },
+    {
+      "n": "I",
+      "p": 53,
+      "a": true,
+      "i": "3b2bf1070359476d8126dcaf6e2f7e71"
+    },
+    {
+      "n": "A",
+      "p": 87,
+      "a": true,
+      "i": "d6434bbfcf084fb4bac4fdc868840a9e"
+    }
+  ],
+  "11": [
+    {
+      "n": "A",
+      "p": 26,
+      "a": true,
+      "i": "646692dc6f914a8f9a59839b0aa28ae1"
+    },
+    {
+      "n": "B",
+      "p": 26,
+      "a": true,
+      "i": "c4438dd944634211930c0fe478662682"
+    },
+    {
+      "n": "C",
+      "p": 0,
+      "a": false,
+      "i": "5d81f73892ed474fa3194819e8e9cca6"
+    },
+    {
+      "n": "D",
+      "p": 0,
+      "a": false,
+      "i": "7d94db0f04d641e2a905dae2b09b579d"
+    },
+    {
+      "n": "E",
+      "p": 0,
+      "a": false,
+      "i": "ddd313065121480680f056fcff4fcad6"
+    },
+    {
+      "n": "F",
+      "p": 0,
+      "a": false,
+      "i": "cb4df4a030814737901d0f8c57c7ffb2"
+    },
+    {
+      "n": "G",
+      "p": 27,
+      "a": true,
+      "i": "6bb069eda7f14f0a8fe21f8734cb2af5"
+    },
+    {
+      "n": "H",
+      "p": 23,
+      "a": true,
+      "i": "fe6cdbb48a294b09a9573a1c2edefeb7"
+    },
+    {
+      "n": "I",
+      "p": 0,
+      "a": false,
+      "i": "4b1da1242ca44968a4ee05824ea3463f"
+    },
+    {
+      "n": "J",
+      "p": 22,
+      "a": true,
+      "i": "7bf20e1bb7cc401c8d3ef1c183cb317d"
+    },
+    {
+      "n": "K",
+      "p": 0,
+      "a": false,
+      "i": "6ecf2006f1374267a81e9885bc4fb1de"
+    },
+    {
+      "n": "M",
+      "p": 21,
+      "a": true,
+      "i": "fca0249b42754b6fa05558fe69cb8300"
+    }
+  ],
+  "12": [
+    {
+      "n": "mystery mix crystal stone bag 3 5 4 oz hand selected/1732163509218611824",
+      "p": 7.77,
+      "a": true,
+      "i": ""
+    }
+  ],
+  "13": [
+    {
+      "n": "A- Large Tower",
+      "p": 101,
+      "a": true,
+      "i": "c352bf7d021f46d08591e0a1962dd8bd"
+    },
+    {
+      "n": "B- Large Tower",
+      "p": 74,
+      "a": true,
+      "i": "9bf7008c11b740c4a6e69ed9791a9ca1"
+    },
+    {
+      "n": "C- Large Tower",
+      "p": 69,
+      "a": true,
+      "i": "4b89f2f4da674665b1925003dcf51f9b"
+    },
+    {
+      "n": "D",
+      "p": 19,
+      "a": true,
+      "i": "07a519a3b05a4ca78b6a01c6cc9acca8"
+    },
+    {
+      "n": "E",
+      "p": 19,
+      "a": true,
+      "i": "af7612665d9b4ba3bd7d14f82c79e80c"
+    },
+    {
+      "n": "F",
+      "p": 27,
+      "a": true,
+      "i": "08f17c841a9f4c1e8d4e99d19c690e11"
+    },
+    {
+      "n": "G",
+      "p": 19,
+      "a": true,
+      "i": "96b011eca88c43a1945046c576794756"
+    },
+    {
+      "n": "H",
+      "p": 17,
+      "a": true,
+      "i": "8c5d0cb5e2c54265b0bd754981e76409"
+    },
+    {
+      "n": "I",
+      "p": 0,
+      "a": false,
+      "i": "d01a2fea31df4cd395ab2eaa1f98d563"
+    },
+    {
+      "n": "J",
+      "p": 23,
+      "a": true,
+      "i": "ddd5731f42cb4857a07f45586a09680e"
+    },
+    {
+      "n": "A- Sphere",
+      "p": 49,
+      "a": true,
+      "i": "229e41314b1448db89f713c0d20bc292"
+    },
+    {
+      "n": "B- Sphere",
+      "p": 63,
+      "a": true,
+      "i": "cfdeebe9c10440afa85fe64f6fd3425b"
+    },
+    {
+      "n": "C- Sphere",
+      "p": 56,
+      "a": true,
+      "i": "34f63f04f7b44f0d87a42cb12e74536b"
+    }
+  ],
+  "14": [
+    {
+      "n": "A",
+      "p": 0,
+      "a": false,
+      "i": "6843f172577b4816a969c37297fce089"
+    },
+    {
+      "n": "B",
+      "p": 0,
+      "a": false,
+      "i": "a82e9e7c09ea47f3ae18a8a9201828e1"
+    },
+    {
+      "n": "C",
+      "p": 0,
+      "a": false,
+      "i": "f467e0492bf344e981afb57d7f85e2d9"
+    },
+    {
+      "n": "D",
+      "p": 0,
+      "a": false,
+      "i": "805e8a604d2843d58447cd9ddf9b9733"
+    },
+    {
+      "n": "E",
+      "p": 47,
+      "a": true,
+      "i": "47b97ca640fd44858c189c7d8c802e9a"
+    },
+    {
+      "n": "F",
+      "p": 0,
+      "a": false,
+      "i": "ba149e1f600f4fdb8799491c177a3433"
+    },
+    {
+      "n": "G",
+      "p": 28,
+      "a": true,
+      "i": "284241e663e847729e5299a380a1fd44"
+    },
+    {
+      "n": "H",
+      "p": 0,
+      "a": false,
+      "i": "c2880de5d91346fe847314c5833906cb"
+    },
+    {
+      "n": "I",
+      "p": 65,
+      "a": true,
+      "i": "e341136fe04643099c6990e5df5095de"
+    }
+  ],
+  "15": [
+    {
+      "n": "A",
+      "p": 57,
+      "a": true,
+      "i": "375503a7983549428c885ad6f255f6bf"
+    },
+    {
+      "n": "B",
+      "p": 0,
+      "a": false,
+      "i": "12cf190a22f14cb38629804d4c41c240"
+    },
+    {
+      "n": "C",
+      "p": 0,
+      "a": false,
+      "i": "be1e7ae241f44410b542132b69e38327"
+    },
+    {
+      "n": "D",
+      "p": 0,
+      "a": false,
+      "i": "54e86731b8cd456cb2f8a5c5bfdf0376"
+    },
+    {
+      "n": "E",
+      "p": 31,
+      "a": true,
+      "i": "36259df078cf47cf8b2a00120078b8b9"
+    },
+    {
+      "n": "F",
+      "p": 0,
+      "a": false,
+      "i": "7e9626d603df4a3b9d35f4f47476f3c2"
+    },
+    {
+      "n": "G",
+      "p": 31,
+      "a": true,
+      "i": "a9e2d04440514e9f8197ea840402b3d7"
+    },
+    {
+      "n": "H",
+      "p": 0,
+      "a": false,
+      "i": "1b574c70f4424abab30ffd9906516787"
+    },
+    {
+      "n": "I",
+      "p": 30,
+      "a": true,
+      "i": "80252669d46b4691b155c33489ccb2d2"
+    },
+    {
+      "n": "J",
+      "p": 30,
+      "a": true,
+      "i": "7fa4d8489ec24e0c8f4ccadf00ab7ea7"
+    },
+    {
+      "n": "K",
+      "p": 0,
+      "a": false,
+      "i": "952bdd24d4fe4ceb93265a4abff67e55"
+    }
+  ],
+  "16": [
+    {
+      "n": "Star",
+      "p": 5,
+      "a": true,
+      "i": "d79ce5683e7b4e1f9d2dbbcc77c1ac8f"
+    },
+    {
+      "n": "Moon",
+      "p": 5,
+      "a": true,
+      "i": "bd3a332e17464ada8bbed0b84034d589"
+    }
+  ],
+  "17": [
+    {
+      "n": "AABCDEFA-Sphalerite AuraB-Sphalerite AuraColor:TransparentTransparent",
+      "p": 0,
+      "a": false,
+      "i": "b4c88aa169ca414a934616dae89e93ec"
+    },
+    {
+      "n": "BABCDEFA-Sphalerite AuraB-Sphalerite AuraColor:TransparentTransparent",
+      "p": 0,
+      "a": false,
+      "i": "69837aac258c48c7a01a05d87ab523e7"
+    },
+    {
+      "n": "CABCDEFA-Sphalerite AuraB-Sphalerite AuraColor:TransparentTransparent",
+      "p": 0,
+      "a": false,
+      "i": "e785d995e0a54da5b93506e8cf2291c6"
+    },
+    {
+      "n": "DABCDEFA-Sphalerite AuraB-Sphalerite AuraColor:TransparentTransparent",
+      "p": 41,
+      "a": true,
+      "i": "626741fd01f742c5bfdc2ad571b65708"
+    },
+    {
+      "n": "EABCDEFA-Sphalerite AuraB-Sphalerite AuraColor:TransparentTransparent",
+      "p": 37,
+      "a": true,
+      "i": "40efffa414fb497b8e589678e82ee13a"
+    },
+    {
+      "n": "FABCDEFA-Sphalerite AuraB-Sphalerite AuraColor:TransparentTransparent",
+      "p": 0,
+      "a": false,
+      "i": "4cca9f22b7e54a89ab80f1aa7627610f"
+    },
+    {
+      "n": "A-Sphalerite AuraABCDEFA-Sphalerite AuraB-Sphalerite Aura",
+      "p": 0,
+      "a": false,
+      "i": "2c98e096289d43a0a45b3cb54af901c6"
+    },
+    {
+      "n": "B-Sphalerite AuraABCDEFA-Sphalerite AuraB-Sphalerite Aura",
+      "p": 0,
+      "a": false,
+      "i": "74da947c0dbc46daa4060f77d9d7bf52"
+    }
+  ],
+  "18": [
+    {
+      "n": "A",
+      "p": 0,
+      "a": false,
+      "i": "4fef7d0eb3bb450495992787151457ce"
+    },
+    {
+      "n": "B",
+      "p": 25,
+      "a": true,
+      "i": "e1870d3ec5fb4faf9ccd3481ea6fa3ea"
+    },
+    {
+      "n": "C",
+      "p": 0,
+      "a": false,
+      "i": "40366a32e9574125a59c11050b6b24b3"
+    },
+    {
+      "n": "D",
+      "p": 0,
+      "a": false,
+      "i": "6aeb2ed985e04a579d1612014de8a452"
+    },
+    {
+      "n": "E",
+      "p": 0,
+      "a": false,
+      "i": "d8064e632395457abdb83e7e7a0f2b52"
+    },
+    {
+      "n": "F",
+      "p": 29,
+      "a": true,
+      "i": "025fd56545464e888580350515eafda0"
+    },
+    {
+      "n": "G",
+      "p": 25,
+      "a": true,
+      "i": "c31e5f4797ba444da6578e0e49484b14"
+    },
+    {
+      "n": "H",
+      "p": 0,
+      "a": false,
+      "i": "3970b39c11014e1690c4429c4162a4c0"
+    },
+    {
+      "n": "I",
+      "p": 22,
+      "a": true,
+      "i": "c577df95f4fb4221b8ff6d96a08c5671"
+    },
+    {
+      "n": "J",
+      "p": 16,
+      "a": true,
+      "i": "07b9212023834c80b644df91422dba0c"
+    },
+    {
+      "n": "K",
+      "p": 14,
+      "a": true,
+      "i": "bf73a69707aa4a4aa621c2d03d6e4abf"
+    },
+    {
+      "n": "L",
+      "p": 25,
+      "a": true,
+      "i": "e887f8142ffa41bd91ed0f03d7009439"
+    },
+    {
+      "n": "M",
+      "p": 31,
+      "a": true,
+      "i": "b14a4aa0f85148ae8444a5c69cdbc6d7"
+    },
+    {
+      "n": "N",
+      "p": 22,
+      "a": true,
+      "i": "d85869767dfb43da97cef651dbbd9943"
+    },
+    {
+      "n": "O",
+      "p": 15,
+      "a": true,
+      "i": "0970ca93658c456d814cb3984b390a2b"
+    }
+  ],
+  "19": [
+    {
+      "n": "A- moon on stand",
+      "p": 0,
+      "a": false,
+      "i": "7e5f872158ba46569e6907a43fd9ab73"
+    },
+    {
+      "n": "B- moon on stand",
+      "p": 0,
+      "a": false,
+      "i": "a191bf94388741e38e0d0b0d81e0bc21"
+    },
+    {
+      "n": "C- moon on stand",
+      "p": 0,
+      "a": false,
+      "i": "d1a5d5a31bb24fa49afa3b388dfb3402"
+    },
+    {
+      "n": "D- moon on stand",
+      "p": 67,
+      "a": true,
+      "i": "f36a8b0842cf40758b5efdabf0fce4b0"
+    },
+    {
+      "n": "A- heart on stand",
+      "p": 0,
+      "a": false,
+      "i": "5428b59862fa48ccbd5639fa27f7a650"
+    },
+    {
+      "n": "B- heart on stand",
+      "p": 0,
+      "a": false,
+      "i": "2b510433995f49fcb5e332d59e49c577"
+    },
+    {
+      "n": "C- heart on stand",
+      "p": 67,
+      "a": true,
+      "i": "c06d1df729104ebb803064a668722171"
+    },
+    {
+      "n": "A- small moon",
+      "p": 29,
+      "a": true,
+      "i": "5fc086d3321d47c888edc2e30886b6c0"
+    },
+    {
+      "n": "B- small moon",
+      "p": 0,
+      "a": false,
+      "i": "fb2e1b7904c14815a19ebd68c133a962"
+    },
+    {
+      "n": "C- small moon",
+      "p": 29,
+      "a": true,
+      "i": "41400505b89042e7903148c0136d31e6"
+    },
+    {
+      "n": "D- small heart",
+      "p": 21,
+      "a": true,
+      "i": "04c2f22409cf4f3180b2dc253641e785"
+    },
+    {
+      "n": "E- small heart",
+      "p": 21,
+      "a": true,
+      "i": "76238223a8114b159cd24965f74c36ea"
+    }
+  ],
+  "20": [
+    {
+      "n": "A",
+      "p": 0,
+      "a": false,
+      "i": "5c832e12eef3471daecc6e93b06c0c30"
+    },
+    {
+      "n": "A2",
+      "p": 99,
+      "a": true,
+      "i": "c770e9e4e204431d86624ed792cc4bf9"
+    },
+    {
+      "n": "B",
+      "p": 0,
+      "a": false,
+      "i": "0d72dc9ea9e54c1cb83e66a670fc0b7b"
+    },
+    {
+      "n": "C",
+      "p": 77,
+      "a": true,
+      "i": "b919c0f48e1942298fb5fbd01406a237"
+    },
+    {
+      "n": "D",
+      "p": 49,
+      "a": true,
+      "i": "2a3a463f13dd41938fa565e30aba8ec0"
+    }
+  ],
+  "21": [
+    {
+      "n": "A - Clear",
+      "p": 50,
+      "a": true,
+      "i": "63088df05f3041d9a988e7f2533a6c06"
+    },
+    {
+      "n": "B",
+      "p": 55,
+      "a": true,
+      "i": "8bf926d4706a4f0393e5a8da1cdcadb3"
+    },
+    {
+      "n": "C",
+      "p": 0,
+      "a": false,
+      "i": "8246ca1aafb3435fbe3cce9314942145"
+    },
+    {
+      "n": "D",
+      "p": 0,
+      "a": false,
+      "i": "e4931286980b46c18c39aac20f086162"
+    },
+    {
+      "n": "E",
+      "p": 0,
+      "a": false,
+      "i": "a0a63a63aa3e4ac0b2479c26948e4272"
+    },
+    {
+      "n": "F",
+      "p": 0,
+      "a": false,
+      "i": "7db65b65b592429cbe32a7de2bf6dbee"
+    },
+    {
+      "n": "G",
+      "p": 0,
+      "a": false,
+      "i": "63e7f0d7bbce4d848f725ef884762777"
+    }
+  ],
+  "22": [
+    {
+      "n": "A",
+      "p": 0,
+      "a": false,
+      "i": "fe4d1517ff154ed7bdaf77d6511b74f6"
+    },
+    {
+      "n": "B",
+      "p": 101,
+      "a": true,
+      "i": "2eac9b48afd849629e3c30cb515a2dbe"
+    },
+    {
+      "n": "C",
+      "p": 67,
+      "a": true,
+      "i": "5f3d0428dcda4e4bb9579d9aa8a3c8b3"
+    },
+    {
+      "n": "D",
+      "p": 0,
+      "a": false,
+      "i": "11502c5665fd40d7b61e7ff1aee76299"
+    }
+  ],
+  "23": [
+    {
+      "n": "A",
+      "p": 29,
+      "a": true,
+      "i": "b34ff7e2539b4feeb6c8daad3e743405"
+    },
+    {
+      "n": "B",
+      "p": 5,
+      "a": true,
+      "i": "6cdb44620d5441d08308b8b37680b98f"
+    },
+    {
+      "n": "C",
+      "p": 7,
+      "a": true,
+      "i": "788bc60c2d54492a9a9a7eb76b4316dc"
+    },
+    {
+      "n": "D",
+      "p": 11,
+      "a": true,
+      "i": "1b5a378fd097439d915976154bc01a6e"
+    },
+    {
+      "n": "E",
+      "p": 14,
+      "a": true,
+      "i": "3bb751b7fb3347f982172e8cb8ea8cac"
+    },
+    {
+      "n": "F",
+      "p": 7,
+      "a": true,
+      "i": "003ff2dd40754859beb7a8abdc1f83dd"
+    },
+    {
+      "n": "G",
+      "p": 6,
+      "a": true,
+      "i": "590bffefc0bd4dffb218ebc2830286a3"
+    },
+    {
+      "n": "H",
+      "p": 12,
+      "a": true,
+      "i": "bb716ba1336b40a6b27628ddd97c2461"
+    }
+  ],
+  "24": [
+    {
+      "n": "crystal healing chip bracelet natural gemstone wristband/1732184059445809776",
+      "p": 12,
+      "a": true,
+      "i": ""
+    }
+  ],
+  "25": [
+    {
+      "n": "A",
+      "p": 15,
+      "a": true,
+      "i": "bc603fa0160d4bcf80089e59cbe69503"
+    },
+    {
+      "n": "A",
+      "p": 15,
+      "a": true,
+      "i": "b3b06d4bcf10403da4288eaaf48a7091"
+    },
+    {
+      "n": "A",
+      "p": 15,
+      "a": true,
+      "i": "78127c329ece41489bc4844fc6df0c2d"
+    },
+    {
+      "n": "A",
+      "p": 15,
+      "a": true,
+      "i": "caec778edcb44dd99827c55ca7c3a84c"
+    },
+    {
+      "n": "A",
+      "p": 15,
+      "a": true,
+      "i": "453791b1480b43a09bf9bc9364b1f876"
+    },
+    {
+      "n": "A",
+      "p": 0,
+      "a": false,
+      "i": "553e7121346140049619b0e5226e1305"
+    },
+    {
+      "n": "A",
+      "p": 0,
+      "a": false,
+      "i": "ebee942c52784cbfa53cb19d51dbc275"
+    },
+    {
+      "n": "A",
+      "p": 15,
+      "a": true,
+      "i": "449c29c205da4f7180179ab51b72a626"
+    },
+    {
+      "n": "A",
+      "p": 0,
+      "a": false,
+      "i": "b088aa06bab9437ea6726d1d6e5e2dc4"
+    },
+    {
+      "n": "A",
+      "p": 0,
+      "a": false,
+      "i": "380c8a7903374a36a8a178d51e6482d2"
+    },
+    {
+      "n": "A",
+      "p": 14,
+      "a": true,
+      "i": "22679b4ad3d24e169f277d5e6baf7756"
+    },
+    {
+      "n": "A",
+      "p": 14,
+      "a": true,
+      "i": "bade3400c5394af1b5acf3f3e84e8217"
+    },
+    {
+      "n": "A",
+      "p": 14,
+      "a": true,
+      "i": "3cc90a51eaa64ebc96c9bf616467f226"
+    },
+    {
+      "n": "A",
+      "p": 14,
+      "a": true,
+      "i": "4563ba49e60e45db88f15884a8622e94"
+    }
+  ],
+  "26": [
+    {
+      "n": "A - Cathedral 2.50oz",
+      "p": 0,
+      "a": false,
+      "i": "df42a73fffd94a95b2f928f91f1f78ff"
+    },
+    {
+      "n": "B - Cathedral 4.4oz",
+      "p": 0,
+      "a": false,
+      "i": "495e7b4cd69b4fba9fa680ac67f222fc"
+    },
+    {
+      "n": "C - Mini Heart 1.1oz",
+      "p": 0,
+      "a": false,
+      "i": "499f5d568ce84e53ad044433eef6ac0e"
+    },
+    {
+      "n": "D - Mini Heart 1.1oz",
+      "p": 0,
+      "a": false,
+      "i": "644cea2e794448c8904c3f383458ca3d"
+    },
+    {
+      "n": "E - Chunk 6.3oz",
+      "p": 35,
+      "a": true,
+      "i": "2b30bddf729c4288986cd7f1da49a849"
+    },
+    {
+      "n": "F - Chunk 6.2oz",
+      "p": 0,
+      "a": false,
+      "i": "7fdc56da5b934135bbb5760a8ce96f11"
+    },
+    {
+      "n": "G - Chunk 4.2oz",
+      "p": 34,
+      "a": true,
+      "i": "f4afea804e30470eae6a79df95948646"
+    },
+    {
+      "n": "H - Chunk 4.9oz",
+      "p": 35,
+      "a": true,
+      "i": "7d193709e7a14b87be217e26ee0af5fe"
+    }
+  ],
+  "27": [
+    {
+      "n": "A",
+      "p": 0,
+      "a": false,
+      "i": "16e5bf1ed71348bd8727bbfec486d8e8"
+    },
+    {
+      "n": "B",
+      "p": 29,
+      "a": true,
+      "i": "8158c255e91242979280c5d0818b2fcb"
+    },
+    {
+      "n": "C",
+      "p": 39,
+      "a": true,
+      "i": "480f574e50104cc3ae40b5e781f786eb"
+    },
+    {
+      "n": "D",
+      "p": 0,
+      "a": false,
+      "i": "dc8ac2f58c9b4ca9b9b168b1297d1a80"
+    },
+    {
+      "n": "E",
+      "p": 37,
+      "a": true,
+      "i": "67a1d69dedaf4f9fa36119598272ca69"
+    },
+    {
+      "n": "F",
+      "p": 0,
+      "a": false,
+      "i": "ba9afafc86d048678c242df28cd6b801"
+    },
+    {
+      "n": "G",
+      "p": 0,
+      "a": false,
+      "i": "88aba25442c747fa8a4ed67df86ef989"
+    }
+  ],
+  "28": [
+    {
+      "n": "A",
+      "p": 0,
+      "a": false,
+      "i": "0093b412529f4f898a7098e49d26cfa0"
+    },
+    {
+      "n": "B",
+      "p": 0,
+      "a": false,
+      "i": "7679a2dc127846c8910ee3365cf1f76e"
+    },
+    {
+      "n": "C",
+      "p": 39,
+      "a": true,
+      "i": "07b2f596964b455fbdb9aa14cbdc2a40"
+    },
+    {
+      "n": "D",
+      "p": 37,
+      "a": true,
+      "i": "6c03d7b5830341d0b872ff1899bc9a12"
+    },
+    {
+      "n": "E",
+      "p": 40,
+      "a": true,
+      "i": "af421e927bbe45b7804c1be8fd6f018d"
+    },
+    {
+      "n": "F",
+      "p": 0,
+      "a": false,
+      "i": "77757958be3c4fee9ae335ee0c4811ec"
+    },
+    {
+      "n": "G",
+      "p": 0,
+      "a": false,
+      "i": "2504bac2957441038bc15a0104d010c8"
+    }
+  ],
+  "29": [
+    {
+      "n": "A",
+      "p": 9,
+      "a": true,
+      "i": "fbc6b70e9cde4b3f85c9fc99deeed2ba"
+    },
+    {
+      "n": "B",
+      "p": 10,
+      "a": true,
+      "i": "7986153f0dc2453a97768cb9356794f8"
+    },
+    {
+      "n": "C",
+      "p": 8,
+      "a": true,
+      "i": "893b67c6199d467abe7bac342963b0ba"
+    },
+    {
+      "n": "D",
+      "p": 0,
+      "a": false,
+      "i": "2254a8503c3f4144986da2b88f869170"
+    },
+    {
+      "n": "E",
+      "p": 6,
+      "a": true,
+      "i": "47320bdebf374377a41ab6bf6209a4be"
+    },
+    {
+      "n": "F",
+      "p": 8,
+      "a": true,
+      "i": "d067c33e20c741f0b472890fd9ffb8ac"
+    },
+    {
+      "n": "G",
+      "p": 0,
+      "a": false,
+      "i": "13abcf04d170489a9a613c41b40b2cd0"
+    },
+    {
+      "n": "H",
+      "p": 0,
+      "a": false,
+      "i": "d9794c2d23ea4ac68d2cfe7f75d182d4"
+    },
+    {
+      "n": "I",
+      "p": 5,
+      "a": true,
+      "i": "5cc04accf3a145f0b07353dcdfa181bc"
+    },
+    {
+      "n": "J",
+      "p": 0,
+      "a": false,
+      "i": "849812c8284848ec8c6bd3c57e246e6e"
+    },
+    {
+      "n": "K",
+      "p": 14,
+      "a": true,
+      "i": "16d83bf58e7c46419fe531a77df86c33"
+    }
+  ],
+  "30": [
+    {
+      "n": "B",
+      "p": 11,
+      "a": true,
+      "i": "1e56557a7adb4b9ba4bc2e42af1d6c22"
+    },
+    {
+      "n": "C",
+      "p": 22,
+      "a": true,
+      "i": "53261926320b4d48bf56e7c76f751ab6"
+    },
+    {
+      "n": "D",
+      "p": 0,
+      "a": false,
+      "i": "acc03df6dd5b4a9792438cffa641ae57"
+    },
+    {
+      "n": "E",
+      "p": 22,
+      "a": true,
+      "i": "28e2fe808261425f9f5a3017f327abe8"
+    },
+    {
+      "n": "F",
+      "p": 0,
+      "a": false,
+      "i": "6b198c880e8f429a959629f605c7b504"
+    },
+    {
+      "n": "G",
+      "p": 14,
+      "a": true,
+      "i": "d458c37854e949dd8b37bc05d0744d5c"
+    },
+    {
+      "n": "H",
+      "p": 20,
+      "a": true,
+      "i": "3b28be73887848c9aa8a680d498eee77"
+    },
+    {
+      "n": "I",
+      "p": 20,
+      "a": true,
+      "i": "32e6365ec252469c8e8b52bfe7e189dc"
+    },
+    {
+      "n": "J",
+      "p": 19,
+      "a": true,
+      "i": "01a37099151043879ecd8ae41c11b16d"
+    },
+    {
+      "n": "K",
+      "p": 11,
+      "a": true,
+      "i": "c85cc5be9d614b238e112069eef7fd3d"
+    },
+    {
+      "n": "L",
+      "p": 0,
+      "a": false,
+      "i": "4ce3d649c2ef43638401300200697090"
+    }
+  ]
+}

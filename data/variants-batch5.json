@@ -1,0 +1,163 @@
+[
+  {
+    "id": 61,
+    "name": "Clear Quartz Towers Master Healer",
+    "price": 55,
+    "variants": [
+      {"name": "Style B", "available": true, "img": "tos-useast5-i-omjb5zjo8w-tx/38c644c01cb948ac9f150e2dc62184d7"},
+      {"name": "Style C", "available": true, "img": "tos-useast5-i-omjb5zjo8w-tx/03b1b4d930af40c8bc368f09cec2d7df"},
+      {"name": "Style A", "available": true, "img": "tos-useast5-i-omjb5zjo8w-tx/ce5c1e3dbae24a0dba9b6ea3a5ff3dde"},
+      {"name": "Style D", "available": true, "img": "tos-useast5-i-omjb5zjo8w-tx/9b9a0537a7d14a1299d5fa4d4c0cd998"},
+      {"name": "Style E", "available": false, "img": "tos-useast5-i-omjb5zjo8w-tx/20a9f33fa802419088d51b6a341c1616"},
+      {"name": "Style F", "available": true, "img": "tos-useast5-i-omjb5zjo8w-tx/e59db52af9254d71a3c3e38592352a40"},
+      {"name": "Style G", "available": true, "img": "tos-useast5-i-omjb5zjo8w-tx/9996d27baf514d7fac9c4aaa30e5eefe"},
+      {"name": "Style H", "available": true, "img": "tos-useast5-i-omjb5zjo8w-tx/cf1626b398044c1dae6e010a5a0ac989"},
+      {"name": "Style I", "available": true, "img": "tos-useast5-i-omjb5zjo8w-tx/e24adb5b14d0442fb4dbac8d7db22321"}
+    ]
+  },
+  {
+    "id": 62,
+    "name": "Rainbow Fluorite Towers",
+    "price": 77,
+    "variants": [
+      {"name": "A-9.25\"", "available": true, "img": "tos-useast5-i-omjb5zjo8w-tx/69ecc4f1d34e488f933beba463c791ff"},
+      {"name": "B-7.25\"", "available": false, "img": "tos-useast5-i-omjb5zjo8w-tx/445d2f3c0fef4af89748b01ea853f112"},
+      {"name": "C-7.25\"", "available": true, "img": "tos-useast5-i-omjb5zjo8w-tx/42aac6ef95c24f97a8e265d89f102c03"},
+      {"name": "D-7\"", "available": true, "img": "tos-useast5-i-omjb5zjo8w-tx/692b74d6134c4ae8bfba731ef0079f71"},
+      {"name": "E-6.5\"", "available": true, "img": "tos-useast5-i-omjb5zjo8w-tx/b4e7594bb9474b5581fc2a667aa81b1d"},
+      {"name": "F-6\"", "available": true, "img": "tos-useast5-i-omjb5zjo8w-tx/294543cb43d5493688ad496ed87b61cd"},
+      {"name": "G-6.5\"", "available": false, "img": "tos-useast5-i-omjb5zjo8w-tx/fad4413dd6094264b248d34362d33a89"},
+      {"name": "H-6.75\"", "available": true, "img": "tos-useast5-i-omjb5zjo8w-tx/159abf456a5f41a99426ee9505352274"},
+      {"name": "I-6.5\"", "available": false, "img": "tos-useast5-i-omjb5zjo8w-tx/5bdec59e493a499194ac905498ef5b64"},
+      {"name": "J-5.75\"", "available": true, "img": "tos-useast5-i-omjb5zjo8w-tx/d43fef0d153c4112b78c5847a0e08b26"}
+    ]
+  },
+  {
+    "id": 63,
+    "name": "Lemurian Quartz Crystal",
+    "price": 79,
+    "variants": [
+      {"name": "A", "available": true, "img": "tos-useast5-i-omjb5zjo8w-tx/b561f6061dfe44f3a5139ac302f7d8ff"},
+      {"name": "B", "available": true, "img": "tos-useast5-i-omjb5zjo8w-tx/104acce6fdb140ebb5ddd0f92f638806"},
+      {"name": "C", "available": true, "img": "tos-useast5-i-omjb5zjo8w-tx/d197845d95ee42578a2cb31d19df85aa"},
+      {"name": "D", "available": true, "img": "tos-useast5-i-omjb5zjo8w-tx/da5cce764c924653bd519741310864f1"},
+      {"name": "E", "available": true, "img": "tos-useast5-i-omjb5zjo8w-tx/4d948ad0b3ae431c9388a640b4e94404"},
+      {"name": "F", "available": true, "img": "tos-useast5-i-omjb5zjo8w-tx/e0bf6623365045108c98e4967195a3bf"},
+      {"name": "G", "available": false, "img": "tos-useast5-i-omjb5zjo8w-tx/358e32597bab4904b8c0db14bc713862"},
+      {"name": "H", "available": true, "img": "tos-useast5-i-omjb5zjo8w-tx/e8da4f41fd1c4a25a625c509320ce33b"},
+      {"name": "I", "available": true, "img": "tos-useast5-i-omjb5zjo8w-tx/90515ed19e464c84a299ce1eb2337a58"},
+      {"name": "J", "available": true, "img": "tos-useast5-i-omjb5zjo8w-tx/f77c994352764c37a32e55e161e67146"},
+      {"name": "K", "available": false, "img": "tos-useast5-i-omjb5zjo8w-tx/b598288530c24d6d8ef14709b8c46b93"}
+    ]
+  },
+  {
+    "id": 64,
+    "name": "Epidote on Quartz Specimen",
+    "price": 98,
+    "variants": [
+      {"name": "A", "available": false, "img": "tos-useast5-i-omjb5zjo8w-tx/f655df897bdb44c681d3ffbe557d14de"},
+      {"name": "B", "available": true, "img": "tos-useast5-i-omjb5zjo8w-tx/fcbcb7da20434d499bd55f93f361edb7"},
+      {"name": "C", "available": true, "img": "tos-useast5-i-omjb5zjo8w-tx/29e8a8b8847c4564b08d9acc384b2509"},
+      {"name": "D", "available": true, "img": "tos-useast5-i-omjb5zjo8w-tx/72bad653ed7245dd9b36562f3a456b5b"},
+      {"name": "E", "available": false, "img": "tos-useast5-i-omjb5zjo8w-tx/dc693dd4b50b4f02aa99b8510665b872"},
+      {"name": "F", "available": true, "img": "tos-useast5-i-omjb5zjo8w-tx/fb02e96899d34347a3b08dce0b52360a"},
+      {"name": "G", "available": true, "img": "tos-useast5-i-omjb5zjo8w-tx/cb07bac28ae94b6f90eead61eec4e30b"},
+      {"name": "H", "available": true, "img": "tos-useast5-i-omjb5zjo8w-tx/d838babe875f4d80b53a2803eb8e0b10"},
+      {"name": "I", "available": true, "img": "tos-useast5-i-omjb5zjo8w-tx/69bd76ca9f854eadb62ea0a37ac465a5"},
+      {"name": "J", "available": true, "img": "tos-useast8-i-rt0ujvrtvp-tx2/de4ea04f948f41cbb5ef4147b8e44c11"}
+    ]
+  },
+  {
+    "id": 65,
+    "name": "Moss Agate Large Crystal Tower",
+    "price": 109,
+    "variants": [
+      {"name": "A", "available": false, "img": "tos-useast5-i-omjb5zjo8w-tx/ced5fe295f274db5b65f2484e70c9a3d"},
+      {"name": "B", "available": true, "img": "tos-useast5-i-omjb5zjo8w-tx/fb1d66b67a2d4e9a8dce27533a24d106"},
+      {"name": "C", "available": true, "img": "tos-useast5-i-omjb5zjo8w-tx/383fe97551544f959641e6f852aa5dd1"},
+      {"name": "D", "available": true, "img": "tos-useast5-i-omjb5zjo8w-tx/699b2a4de78945df9993487d316bcb8f"},
+      {"name": "E", "available": true, "img": "tos-useast5-i-omjb5zjo8w-tx/ac0a998af8f4451ebd2997d7fd7513d1"},
+      {"name": "F", "available": false, "img": "tos-useast5-i-omjb5zjo8w-tx/0abbcf6ca9e54e9b9756837ed74b5339"},
+      {"name": "G", "available": true, "img": "tos-useast5-i-omjb5zjo8w-tx/7955568a02c0484bbfddb4e3df740dc9"},
+      {"name": "H", "available": true, "img": "tos-useast5-i-omjb5zjo8w-tx/f30f97a8ee544f0ba083260dfb81d916"},
+      {"name": "I", "available": true, "img": "tos-useast5-i-omjb5zjo8w-tx/444ab0bf742a42898a52e71d53fbb651"}
+    ]
+  },
+  {
+    "id": 66,
+    "name": "Agate Slice Natural Crystal",
+    "price": 147,
+    "variants": [
+      {"name": "Style: C, Color: Ivory", "available": true, "img": "tos-useast5-i-omjb5zjo8w-tx/96c13bb314d444e694c37134ec4b9e97"}
+    ]
+  },
+  {
+    "id": 67,
+    "name": "Serpentine Palm Stone",
+    "price": 12,
+    "variants": [
+      {"name": "Style A", "available": false, "img": "tos-useast8-i-rt0ujvrtvp-tx2/0a1cd7bab41140a0993ccee9cc4162a6"},
+      {"name": "Style B", "available": true, "img": "tos-useast8-i-rt0ujvrtvp-tx2/02809c7997984846ac560da610881f37"},
+      {"name": "Style C", "available": true, "img": "tos-useast8-i-rt0ujvrtvp-tx2/085dafd8b6c84d4e88cb6f3e84694a50"},
+      {"name": "Style D", "available": true, "img": "tos-useast8-i-rt0ujvrtvp-tx2/148778d0328745fc83162e1aacc4a7ba"},
+      {"name": "Style E", "available": true, "img": "tos-useast8-i-rt0ujvrtvp-tx2/4cd906fea01a4a16b4f7ada7d988d7f3"}
+    ]
+  },
+  {
+    "id": 68,
+    "name": "Intuitively Chosen Shungite Worry Stone",
+    "price": 14,
+    "variants": [
+      {"name": "Default", "available": true, "img": "tos-useast5-i-omjb5zjo8w-tx/dc4560c240e24bdfa2b8840acec30ca5"}
+    ]
+  },
+  {
+    "id": 69,
+    "name": "Blue Tigers Eye Tower",
+    "price": null,
+    "variants": [],
+    "_error": "Product not available in this region (TikTok error 23002002)"
+  },
+  {
+    "id": 70,
+    "name": "Gemstone Anklets",
+    "price": null,
+    "variants": [],
+    "_error": "Product not available in this region (TikTok error 23002002)"
+  },
+  {
+    "id": 71,
+    "name": "Rose Quartz Large Palms Self Love",
+    "price": null,
+    "variants": [],
+    "_error": "Product not available in this region (TikTok error 23002002)"
+  },
+  {
+    "id": 72,
+    "name": "Honey Calcite Tower",
+    "price": null,
+    "variants": [],
+    "_error": "Product not available in this region (TikTok error 23002002)"
+  },
+  {
+    "id": 73,
+    "name": "Carnelian Sphere",
+    "price": null,
+    "variants": [],
+    "_error": "Product not available in this region (TikTok error 23002002)"
+  },
+  {
+    "id": 74,
+    "name": "Moss Agate Towers",
+    "price": null,
+    "variants": [],
+    "_error": "Product not available in this region (TikTok error 23002002)"
+  },
+  {
+    "id": 75,
+    "name": "Moon Carving Moonstone",
+    "price": null,
+    "variants": [],
+    "_error": "Product not available in this region (TikTok error 23002002)"
+  }
+]

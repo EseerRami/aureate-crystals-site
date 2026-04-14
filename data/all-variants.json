@@ -1,0 +1,1409 @@
+[
+  {
+    "id": 1,
+    "name": "Agate Druzy Meditating Woman Crystal Carving",
+    "price": 29,
+    "variants": [
+      {
+        "name": "A",
+        "available": true,
+        "img": "a8cc8234365f4ca28b258e8cc19f8c19"
+      },
+      {
+        "name": "B",
+        "available": false,
+        "img": "5a1d2f5d2d274a49aa362fcade18c8f8"
+      },
+      {
+        "name": "C",
+        "available": true,
+        "img": "4609cc676cf146cd8d8f219f82c376ff"
+      },
+      {
+        "name": "D",
+        "available": true,
+        "img": "87cad5ea7aa44df6980928a23add4cf5"
+      },
+      {
+        "name": "E",
+        "available": true,
+        "img": "12060a9e29474422a13c945e013822fb"
+      },
+      {
+        "name": "F",
+        "available": true,
+        "img": "c2fc516ef16146d9b70d888d59ede9a4"
+      },
+      {
+        "name": "G",
+        "available": true,
+        "img": "d143029bb437438f85b49e785dc3f4e8"
+      },
+      {
+        "name": "H",
+        "available": true,
+        "img": "7cf8df6d88ee4cc18d364f9ee8a9f3a4"
+      },
+      {
+        "name": "I",
+        "available": true,
+        "img": "871321ec2da94fb2acb18c6ae248d8c3"
+      },
+      {
+        "name": "J",
+        "available": true,
+        "img": "2782c4656efb4719b9ca9fbee756e4cb"
+      },
+      {
+        "name": "K",
+        "available": true,
+        "img": "4f6f7e41f0974ea6aaa712a512209eda"
+      },
+      {
+        "name": "L",
+        "available": true,
+        "img": "27ab5fd769fd4f00a682dad16973e762"
+      },
+      {
+        "name": "M",
+        "available": false,
+        "img": "cc18020a7dc648d0a6551c82606a6164"
+      },
+      {
+        "name": "N",
+        "available": false,
+        "img": "19aa7f207f5c4538ba0219d4114f7761"
+      },
+      {
+        "name": "O",
+        "available": false,
+        "img": "9cdec8a1f4ab43a688e409072a4e13ac"
+      },
+      {
+        "name": "P",
+        "available": true,
+        "img": "41f2ab778c4f4eb78339ede0b63c1cb5"
+      },
+      {
+        "name": "Q",
+        "available": true,
+        "img": "9bb3bca12b2e4f5dac8f8e5c7e6a262e"
+      },
+      {
+        "name": "R",
+        "available": true,
+        "img": "81cd998e325449f4ae006c1d8abddbc1"
+      },
+      {
+        "name": "S",
+        "available": true,
+        "img": "de04e13e2c13464e91d06a97e23917a6"
+      },
+      {
+        "name": "T",
+        "available": true,
+        "img": "b27aa6677a044c8895cb80354e4e13d2"
+      },
+      {
+        "name": "U",
+        "available": true,
+        "img": "0e56fcdf77ec4be7b944417ab870292b"
+      },
+      {
+        "name": "V",
+        "available": true,
+        "img": "ba63bc7b3e6d48238c1407afa1d78e0a"
+      },
+      {
+        "name": "W",
+        "available": true,
+        "img": "a8211bb6103c41e1b4f3406ba3cccad1"
+      },
+      {
+        "name": "X",
+        "available": true,
+        "img": "590dcfd73d0f473b8bf2e0c3520dc9ec"
+      },
+      {
+        "name": "Y",
+        "available": true,
+        "img": "238bdb98a6f048ca8145f725422f8e4f"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Highland Cow Crystal Stone Carvings",
+    "price": 22,
+    "variants": [
+      {
+        "name": "Pink blossom calcite",
+        "available": true,
+        "img": "tos-useast8-i-rt0ujvrtvp-tx2/3a60f53f590c4de280bb0ca2629e2ead"
+      },
+      {
+        "name": "White agate",
+        "available": true,
+        "img": "tos-useast5-i-omjb5zjo8w-tx/441524c404524999bb5663c3402fd636"
+      },
+      {
+        "name": "Strawberry Quartz",
+        "available": false,
+        "img": "tos-useast8-i-rt0ujvrtvp-tx2/4399317a8c30495a961cd1d25acf1452"
+      },
+      {
+        "name": "Calligraphy Jasper A",
+        "available": false,
+        "img": "tos-useast8-i-rt0ujvrtvp-tx2/584a1d4311ad4397be9423b665720d00"
+      },
+      {
+        "name": "Calligraphy Jasper B",
+        "available": true,
+        "img": "tos-useast8-i-rt0ujvrtvp-tx2/751b450603d1443982e71536c6626288"
+      },
+      {
+        "name": "Red Network Jasper A",
+        "available": true,
+        "img": "tos-useast8-i-rt0ujvrtvp-tx2/70aec7b47b244ec39a917a930d126ff9"
+      },
+      {
+        "name": "Red network Jasper B",
+        "available": true,
+        "img": "tos-useast8-i-rt0ujvrtvp-tx2/b0bca99ded9a484ab161b1e33bdbf164"
+      },
+      {
+        "name": "Green onyx A",
+        "available": true,
+        "img": "tos-useast8-i-rt0ujvrtvp-tx2/7bc43092e28746029375aa936e337973"
+      },
+      {
+        "name": "Green onyx B",
+        "available": true,
+        "img": "tos-useast8-i-rt0ujvrtvp-tx2/84fe8ea112c348f39e8e7ce49dd821f8"
+      },
+      {
+        "name": "Green Jade",
+        "available": true,
+        "img": "tos-useast8-i-rt0ujvrtvp-tx2/50c611b9d6a34650a75849d10e97855d"
+      },
+      {
+        "name": "Pink Opal A",
+        "available": true,
+        "img": "tos-useast8-i-rt0ujvrtvp-tx2/4b549e3dda8d4ee98cf578e9760a0762"
+      },
+      {
+        "name": "Pink opal B",
+        "available": true,
+        "img": "tos-useast8-i-rt0ujvrtvp-tx2/17ed2d49a8874828841542416acb955b"
+      },
+      {
+        "name": "Qinghai Jade A",
+        "available": true,
+        "img": "tos-useast8-i-rt0ujvrtvp-tx2/fe101747dacd4d8e9180633109a7cab1"
+      },
+      {
+        "name": "Qinghai Jade B",
+        "available": true,
+        "img": "tos-useast8-i-rt0ujvrtvp-tx2/8da50cf6eefa4ebb976d82a8b99ec6b9"
+      },
+      {
+        "name": "Blue Jade A",
+        "available": true,
+        "img": "tos-useast8-i-rt0ujvrtvp-tx2/2e1921e676cd4357ac72d45805b55112"
+      },
+      {
+        "name": "Blue Jade B",
+        "available": true,
+        "img": "tos-useast8-i-rt0ujvrtvp-tx2/ac341b263e484f588f4f124314584ee0"
+      },
+      {
+        "name": "Red Jasper A",
+        "available": true,
+        "img": "tos-useast8-i-rt0ujvrtvp-tx2/a37c980ab206430ba2432e68aa056a82"
+      },
+      {
+        "name": "Red Jasper B",
+        "available": true,
+        "img": "tos-useast8-i-rt0ujvrtvp-tx2/ca3af4ccbf88462884784b5d8ead99ca"
+      },
+      {
+        "name": "Tai Chi Light A",
+        "available": true,
+        "img": "tos-useast8-i-rt0ujvrtvp-tx2/ca0bcb96b4584b68a7f3b7e08ac65f50"
+      },
+      {
+        "name": "Tai Chi light B",
+        "available": true,
+        "img": "tos-useast8-i-rt0ujvrtvp-tx2/cb2f7b177773473ea00f901fdab19e5d"
+      },
+      {
+        "name": "Tai Chi Dark A",
+        "available": true,
+        "img": "tos-useast8-i-rt0ujvrtvp-tx2/0fee211a3f844aa49e40eb6767bc60ac"
+      },
+      {
+        "name": "Tai Chi Dark B",
+        "available": true,
+        "img": "tos-useast8-i-rt0ujvrtvp-tx2/6bd89fe4aee8420ebd530d8c5439739d"
+      },
+      {
+        "name": "Chocolate Calcite A - no eye",
+        "available": true,
+        "img": "tos-useast5-i-omjb5zjo8w-tx/59a4c6cd248740ebb6aa2fffa7acaa30"
+      },
+      {
+        "name": "Chocolate Calcite B",
+        "available": true,
+        "img": "tos-useast8-i-rt0ujvrtvp-tx2/2c48acf24f304941ba24ab1b634b6b7a"
+      },
+      {
+        "name": "Green Jasper A",
+        "available": true,
+        "img": "tos-useast8-i-rt0ujvrtvp-tx2/ca6a0ac0e25c4783a5cb884101f17822"
+      },
+      {
+        "name": "Green Jasper B",
+        "available": true,
+        "img": "tos-useast8-i-rt0ujvrtvp-tx2/c49dd368f9204b40a2d9d3ec701a4341"
+      },
+      {
+        "name": "Yooperlite A",
+        "available": true,
+        "img": "tos-useast8-i-rt0ujvrtvp-tx2/a230262157c4423fa7d5fa8e80ca8a52"
+      },
+      {
+        "name": "Yooperlite B",
+        "available": true,
+        "img": "tos-useast8-i-rt0ujvrtvp-tx2/692e4b7756104697b2608ea8e1b17100"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Genuine Moldavite",
+    "price": 29,
+    "variants": [
+      {
+        "name": "A",
+        "available": true,
+        "img": "tos-useast5-i-omjb5zjo8w-tx/b0f3db6e49f74869b869dd92bca19919"
+      },
+      {
+        "name": "B",
+        "available": true,
+        "img": "tos-useast5-i-omjb5zjo8w-tx/a1b414de2d904d15b945e38388e9bfa3"
+      },
+      {
+        "name": "C",
+        "available": false,
+        "img": "tos-useast5-i-omjb5zjo8w-tx/29c19a00940f4758bf4e4d22f4f9388e"
+      },
+      {
+        "name": "D",
+        "available": true,
+        "img": "tos-useast5-i-omjb5zjo8w-tx/5598dbf963e54c45bec7a1ea21eeccac"
+      },
+      {
+        "name": "E",
+        "available": false,
+        "img": "tos-useast5-i-omjb5zjo8w-tx/f03304debf9b4d51955380b71f4e0ee9"
+      },
+      {
+        "name": "F",
+        "available": true,
+        "img": "tos-useast5-i-omjb5zjo8w-tx/c417f5e0507448a194d00ecfabd3964e"
+      },
+      {
+        "name": "G",
+        "available": false,
+        "img": "tos-useast5-i-omjb5zjo8w-tx/efec07687b034dce9b97ba9b278f1162"
+      },
+      {
+        "name": "H",
+        "available": false,
+        "img": "tos-useast5-i-omjb5zjo8w-tx/556cda619bfb441797409594734a8819"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Volcano Agate Sphere UV Reactive",
+    "price": 49,
+    "variants": [
+      {
+        "name": "A",
+        "available": true,
+        "img": "tos-useast5-i-omjb5zjo8w-tx/e736e06a927a42c39a6e345ce2acaa42"
+      },
+      {
+        "name": "B",
+        "available": true,
+        "img": "tos-useast5-i-omjb5zjo8w-tx/e5e4fca3839744bbb292507caabaa9af"
+      },
+      {
+        "name": "C",
+        "available": false,
+        "img": "tos-useast5-i-omjb5zjo8w-tx/c20b703f40914c3aa28a85719e26dbf3"
+      },
+      {
+        "name": "D",
+        "available": false,
+        "img": "tos-useast5-i-omjb5zjo8w-tx/76ada36d3c1d4b79b2496e8113a99045"
+      },
+      {
+        "name": "E",
+        "available": true,
+        "img": "tos-useast5-i-omjb5zjo8w-tx/c6daeaad84e0489cb8183499e8bce7be"
+      },
+      {
+        "name": "F",
+        "available": false,
+        "img": "tos-useast5-i-omjb5zjo8w-tx/7610f392fc9f4776bde1d3437af4173a"
+      },
+      {
+        "name": "G",
+        "available": true,
+        "img": "tos-useast5-i-omjb5zjo8w-tx/b7c7a9f62b9d4184885dd51ae73da867"
+      },
+      {
+        "name": "H",
+        "available": false,
+        "img": "tos-useast5-i-omjb5zjo8w-tx/5e0f377e9d114be1ab3b2659d6bbc0ac"
+      },
+      {
+        "name": "I",
+        "available": true,
+        "img": "tos-useast5-i-omjb5zjo8w-tx/d1ed4857d29c4a58aa156b051e1a7608"
+      },
+      {
+        "name": "J",
+        "available": true,
+        "img": "tos-useast5-i-omjb5zjo8w-tx/3264cb4d83684f5b80ef7e4c5531e468"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Agate Druzy Crystal Decorative Set",
+    "price": 142,
+    "variants": [
+      {
+        "name": "C - medium star",
+        "available": true,
+        "img": "tos-useast5-i-omjb5zjo8w-tx/5e6fbca8a6384c87aa803b7cd996c90f"
+      },
+      {
+        "name": "F - heart",
+        "available": false,
+        "img": "tos-useast5-i-omjb5zjo8w-tx/b3245b86641844868d4a7ad5599c965b"
+      },
+      {
+        "name": "G - heart",
+        "available": false,
+        "img": "tos-useast5-i-omjb5zjo8w-tx/0837876ddf4144c28234535c50c78fad"
+      },
+      {
+        "name": "H - heart",
+        "available": false,
+        "img": "tos-useast5-i-omjb5zjo8w-tx/243b907168c54e08ac1a580ec7fa9d33"
+      },
+      {
+        "name": "I - moon",
+        "available": false,
+        "img": "tos-useast5-i-omjb5zjo8w-tx/ec275d54ee634adab900503474621755"
+      },
+      {
+        "name": "J - moon",
+        "available": false,
+        "img": "tos-useast5-i-omjb5zjo8w-tx/5437e7dc56964a23a9c36c79b8483d9e"
+      },
+      {
+        "name": "K - moon",
+        "available": true,
+        "img": "tos-useast5-i-omjb5zjo8w-tx/e9e427193589451086bdce71e7d040c2"
+      },
+      {
+        "name": "L - moon",
+        "available": false,
+        "img": "tos-useast5-i-omjb5zjo8w-tx/ef68e22974504be89d44fa70c92ba539"
+      },
+      {
+        "name": "M - moon",
+        "available": false,
+        "img": "tos-useast5-i-omjb5zjo8w-tx/f205e03717bc4d8994591fb90cbaabec"
+      },
+      {
+        "name": "N - moon",
+        "available": false,
+        "img": "tos-useast5-i-omjb5zjo8w-tx/4a05c6e9bbe441db8829a38f0ce5aecb"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Needle Point Malachite Specimens",
+    "price": 5,
+    "variants": [
+      {
+        "name": "A",
+        "available": true,
+        "img": "tos-useast8-i-rt0ujvrtvp-tx2/d6c7b8aa6e7142c688fed15cf92e89a9"
+      },
+      {
+        "name": "B",
+        "available": true,
+        "img": "tos-useast8-i-rt0ujvrtvp-tx2/49a3af19fb824647bdccbb5650713570"
+      },
+      {
+        "name": "C",
+        "available": true,
+        "img": "tos-useast8-i-rt0ujvrtvp-tx2/29a9e84ca263487aae02bae427b49e9b"
+      },
+      {
+        "name": "D",
+        "available": true,
+        "img": "tos-useast8-i-rt0ujvrtvp-tx2/a18f4b5db5734beb987af5d1a3aedaf2"
+      },
+      {
+        "name": "E",
+        "available": true,
+        "img": "tos-useast8-i-rt0ujvrtvp-tx2/db1b0818b26346ffad1ae00516e6d286"
+      },
+      {
+        "name": "F",
+        "available": true,
+        "img": "tos-useast8-i-rt0ujvrtvp-tx2/a0e499b128d843a6882d70ea6d046905"
+      },
+      {
+        "name": "G",
+        "available": true,
+        "img": "tos-useast8-i-rt0ujvrtvp-tx2/ed54763599ee4b81b6a2c40c1a7cfb2d"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Lemurian Pendant Necklace",
+    "price": 40,
+    "variants": [
+      {
+        "name": "A-18\" Silver",
+        "available": true,
+        "img": "tos-useast8-i-rt0ujvrtvp-tx2/c85b31e80d774974a2d809cc77e00bee"
+      },
+      {
+        "name": "B-18\" Silver",
+        "available": true,
+        "img": "tos-useast8-i-rt0ujvrtvp-tx2/b3bca0b341244dee94eba985fa99425d"
+      },
+      {
+        "name": "C-18\" Silver",
+        "available": false,
+        "img": "tos-useast8-i-rt0ujvrtvp-tx2/eacbd635b138447d9564135cf2c5ca23"
+      },
+      {
+        "name": "D-20\" Silver",
+        "available": true,
+        "img": "tos-useast8-i-rt0ujvrtvp-tx2/d26647c647c04a428ebc0af8b40fe332"
+      },
+      {
+        "name": "E-20\" Gold over 925",
+        "available": true,
+        "img": "tos-useast8-i-rt0ujvrtvp-tx2/528ec6c335a046d29a8b03afd78ebc84"
+      },
+      {
+        "name": "F-20\" Gold over 925",
+        "available": true,
+        "img": "tos-useast8-i-rt0ujvrtvp-tx2/9cd8d6c03d8d4c1589ff78a2d3608abb"
+      },
+      {
+        "name": "G-16\" Gold over 925",
+        "available": true,
+        "img": "tos-useast8-i-rt0ujvrtvp-tx2/ae0de60f5e8f4df2ab594e623f13223f"
+      },
+      {
+        "name": "H-20\" Silver",
+        "available": false,
+        "img": "tos-useast8-i-rt0ujvrtvp-tx2/7a6c8c3b511a48e3b2d9078aa7962ac0"
+      },
+      {
+        "name": "I-20\" Silver",
+        "available": true,
+        "img": "tos-useast8-i-rt0ujvrtvp-tx2/62995e3faca346b0954e2bb179852323"
+      },
+      {
+        "name": "J-20\" Silver",
+        "available": false,
+        "img": "tos-useast8-i-rt0ujvrtvp-tx2/408da4d469ef4e729774383382bb9bd1"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Charging Kits Selenite and Palo Santo",
+    "price": 3,
+    "variants": [
+      {
+        "name": "Moon Phases and Palo Santo",
+        "available": true,
+        "img": "tos-useast5-i-omjb5zjo8w-tx/f2d026cc396f423b80305dcfa9df49a3"
+      },
+      {
+        "name": "Large Selenite and Palo Santo",
+        "available": true,
+        "img": "tos-useast5-i-omjb5zjo8w-tx/8d84fd6f5d3a44fc9c89eab733235311"
+      },
+      {
+        "name": "Palo Santo",
+        "available": true,
+        "img": "tos-useast5-i-omjb5zjo8w-tx/3f9988d26ec849e0a23eab96c8176017"
+      },
+      {
+        "name": "Flower of Life Plate 4\"",
+        "available": true,
+        "img": "tos-useast5-i-omjb5zjo8w-tx/c5bff668597648e9b3a51f8e0ac2daf1"
+      },
+      {
+        "name": "Tree, Sun, and Moon Plate 4\"",
+        "available": true,
+        "img": "tos-useast5-i-omjb5zjo8w-tx/20b1f654802240bdb27b90671f999c43"
+      },
+      {
+        "name": "Moon Phases and Sun Plate 6\"",
+        "available": true,
+        "img": "tos-useast5-i-omjb5zjo8w-tx/cabaaf2a5cb7423caab9b21d8e3a68c4"
+      },
+      {
+        "name": "Heart with Wings",
+        "available": true,
+        "img": "tos-useast5-i-omjb5zjo8w-tx/f1875dd484d44587ab537b2d65776e8e"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Golden Rutile Quartz",
+    "price": 48,
+    "variants": [
+      {
+        "name": "A",
+        "available": true,
+        "img": "tos-useast5-i-omjb5zjo8w-tx/a67de9f434104844b5a3071d2c216ff5"
+      },
+      {
+        "name": "B",
+        "available": true,
+        "img": "tos-useast5-i-omjb5zjo8w-tx/cd0398aa400149719999c7786330048a"
+      },
+      {
+        "name": "B-2",
+        "available": true,
+        "img": "tos-useast5-i-omjb5zjo8w-tx/7cde3bbc813643128008b5599718fb0a"
+      },
+      {
+        "name": "C",
+        "available": true,
+        "img": "tos-useast5-i-omjb5zjo8w-tx/743f4bca70394395be72a153e0f2f616"
+      },
+      {
+        "name": "D",
+        "available": true,
+        "img": "tos-useast5-i-omjb5zjo8w-tx/71e8c714961c49c499458ed04792e67e"
+      },
+      {
+        "name": "E",
+        "available": false,
+        "img": "tos-useast5-i-omjb5zjo8w-tx/6a9b444a73b84967818e2029b05e7ec0"
+      },
+      {
+        "name": "F",
+        "available": true,
+        "img": "tos-useast5-i-omjb5zjo8w-tx/92407af025e342959738f49f3cca58ba"
+      },
+      {
+        "name": "G",
+        "available": true,
+        "img": "tos-useast5-i-omjb5zjo8w-tx/137b69cfcfac422abb5734554d0e3916"
+      },
+      {
+        "name": "H",
+        "available": true,
+        "img": "tos-useast5-i-omjb5zjo8w-tx/281e17a7eace4052823a07ec3f10be70"
+      },
+      {
+        "name": "I",
+        "available": true,
+        "img": "tos-useast5-i-omjb5zjo8w-tx/711a6382204d452387f1870afd4209a3"
+      },
+      {
+        "name": "J",
+        "available": true,
+        "img": "tos-useast5-i-omjb5zjo8w-tx/9292278c8d354884b40f6d32e7718a70"
+      },
+      {
+        "name": "K",
+        "available": true,
+        "img": "tos-useast5-i-omjb5zjo8w-tx/9707d2cc1ee24d23be004b984620dd95"
+      },
+      {
+        "name": "L",
+        "available": true,
+        "img": "tos-useast5-i-omjb5zjo8w-tx/c2395c23c9c24ed5902569aad8d89d00"
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "name": "Rose Quartz Turtle Carving",
+    "price": 11.11,
+    "variants": [
+      {
+        "name": "Default",
+        "available": true,
+        "img": "tos-useast5-i-omjb5zjo8w-tx/00bb7013602f4aafbfe5d22fad0d910a"
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "name": "Thousand Layer Garden Quartz Spheres",
+    "price": 14.0,
+    "variants": [
+      {
+        "name": "A",
+        "available": true,
+        "img": "tos-useast5-i-omjb5zjo8w-tx/4e69abf2286f48a3bd5dbec85757a6af"
+      },
+      {
+        "name": "B",
+        "available": true,
+        "img": "tos-useast5-i-omjb5zjo8w-tx/48f5b217070941c2a4b83520a6b6009c"
+      },
+      {
+        "name": "C",
+        "available": true,
+        "img": "tos-useast5-i-omjb5zjo8w-tx/645d9afd235548dcb04cd406d67a1096"
+      },
+      {
+        "name": "D",
+        "available": true,
+        "img": "tos-useast5-i-omjb5zjo8w-tx/af54bbc131504b19906df054d91b1167"
+      },
+      {
+        "name": "E",
+        "available": true,
+        "img": "tos-useast5-i-omjb5zjo8w-tx/eeada3580042411faebf85f9bca53542"
+      },
+      {
+        "name": "F",
+        "available": true,
+        "img": "tos-useast5-i-omjb5zjo8w-tx/fde4d18c6626429188aedf7354fc4ddc"
+      },
+      {
+        "name": "G",
+        "available": true,
+        "img": "tos-useast5-i-omjb5zjo8w-tx/e43a29574f6843cfb730508f361b8697"
+      },
+      {
+        "name": "H",
+        "available": true,
+        "img": "tos-useast5-i-omjb5zjo8w-tx/6357930d6c484a65b42291e382440610"
+      },
+      {
+        "name": "I",
+        "available": true,
+        "img": "tos-useast5-i-omjb5zjo8w-tx/1c81ae039e474bdd9046f2e15df5ed20"
+      },
+      {
+        "name": "J",
+        "available": true,
+        "img": "tos-useast5-i-omjb5zjo8w-tx/35833173902f443b9c1622f8ea5f5eb0"
+      },
+      {
+        "name": "K",
+        "available": true,
+        "img": "tos-useast5-i-omjb5zjo8w-tx/637617474c174dbbb3a751f2973c55f2"
+      },
+      {
+        "name": "L",
+        "available": true,
+        "img": "tos-useast5-i-omjb5zjo8w-tx/11e46a0e9423457ab95828a8098b51da"
+      },
+      {
+        "name": "M",
+        "available": false,
+        "img": "tos-useast5-i-omjb5zjo8w-tx/54d638c0d6dd448ebdfeb6ae65689344"
+      },
+      {
+        "name": "N",
+        "available": true,
+        "img": "tos-useast5-i-omjb5zjo8w-tx/549ff8135de349fc8201dee7d8f7ff61"
+      },
+      {
+        "name": "O - rutile",
+        "available": true,
+        "img": "tos-useast5-i-omjb5zjo8w-tx/715d4f450bd047968cb158a38e83d118"
+      },
+      {
+        "name": "P",
+        "available": true,
+        "img": "tos-useast5-i-omjb5zjo8w-tx/203d63900c634c8b979a67ea1896ac05"
+      },
+      {
+        "name": "Q",
+        "available": true,
+        "img": "tos-useast5-i-omjb5zjo8w-tx/e6b5656d8adb4702ae6fe59e7ececb2c"
+      },
+      {
+        "name": "R",
+        "available": true,
+        "img": "tos-useast5-i-omjb5zjo8w-tx/1a432a9c624c488494fa48bd8b15fba9"
+      },
+      {
+        "name": "S",
+        "available": true,
+        "img": "tos-useast5-i-omjb5zjo8w-tx/67488148b4f7465fbb07500e7f2d2265"
+      },
+      {
+        "name": "T",
+        "available": true,
+        "img": "tos-useast5-i-omjb5zjo8w-tx/ac5d555acdfe43b18c076f703e2f545f"
+      },
+      {
+        "name": "U",
+        "available": true,
+        "img": "tos-useast5-i-omjb5zjo8w-tx/1604fc986c2c4b0cb18e40e83124937e"
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "name": "Caribbean Calcite Freeforms",
+    "price": 14.0,
+    "variants": [
+      {
+        "name": "A",
+        "available": false,
+        "img": "tos-useast5-i-omjb5zjo8w-tx/182ed3cbad8d4e3f8010f50485a2f6d5"
+      },
+      {
+        "name": "B",
+        "available": true,
+        "img": "tos-useast5-i-omjb5zjo8w-tx/44c95b365d8c413a9fdd0330a78a0a9d"
+      },
+      {
+        "name": "C",
+        "available": true,
+        "img": "tos-useast5-i-omjb5zjo8w-tx/1b72396128184cecba46d6fcbb792f75"
+      },
+      {
+        "name": "E",
+        "available": true,
+        "img": "tos-useast5-i-omjb5zjo8w-tx/45a9e7c00ec540eeb667664b302fc379"
+      },
+      {
+        "name": "D",
+        "available": false,
+        "img": "tos-useast5-i-omjb5zjo8w-tx/eaadc4d98e964266836cf8d46c71c4f6"
+      },
+      {
+        "name": "F",
+        "available": true,
+        "img": "tos-useast5-i-omjb5zjo8w-tx/32ba7ada834d430b8e42224356881713"
+      },
+      {
+        "name": "G",
+        "available": true,
+        "img": "tos-useast5-i-omjb5zjo8w-tx/01cd3a3ec8064d74ba0854e9aff89572"
+      },
+      {
+        "name": "H",
+        "available": true,
+        "img": "tos-useast5-i-omjb5zjo8w-tx/d993b78847cd42f1b340030e2155f483"
+      },
+      {
+        "name": "I",
+        "available": true,
+        "img": "tos-useast5-i-omjb5zjo8w-tx/86a48a2ea18a4789b85bd93f40564f8e"
+      },
+      {
+        "name": "J",
+        "available": true,
+        "img": "tos-useast5-i-omjb5zjo8w-tx/63717d6039cb4b0bb289800225c6760a"
+      },
+      {
+        "name": "K",
+        "available": false,
+        "img": "tos-useast5-i-omjb5zjo8w-tx/6fb7f60377ab40819baa98ccba5c28c1"
+      },
+      {
+        "name": "L",
+        "available": true,
+        "img": "tos-useast5-i-omjb5zjo8w-tx/ffa684f9360643bc85b7dba68e009b2b"
+      },
+      {
+        "name": "Sphere",
+        "available": true,
+        "img": "tos-useast5-i-omjb5zjo8w-tx/73a165de099643fe9e7752289e02a38e"
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "name": "Lepidolite Palm Stone",
+    "price": 20.0,
+    "variants": [
+      {
+        "name": "Style A",
+        "available": false,
+        "img": "tos-useast8-i-rt0ujvrtvp-tx2/93cfd87547d041a3a9616f25528b60dc"
+      },
+      {
+        "name": "Style B",
+        "available": false,
+        "img": "tos-useast8-i-rt0ujvrtvp-tx2/83205400b7ba416d8002427b45aac186"
+      },
+      {
+        "name": "Style C",
+        "available": true,
+        "img": "tos-useast8-i-rt0ujvrtvp-tx2/f6a8af598c794f8a9ad92639c2539414"
+      },
+      {
+        "name": "Style D",
+        "available": true,
+        "img": "tos-useast8-i-rt0ujvrtvp-tx2/d1384b4b02214464a91f409a1b81d3e7"
+      },
+      {
+        "name": "Style E",
+        "available": false,
+        "img": "tos-useast8-i-rt0ujvrtvp-tx2/232ce26c23b14ad4925c62c54776f852"
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "name": "Black Tourmaline Protection Keychain",
+    "price": 17.0,
+    "variants": [
+      {
+        "name": "Default",
+        "available": true,
+        "img": "tos-useast5-i-omjb5zjo8w-tx/ffeb121d8123443cb1487c58d4e42e8d"
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "name": "Chocolate Calcite Chunks",
+    "price": 17.0,
+    "variants": [
+      {
+        "name": "E-1.4oz",
+        "available": true,
+        "img": "tos-useast5-i-omjb5zjo8w-tx/55c01e6ca9a443dd8b39e657f8db2a5b"
+      },
+      {
+        "name": "D-4.2oz",
+        "available": false,
+        "img": "tos-useast5-i-omjb5zjo8w-tx/9daf06e94b8241c990e52f6adec174f8"
+      },
+      {
+        "name": "B-4.4oz",
+        "available": true,
+        "img": "tos-useast5-i-omjb5zjo8w-tx/20cee6c8219842aa9b568951f28b7072"
+      },
+      {
+        "name": "C-4.5oz",
+        "available": false,
+        "img": "tos-useast5-i-omjb5zjo8w-tx/e79a7d4e56214434a865ff29416ad9e3"
+      },
+      {
+        "name": "A-6.1oz",
+        "available": false,
+        "img": "tos-useast5-i-omjb5zjo8w-tx/89e5c82184254e38af16409748f25cc9"
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "name": "Velvet Malachite Specimen",
+    "price": 19.0,
+    "variants": [
+      {
+        "name": "A",
+        "available": true,
+        "img": "tos-useast8-i-rt0ujvrtvp-tx2/a0b7b1b979354e6b9bfd81b359f51c1c"
+      },
+      {
+        "name": "B",
+        "available": true,
+        "img": "tos-useast8-i-rt0ujvrtvp-tx2/fc74f7c6b40f4f1c82a69f2dd17b3344"
+      },
+      {
+        "name": "C",
+        "available": true,
+        "img": "tos-useast5-i-omjb5zjo8w-tx/c32764803f954ea9a25ab8ab10a9eb3c"
+      },
+      {
+        "name": "D",
+        "available": true,
+        "img": "tos-useast5-i-omjb5zjo8w-tx/96b0630f0f1d4f5a833f40306a096498"
+      },
+      {
+        "name": "E",
+        "available": false,
+        "img": "tos-useast5-i-omjb5zjo8w-tx/241c3640a54f4c4283bc5634fc439079"
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "name": "Carnelian Towers",
+    "price": 20.0,
+    "variants": [
+      {
+        "name": "Style A",
+        "available": true,
+        "img": "tos-useast5-i-omjb5zjo8w-tx/8a38caffb0c04cda89c0497997be12e3"
+      },
+      {
+        "name": "Style B",
+        "available": false,
+        "img": "tos-useast5-i-omjb5zjo8w-tx/019b5ab1a099450f8c82b5d679c96ff9"
+      },
+      {
+        "name": "Style C",
+        "available": false,
+        "img": "tos-useast5-i-omjb5zjo8w-tx/191ebfc619c146458cf68b5ae9161c39"
+      },
+      {
+        "name": "Style D",
+        "available": false,
+        "img": "tos-useast5-i-omjb5zjo8w-tx/fb10d9c4d7454862bcde876f389f2f67"
+      },
+      {
+        "name": "Style E",
+        "available": false,
+        "img": "tos-useast5-i-omjb5zjo8w-tx/24f1ec025112490580b843a09e25ce23"
+      },
+      {
+        "name": "Style F",
+        "available": false,
+        "img": "tos-useast5-i-omjb5zjo8w-tx/caedac8759d242fda36642c26432eeac"
+      },
+      {
+        "name": "Style G",
+        "available": true,
+        "img": "tos-useast5-i-omjb5zjo8w-tx/26af6bd4b282434aacb611ffea8feaf7"
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "name": "Amethyst Flowers Raw",
+    "price": 20.0,
+    "variants": [
+      {
+        "name": "1",
+        "available": false,
+        "img": "tos-useast5-i-omjb5zjo8w-tx/c176e04465e9415ba2e75da714fa0bd1"
+      },
+      {
+        "name": "2",
+        "available": true,
+        "img": "tos-useast5-i-omjb5zjo8w-tx/e49199ec7ed64c48a4ae62ad9c944273"
+      },
+      {
+        "name": "3",
+        "available": true,
+        "img": "tos-useast5-i-omjb5zjo8w-tx/13dc8417c8cb470a9dc44eecb8cc0291"
+      },
+      {
+        "name": "4",
+        "available": false,
+        "img": "tos-useast5-i-omjb5zjo8w-tx/21d6c0ec07d74f22873b7d0d20ffe308"
+      },
+      {
+        "name": "5",
+        "available": true,
+        "img": "tos-useast5-i-omjb5zjo8w-tx/51291d59946741f38bb4984581797c4d"
+      },
+      {
+        "name": "6",
+        "available": false,
+        "img": "tos-useast5-i-omjb5zjo8w-tx/d4eb782e63654404832852f1079a3b01"
+      },
+      {
+        "name": "7",
+        "available": true,
+        "img": "tos-useast5-i-omjb5zjo8w-tx/03a2eab2a04a4c3fa7b38143a99f8bef"
+      },
+      {
+        "name": "8",
+        "available": false,
+        "img": "tos-useast5-i-omjb5zjo8w-tx/ea143fceb8854c2cb61149a59263a29f"
+      },
+      {
+        "name": "9",
+        "available": true,
+        "img": "tos-useast5-i-omjb5zjo8w-tx/9d59c585ea5f4e92b533c0dbd5f26852"
+      },
+      {
+        "name": "10",
+        "available": true,
+        "img": "tos-useast5-i-omjb5zjo8w-tx/215e09dd032c4f3db6d318c2c828fede"
+      },
+      {
+        "name": "11",
+        "available": false,
+        "img": "tos-useast5-i-omjb5zjo8w-tx/8f80306e8f6e424c8a076e0d6d756368"
+      },
+      {
+        "name": "12",
+        "available": true,
+        "img": "tos-useast5-i-omjb5zjo8w-tx/8b49af4c6a034399b4a930d08d593ae9"
+      },
+      {
+        "name": "13",
+        "available": true,
+        "img": "tos-useast5-i-omjb5zjo8w-tx/78ab60e1c3704c1e89f0f9ef9b516aa1"
+      }
+    ]
+  },
+  {
+    "id": 61,
+    "name": "Clear Quartz Towers Master Healer",
+    "price": 55,
+    "variants": [
+      {
+        "name": "Style B",
+        "available": true,
+        "img": "tos-useast5-i-omjb5zjo8w-tx/38c644c01cb948ac9f150e2dc62184d7"
+      },
+      {
+        "name": "Style C",
+        "available": true,
+        "img": "tos-useast5-i-omjb5zjo8w-tx/03b1b4d930af40c8bc368f09cec2d7df"
+      },
+      {
+        "name": "Style A",
+        "available": true,
+        "img": "tos-useast5-i-omjb5zjo8w-tx/ce5c1e3dbae24a0dba9b6ea3a5ff3dde"
+      },
+      {
+        "name": "Style D",
+        "available": true,
+        "img": "tos-useast5-i-omjb5zjo8w-tx/9b9a0537a7d14a1299d5fa4d4c0cd998"
+      },
+      {
+        "name": "Style E",
+        "available": false,
+        "img": "tos-useast5-i-omjb5zjo8w-tx/20a9f33fa802419088d51b6a341c1616"
+      },
+      {
+        "name": "Style F",
+        "available": true,
+        "img": "tos-useast5-i-omjb5zjo8w-tx/e59db52af9254d71a3c3e38592352a40"
+      },
+      {
+        "name": "Style G",
+        "available": true,
+        "img": "tos-useast5-i-omjb5zjo8w-tx/9996d27baf514d7fac9c4aaa30e5eefe"
+      },
+      {
+        "name": "Style H",
+        "available": true,
+        "img": "tos-useast5-i-omjb5zjo8w-tx/cf1626b398044c1dae6e010a5a0ac989"
+      },
+      {
+        "name": "Style I",
+        "available": true,
+        "img": "tos-useast5-i-omjb5zjo8w-tx/e24adb5b14d0442fb4dbac8d7db22321"
+      }
+    ]
+  },
+  {
+    "id": 62,
+    "name": "Rainbow Fluorite Towers",
+    "price": 77,
+    "variants": [
+      {
+        "name": "A-9.25\"",
+        "available": true,
+        "img": "tos-useast5-i-omjb5zjo8w-tx/69ecc4f1d34e488f933beba463c791ff"
+      },
+      {
+        "name": "B-7.25\"",
+        "available": false,
+        "img": "tos-useast5-i-omjb5zjo8w-tx/445d2f3c0fef4af89748b01ea853f112"
+      },
+      {
+        "name": "C-7.25\"",
+        "available": true,
+        "img": "tos-useast5-i-omjb5zjo8w-tx/42aac6ef95c24f97a8e265d89f102c03"
+      },
+      {
+        "name": "D-7\"",
+        "available": true,
+        "img": "tos-useast5-i-omjb5zjo8w-tx/692b74d6134c4ae8bfba731ef0079f71"
+      },
+      {
+        "name": "E-6.5\"",
+        "available": true,
+        "img": "tos-useast5-i-omjb5zjo8w-tx/b4e7594bb9474b5581fc2a667aa81b1d"
+      },
+      {
+        "name": "F-6\"",
+        "available": true,
+        "img": "tos-useast5-i-omjb5zjo8w-tx/294543cb43d5493688ad496ed87b61cd"
+      },
+      {
+        "name": "G-6.5\"",
+        "available": false,
+        "img": "tos-useast5-i-omjb5zjo8w-tx/fad4413dd6094264b248d34362d33a89"
+      },
+      {
+        "name": "H-6.75\"",
+        "available": true,
+        "img": "tos-useast5-i-omjb5zjo8w-tx/159abf456a5f41a99426ee9505352274"
+      },
+      {
+        "name": "I-6.5\"",
+        "available": false,
+        "img": "tos-useast5-i-omjb5zjo8w-tx/5bdec59e493a499194ac905498ef5b64"
+      },
+      {
+        "name": "J-5.75\"",
+        "available": true,
+        "img": "tos-useast5-i-omjb5zjo8w-tx/d43fef0d153c4112b78c5847a0e08b26"
+      }
+    ]
+  },
+  {
+    "id": 63,
+    "name": "Lemurian Quartz Crystal",
+    "price": 79,
+    "variants": [
+      {
+        "name": "A",
+        "available": true,
+        "img": "tos-useast5-i-omjb5zjo8w-tx/b561f6061dfe44f3a5139ac302f7d8ff"
+      },
+      {
+        "name": "B",
+        "available": true,
+        "img": "tos-useast5-i-omjb5zjo8w-tx/104acce6fdb140ebb5ddd0f92f638806"
+      },
+      {
+        "name": "C",
+        "available": true,
+        "img": "tos-useast5-i-omjb5zjo8w-tx/d197845d95ee42578a2cb31d19df85aa"
+      },
+      {
+        "name": "D",
+        "available": true,
+        "img": "tos-useast5-i-omjb5zjo8w-tx/da5cce764c924653bd519741310864f1"
+      },
+      {
+        "name": "E",
+        "available": true,
+        "img": "tos-useast5-i-omjb5zjo8w-tx/4d948ad0b3ae431c9388a640b4e94404"
+      },
+      {
+        "name": "F",
+        "available": true,
+        "img": "tos-useast5-i-omjb5zjo8w-tx/e0bf6623365045108c98e4967195a3bf"
+      },
+      {
+        "name": "G",
+        "available": false,
+        "img": "tos-useast5-i-omjb5zjo8w-tx/358e32597bab4904b8c0db14bc713862"
+      },
+      {
+        "name": "H",
+        "available": true,
+        "img": "tos-useast5-i-omjb5zjo8w-tx/e8da4f41fd1c4a25a625c509320ce33b"
+      },
+      {
+        "name": "I",
+        "available": true,
+        "img": "tos-useast5-i-omjb5zjo8w-tx/90515ed19e464c84a299ce1eb2337a58"
+      },
+      {
+        "name": "J",
+        "available": true,
+        "img": "tos-useast5-i-omjb5zjo8w-tx/f77c994352764c37a32e55e161e67146"
+      },
+      {
+        "name": "K",
+        "available": false,
+        "img": "tos-useast5-i-omjb5zjo8w-tx/b598288530c24d6d8ef14709b8c46b93"
+      }
+    ]
+  },
+  {
+    "id": 64,
+    "name": "Epidote on Quartz Specimen",
+    "price": 98,
+    "variants": [
+      {
+        "name": "A",
+        "available": false,
+        "img": "tos-useast5-i-omjb5zjo8w-tx/f655df897bdb44c681d3ffbe557d14de"
+      },
+      {
+        "name": "B",
+        "available": true,
+        "img": "tos-useast5-i-omjb5zjo8w-tx/fcbcb7da20434d499bd55f93f361edb7"
+      },
+      {
+        "name": "C",
+        "available": true,
+        "img": "tos-useast5-i-omjb5zjo8w-tx/29e8a8b8847c4564b08d9acc384b2509"
+      },
+      {
+        "name": "D",
+        "available": true,
+        "img": "tos-useast5-i-omjb5zjo8w-tx/72bad653ed7245dd9b36562f3a456b5b"
+      },
+      {
+        "name": "E",
+        "available": false,
+        "img": "tos-useast5-i-omjb5zjo8w-tx/dc693dd4b50b4f02aa99b8510665b872"
+      },
+      {
+        "name": "F",
+        "available": true,
+        "img": "tos-useast5-i-omjb5zjo8w-tx/fb02e96899d34347a3b08dce0b52360a"
+      },
+      {
+        "name": "G",
+        "available": true,
+        "img": "tos-useast5-i-omjb5zjo8w-tx/cb07bac28ae94b6f90eead61eec4e30b"
+      },
+      {
+        "name": "H",
+        "available": true,
+        "img": "tos-useast5-i-omjb5zjo8w-tx/d838babe875f4d80b53a2803eb8e0b10"
+      },
+      {
+        "name": "I",
+        "available": true,
+        "img": "tos-useast5-i-omjb5zjo8w-tx/69bd76ca9f854eadb62ea0a37ac465a5"
+      },
+      {
+        "name": "J",
+        "available": true,
+        "img": "tos-useast8-i-rt0ujvrtvp-tx2/de4ea04f948f41cbb5ef4147b8e44c11"
+      }
+    ]
+  },
+  {
+    "id": 65,
+    "name": "Moss Agate Large Crystal Tower",
+    "price": 109,
+    "variants": [
+      {
+        "name": "A",
+        "available": false,
+        "img": "tos-useast5-i-omjb5zjo8w-tx/ced5fe295f274db5b65f2484e70c9a3d"
+      },
+      {
+        "name": "B",
+        "available": true,
+        "img": "tos-useast5-i-omjb5zjo8w-tx/fb1d66b67a2d4e9a8dce27533a24d106"
+      },
+      {
+        "name": "C",
+        "available": true,
+        "img": "tos-useast5-i-omjb5zjo8w-tx/383fe97551544f959641e6f852aa5dd1"
+      },
+      {
+        "name": "D",
+        "available": true,
+        "img": "tos-useast5-i-omjb5zjo8w-tx/699b2a4de78945df9993487d316bcb8f"
+      },
+      {
+        "name": "E",
+        "available": true,
+        "img": "tos-useast5-i-omjb5zjo8w-tx/ac0a998af8f4451ebd2997d7fd7513d1"
+      },
+      {
+        "name": "F",
+        "available": false,
+        "img": "tos-useast5-i-omjb5zjo8w-tx/0abbcf6ca9e54e9b9756837ed74b5339"
+      },
+      {
+        "name": "G",
+        "available": true,
+        "img": "tos-useast5-i-omjb5zjo8w-tx/7955568a02c0484bbfddb4e3df740dc9"
+      },
+      {
+        "name": "H",
+        "available": true,
+        "img": "tos-useast5-i-omjb5zjo8w-tx/f30f97a8ee544f0ba083260dfb81d916"
+      },
+      {
+        "name": "I",
+        "available": true,
+        "img": "tos-useast5-i-omjb5zjo8w-tx/444ab0bf742a42898a52e71d53fbb651"
+      }
+    ]
+  },
+  {
+    "id": 66,
+    "name": "Agate Slice Natural Crystal",
+    "price": 147,
+    "variants": [
+      {
+        "name": "Style: C, Color: Ivory",
+        "available": true,
+        "img": "tos-useast5-i-omjb5zjo8w-tx/96c13bb314d444e694c37134ec4b9e97"
+      }
+    ]
+  },
+  {
+    "id": 67,
+    "name": "Serpentine Palm Stone",
+    "price": 12,
+    "variants": [
+      {
+        "name": "Style A",
+        "available": false,
+        "img": "tos-useast8-i-rt0ujvrtvp-tx2/0a1cd7bab41140a0993ccee9cc4162a6"
+      },
+      {
+        "name": "Style B",
+        "available": true,
+        "img": "tos-useast8-i-rt0ujvrtvp-tx2/02809c7997984846ac560da610881f37"
+      },
+      {
+        "name": "Style C",
+        "available": true,
+        "img": "tos-useast8-i-rt0ujvrtvp-tx2/085dafd8b6c84d4e88cb6f3e84694a50"
+      },
+      {
+        "name": "Style D",
+        "available": true,
+        "img": "tos-useast8-i-rt0ujvrtvp-tx2/148778d0328745fc83162e1aacc4a7ba"
+      },
+      {
+        "name": "Style E",
+        "available": true,
+        "img": "tos-useast8-i-rt0ujvrtvp-tx2/4cd906fea01a4a16b4f7ada7d988d7f3"
+      }
+    ]
+  },
+  {
+    "id": 68,
+    "name": "Intuitively Chosen Shungite Worry Stone",
+    "price": 14,
+    "variants": [
+      {
+        "name": "Default",
+        "available": true,
+        "img": "tos-useast5-i-omjb5zjo8w-tx/dc4560c240e24bdfa2b8840acec30ca5"
+      }
+    ]
+  }
+]

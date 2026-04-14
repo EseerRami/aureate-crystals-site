@@ -1,0 +1,12 @@
+[build]
+  # Static site — no build step. Netlify publishes the repo root as-is.
+  publish = "."
+  functions = "netlify/functions"
+
+[functions]
+  # Bundle node_modules for functions via esbuild (fast + small).
+  node_bundler = "esbuild"
+
+# Don't try to process the scraper folder or node_modules as site content.
+[build.processing]
+  skip_processing = false

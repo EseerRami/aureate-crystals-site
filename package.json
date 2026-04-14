@@ -1,0 +1,9 @@
+{
+  "name": "aureate-crystals",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Aureate Crystals storefront — static site + Netlify Functions for Stripe Checkout.",
+  "dependencies": {
+    "stripe": "^17.3.1"
+  }
+}

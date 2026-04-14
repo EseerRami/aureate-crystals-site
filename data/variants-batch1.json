@@ -1,0 +1,225 @@
+[
+  {
+    "id": 1,
+    "name": "Agate Druzy Meditating Woman Crystal Carving",
+    "price": 29,
+    "variants": [
+      {"name": "A", "available": true, "img": "a8cc8234365f4ca28b258e8cc19f8c19"},
+      {"name": "B", "available": false, "img": "5a1d2f5d2d274a49aa362fcade18c8f8"},
+      {"name": "C", "available": true, "img": "4609cc676cf146cd8d8f219f82c376ff"},
+      {"name": "D", "available": true, "img": "87cad5ea7aa44df6980928a23add4cf5"},
+      {"name": "E", "available": true, "img": "12060a9e29474422a13c945e013822fb"},
+      {"name": "F", "available": true, "img": "c2fc516ef16146d9b70d888d59ede9a4"},
+      {"name": "G", "available": true, "img": "d143029bb437438f85b49e785dc3f4e8"},
+      {"name": "H", "available": true, "img": "7cf8df6d88ee4cc18d364f9ee8a9f3a4"},
+      {"name": "I", "available": true, "img": "871321ec2da94fb2acb18c6ae248d8c3"},
+      {"name": "J", "available": true, "img": "2782c4656efb4719b9ca9fbee756e4cb"},
+      {"name": "K", "available": true, "img": "4f6f7e41f0974ea6aaa712a512209eda"},
+      {"name": "L", "available": true, "img": "27ab5fd769fd4f00a682dad16973e762"},
+      {"name": "M", "available": false, "img": "cc18020a7dc648d0a6551c82606a6164"},
+      {"name": "N", "available": false, "img": "19aa7f207f5c4538ba0219d4114f7761"},
+      {"name": "O", "available": false, "img": "9cdec8a1f4ab43a688e409072a4e13ac"},
+      {"name": "P", "available": true, "img": "41f2ab778c4f4eb78339ede0b63c1cb5"},
+      {"name": "Q", "available": true, "img": "9bb3bca12b2e4f5dac8f8e5c7e6a262e"},
+      {"name": "R", "available": true, "img": "81cd998e325449f4ae006c1d8abddbc1"},
+      {"name": "S", "available": true, "img": "de04e13e2c13464e91d06a97e23917a6"},
+      {"name": "T", "available": true, "img": "b27aa6677a044c8895cb80354e4e13d2"},
+      {"name": "U", "available": true, "img": "0e56fcdf77ec4be7b944417ab870292b"},
+      {"name": "V", "available": true, "img": "ba63bc7b3e6d48238c1407afa1d78e0a"},
+      {"name": "W", "available": true, "img": "a8211bb6103c41e1b4f3406ba3cccad1"},
+      {"name": "X", "available": true, "img": "590dcfd73d0f473b8bf2e0c3520dc9ec"},
+      {"name": "Y", "available": true, "img": "238bdb98a6f048ca8145f725422f8e4f"}
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Highland Cow Crystal Stone Carvings",
+    "price": 22,
+    "variants": [
+      {"name": "Pink blossom calcite", "available": true, "img": "tos-useast8-i-rt0ujvrtvp-tx2/3a60f53f590c4de280bb0ca2629e2ead"},
+      {"name": "White agate", "available": true, "img": "tos-useast5-i-omjb5zjo8w-tx/441524c404524999bb5663c3402fd636"},
+      {"name": "Strawberry Quartz", "available": false, "img": "tos-useast8-i-rt0ujvrtvp-tx2/4399317a8c30495a961cd1d25acf1452"},
+      {"name": "Calligraphy Jasper A", "available": false, "img": "tos-useast8-i-rt0ujvrtvp-tx2/584a1d4311ad4397be9423b665720d00"},
+      {"name": "Calligraphy Jasper B", "available": true, "img": "tos-useast8-i-rt0ujvrtvp-tx2/751b450603d1443982e71536c6626288"},
+      {"name": "Red Network Jasper A", "available": true, "img": "tos-useast8-i-rt0ujvrtvp-tx2/70aec7b47b244ec39a917a930d126ff9"},
+      {"name": "Red network Jasper B", "available": true, "img": "tos-useast8-i-rt0ujvrtvp-tx2/b0bca99ded9a484ab161b1e33bdbf164"},
+      {"name": "Green onyx A", "available": true, "img": "tos-useast8-i-rt0ujvrtvp-tx2/7bc43092e28746029375aa936e337973"},
+      {"name": "Green onyx B", "available": true, "img": "tos-useast8-i-rt0ujvrtvp-tx2/84fe8ea112c348f39e8e7ce49dd821f8"},
+      {"name": "Green Jade", "available": true, "img": "tos-useast8-i-rt0ujvrtvp-tx2/50c611b9d6a34650a75849d10e97855d"},
+      {"name": "Pink Opal A", "available": true, "img": "tos-useast8-i-rt0ujvrtvp-tx2/4b549e3dda8d4ee98cf578e9760a0762"},
+      {"name": "Pink opal B", "available": true, "img": "tos-useast8-i-rt0ujvrtvp-tx2/17ed2d49a8874828841542416acb955b"},
+      {"name": "Qinghai Jade A", "available": true, "img": "tos-useast8-i-rt0ujvrtvp-tx2/fe101747dacd4d8e9180633109a7cab1"},
+      {"name": "Qinghai Jade B", "available": true, "img": "tos-useast8-i-rt0ujvrtvp-tx2/8da50cf6eefa4ebb976d82a8b99ec6b9"},
+      {"name": "Blue Jade A", "available": true, "img": "tos-useast8-i-rt0ujvrtvp-tx2/2e1921e676cd4357ac72d45805b55112"},
+      {"name": "Blue Jade B", "available": true, "img": "tos-useast8-i-rt0ujvrtvp-tx2/ac341b263e484f588f4f124314584ee0"},
+      {"name": "Red Jasper A", "available": true, "img": "tos-useast8-i-rt0ujvrtvp-tx2/a37c980ab206430ba2432e68aa056a82"},
+      {"name": "Red Jasper B", "available": true, "img": "tos-useast8-i-rt0ujvrtvp-tx2/ca3af4ccbf88462884784b5d8ead99ca"},
+      {"name": "Tai Chi Light A", "available": true, "img": "tos-useast8-i-rt0ujvrtvp-tx2/ca0bcb96b4584b68a7f3b7e08ac65f50"},
+      {"name": "Tai Chi light B", "available": true, "img": "tos-useast8-i-rt0ujvrtvp-tx2/cb2f7b177773473ea00f901fdab19e5d"},
+      {"name": "Tai Chi Dark A", "available": true, "img": "tos-useast8-i-rt0ujvrtvp-tx2/0fee211a3f844aa49e40eb6767bc60ac"},
+      {"name": "Tai Chi Dark B", "available": true, "img": "tos-useast8-i-rt0ujvrtvp-tx2/6bd89fe4aee8420ebd530d8c5439739d"},
+      {"name": "Chocolate Calcite A - no eye", "available": true, "img": "tos-useast5-i-omjb5zjo8w-tx/59a4c6cd248740ebb6aa2fffa7acaa30"},
+      {"name": "Chocolate Calcite B", "available": true, "img": "tos-useast8-i-rt0ujvrtvp-tx2/2c48acf24f304941ba24ab1b634b6b7a"},
+      {"name": "Green Jasper A", "available": true, "img": "tos-useast8-i-rt0ujvrtvp-tx2/ca6a0ac0e25c4783a5cb884101f17822"},
+      {"name": "Green Jasper B", "available": true, "img": "tos-useast8-i-rt0ujvrtvp-tx2/c49dd368f9204b40a2d9d3ec701a4341"},
+      {"name": "Yooperlite A", "available": true, "img": "tos-useast8-i-rt0ujvrtvp-tx2/a230262157c4423fa7d5fa8e80ca8a52"},
+      {"name": "Yooperlite B", "available": true, "img": "tos-useast8-i-rt0ujvrtvp-tx2/692e4b7756104697b2608ea8e1b17100"}
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Genuine Moldavite",
+    "price": 29,
+    "variants": [
+      {"name": "A", "available": true, "img": "tos-useast5-i-omjb5zjo8w-tx/b0f3db6e49f74869b869dd92bca19919"},
+      {"name": "B", "available": true, "img": "tos-useast5-i-omjb5zjo8w-tx/a1b414de2d904d15b945e38388e9bfa3"},
+      {"name": "C", "available": false, "img": "tos-useast5-i-omjb5zjo8w-tx/29c19a00940f4758bf4e4d22f4f9388e"},
+      {"name": "D", "available": true, "img": "tos-useast5-i-omjb5zjo8w-tx/5598dbf963e54c45bec7a1ea21eeccac"},
+      {"name": "E", "available": false, "img": "tos-useast5-i-omjb5zjo8w-tx/f03304debf9b4d51955380b71f4e0ee9"},
+      {"name": "F", "available": true, "img": "tos-useast5-i-omjb5zjo8w-tx/c417f5e0507448a194d00ecfabd3964e"},
+      {"name": "G", "available": false, "img": "tos-useast5-i-omjb5zjo8w-tx/efec07687b034dce9b97ba9b278f1162"},
+      {"name": "H", "available": false, "img": "tos-useast5-i-omjb5zjo8w-tx/556cda619bfb441797409594734a8819"}
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Volcano Agate Sphere UV Reactive",
+    "price": 49,
+    "variants": [
+      {"name": "A", "available": true, "img": "tos-useast5-i-omjb5zjo8w-tx/e736e06a927a42c39a6e345ce2acaa42"},
+      {"name": "B", "available": true, "img": "tos-useast5-i-omjb5zjo8w-tx/e5e4fca3839744bbb292507caabaa9af"},
+      {"name": "C", "available": false, "img": "tos-useast5-i-omjb5zjo8w-tx/c20b703f40914c3aa28a85719e26dbf3"},
+      {"name": "D", "available": false, "img": "tos-useast5-i-omjb5zjo8w-tx/76ada36d3c1d4b79b2496e8113a99045"},
+      {"name": "E", "available": true, "img": "tos-useast5-i-omjb5zjo8w-tx/c6daeaad84e0489cb8183499e8bce7be"},
+      {"name": "F", "available": false, "img": "tos-useast5-i-omjb5zjo8w-tx/7610f392fc9f4776bde1d3437af4173a"},
+      {"name": "G", "available": true, "img": "tos-useast5-i-omjb5zjo8w-tx/b7c7a9f62b9d4184885dd51ae73da867"},
+      {"name": "H", "available": false, "img": "tos-useast5-i-omjb5zjo8w-tx/5e0f377e9d114be1ab3b2659d6bbc0ac"},
+      {"name": "I", "available": true, "img": "tos-useast5-i-omjb5zjo8w-tx/d1ed4857d29c4a58aa156b051e1a7608"},
+      {"name": "J", "available": true, "img": "tos-useast5-i-omjb5zjo8w-tx/3264cb4d83684f5b80ef7e4c5531e468"}
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Agate Druzy Crystal Decorative Set",
+    "price": 142,
+    "variants": [
+      {"name": "C - medium star", "available": true, "img": "tos-useast5-i-omjb5zjo8w-tx/5e6fbca8a6384c87aa803b7cd996c90f"},
+      {"name": "F - heart", "available": false, "img": "tos-useast5-i-omjb5zjo8w-tx/b3245b86641844868d4a7ad5599c965b"},
+      {"name": "G - heart", "available": false, "img": "tos-useast5-i-omjb5zjo8w-tx/0837876ddf4144c28234535c50c78fad"},
+      {"name": "H - heart", "available": false, "img": "tos-useast5-i-omjb5zjo8w-tx/243b907168c54e08ac1a580ec7fa9d33"},
+      {"name": "I - moon", "available": false, "img": "tos-useast5-i-omjb5zjo8w-tx/ec275d54ee634adab900503474621755"},
+      {"name": "J - moon", "available": false, "img": "tos-useast5-i-omjb5zjo8w-tx/5437e7dc56964a23a9c36c79b8483d9e"},
+      {"name": "K - moon", "available": true, "img": "tos-useast5-i-omjb5zjo8w-tx/e9e427193589451086bdce71e7d040c2"},
+      {"name": "L - moon", "available": false, "img": "tos-useast5-i-omjb5zjo8w-tx/ef68e22974504be89d44fa70c92ba539"},
+      {"name": "M - moon", "available": false, "img": "tos-useast5-i-omjb5zjo8w-tx/f205e03717bc4d8994591fb90cbaabec"},
+      {"name": "N - moon", "available": false, "img": "tos-useast5-i-omjb5zjo8w-tx/4a05c6e9bbe441db8829a38f0ce5aecb"}
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Needle Point Malachite Specimens",
+    "price": 5,
+    "variants": [
+      {"name": "A", "available": true, "img": "tos-useast8-i-rt0ujvrtvp-tx2/d6c7b8aa6e7142c688fed15cf92e89a9"},
+      {"name": "B", "available": true, "img": "tos-useast8-i-rt0ujvrtvp-tx2/49a3af19fb824647bdccbb5650713570"},
+      {"name": "C", "available": true, "img": "tos-useast8-i-rt0ujvrtvp-tx2/29a9e84ca263487aae02bae427b49e9b"},
+      {"name": "D", "available": true, "img": "tos-useast8-i-rt0ujvrtvp-tx2/a18f4b5db5734beb987af5d1a3aedaf2"},
+      {"name": "E", "available": true, "img": "tos-useast8-i-rt0ujvrtvp-tx2/db1b0818b26346ffad1ae00516e6d286"},
+      {"name": "F", "available": true, "img": "tos-useast8-i-rt0ujvrtvp-tx2/a0e499b128d843a6882d70ea6d046905"},
+      {"name": "G", "available": true, "img": "tos-useast8-i-rt0ujvrtvp-tx2/ed54763599ee4b81b6a2c40c1a7cfb2d"}
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Lemurian Pendant Necklace",
+    "price": 40,
+    "variants": [
+      {"name": "A-18\" Silver", "available": true, "img": "tos-useast8-i-rt0ujvrtvp-tx2/c85b31e80d774974a2d809cc77e00bee"},
+      {"name": "B-18\" Silver", "available": true, "img": "tos-useast8-i-rt0ujvrtvp-tx2/b3bca0b341244dee94eba985fa99425d"},
+      {"name": "C-18\" Silver", "available": false, "img": "tos-useast8-i-rt0ujvrtvp-tx2/eacbd635b138447d9564135cf2c5ca23"},
+      {"name": "D-20\" Silver", "available": true, "img": "tos-useast8-i-rt0ujvrtvp-tx2/d26647c647c04a428ebc0af8b40fe332"},
+      {"name": "E-20\" Gold over 925", "available": true, "img": "tos-useast8-i-rt0ujvrtvp-tx2/528ec6c335a046d29a8b03afd78ebc84"},
+      {"name": "F-20\" Gold over 925", "available": true, "img": "tos-useast8-i-rt0ujvrtvp-tx2/9cd8d6c03d8d4c1589ff78a2d3608abb"},
+      {"name": "G-16\" Gold over 925", "available": true, "img": "tos-useast8-i-rt0ujvrtvp-tx2/ae0de60f5e8f4df2ab594e623f13223f"},
+      {"name": "H-20\" Silver", "available": false, "img": "tos-useast8-i-rt0ujvrtvp-tx2/7a6c8c3b511a48e3b2d9078aa7962ac0"},
+      {"name": "I-20\" Silver", "available": true, "img": "tos-useast8-i-rt0ujvrtvp-tx2/62995e3faca346b0954e2bb179852323"},
+      {"name": "J-20\" Silver", "available": false, "img": "tos-useast8-i-rt0ujvrtvp-tx2/408da4d469ef4e729774383382bb9bd1"}
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Charging Kits Selenite and Palo Santo",
+    "price": 3,
+    "variants": [
+      {"name": "Moon Phases and Palo Santo", "available": true, "img": "tos-useast5-i-omjb5zjo8w-tx/f2d026cc396f423b80305dcfa9df49a3"},
+      {"name": "Large Selenite and Palo Santo", "available": true, "img": "tos-useast5-i-omjb5zjo8w-tx/8d84fd6f5d3a44fc9c89eab733235311"},
+      {"name": "Palo Santo", "available": true, "img": "tos-useast5-i-omjb5zjo8w-tx/3f9988d26ec849e0a23eab96c8176017"},
+      {"name": "Flower of Life Plate 4\"", "available": true, "img": "tos-useast5-i-omjb5zjo8w-tx/c5bff668597648e9b3a51f8e0ac2daf1"},
+      {"name": "Tree, Sun, and Moon Plate 4\"", "available": true, "img": "tos-useast5-i-omjb5zjo8w-tx/20b1f654802240bdb27b90671f999c43"},
+      {"name": "Moon Phases and Sun Plate 6\"", "available": true, "img": "tos-useast5-i-omjb5zjo8w-tx/cabaaf2a5cb7423caab9b21d8e3a68c4"},
+      {"name": "Heart with Wings", "available": true, "img": "tos-useast5-i-omjb5zjo8w-tx/f1875dd484d44587ab537b2d65776e8e"}
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Golden Rutile Quartz",
+    "price": 48,
+    "variants": [
+      {"name": "A", "available": true, "img": "tos-useast5-i-omjb5zjo8w-tx/a67de9f434104844b5a3071d2c216ff5"},
+      {"name": "B", "available": true, "img": "tos-useast5-i-omjb5zjo8w-tx/cd0398aa400149719999c7786330048a"},
+      {"name": "B-2", "available": true, "img": "tos-useast5-i-omjb5zjo8w-tx/7cde3bbc813643128008b5599718fb0a"},
+      {"name": "C", "available": true, "img": "tos-useast5-i-omjb5zjo8w-tx/743f4bca70394395be72a153e0f2f616"},
+      {"name": "D", "available": true, "img": "tos-useast5-i-omjb5zjo8w-tx/71e8c714961c49c499458ed04792e67e"},
+      {"name": "E", "available": false, "img": "tos-useast5-i-omjb5zjo8w-tx/6a9b444a73b84967818e2029b05e7ec0"},
+      {"name": "F", "available": true, "img": "tos-useast5-i-omjb5zjo8w-tx/92407af025e342959738f49f3cca58ba"},
+      {"name": "G", "available": true, "img": "tos-useast5-i-omjb5zjo8w-tx/137b69cfcfac422abb5734554d0e3916"},
+      {"name": "H", "available": true, "img": "tos-useast5-i-omjb5zjo8w-tx/281e17a7eace4052823a07ec3f10be70"},
+      {"name": "I", "available": true, "img": "tos-useast5-i-omjb5zjo8w-tx/711a6382204d452387f1870afd4209a3"},
+      {"name": "J", "available": true, "img": "tos-useast5-i-omjb5zjo8w-tx/9292278c8d354884b40f6d32e7718a70"},
+      {"name": "K", "available": true, "img": "tos-useast5-i-omjb5zjo8w-tx/9707d2cc1ee24d23be004b984620dd95"},
+      {"name": "L", "available": true, "img": "tos-useast5-i-omjb5zjo8w-tx/c2395c23c9c24ed5902569aad8d89d00"}
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Freeform Labradorite Polished",
+    "price": null,
+    "variants": [],
+    "_error": "Product not available - TikTok error 23002002: product detail not exist"
+  },
+  {
+    "id": 11,
+    "name": "Rainbow Obsidian Palms",
+    "price": null,
+    "variants": [],
+    "_error": "Product not available - TikTok error 23002002: product detail not exist"
+  },
+  {
+    "id": 12,
+    "name": "Mystery Mix Crystal & Stone Bag",
+    "price": null,
+    "variants": [],
+    "_error": "Product not available - TikTok error 23002002: product detail not exist"
+  },
+  {
+    "id": 13,
+    "name": "Green Fluorite (Baja Blast)",
+    "price": null,
+    "variants": [],
+    "_error": "Product not available - TikTok error 23002002: product detail not exist"
+  },
+  {
+    "id": 14,
+    "name": "Rainbow Sugar Amethyst Chunks",
+    "price": null,
+    "variants": [],
+    "_error": "Product not available - TikTok error 23002002: product detail not exist"
+  },
+  {
+    "id": 15,
+    "name": "Clear Quartz Star and Crystal Carving",
+    "price": null,
+    "variants": [],
+    "_error": "Product not available - TikTok error 23002002: product detail not exist"
+  }
+]

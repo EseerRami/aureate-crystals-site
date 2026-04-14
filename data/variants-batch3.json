@@ -1,0 +1,178 @@
+[
+  {
+    "id": 31,
+    "name": "Rose Quartz Turtle Carving",
+    "price": 11.11,
+    "variants": [
+      { "name": "Default", "available": true, "img": "tos-useast5-i-omjb5zjo8w-tx/00bb7013602f4aafbfe5d22fad0d910a" }
+    ]
+  },
+  {
+    "id": 32,
+    "name": "Thousand Layer Garden Quartz Spheres",
+    "price": 14.00,
+    "variants": [
+      { "name": "A", "available": true, "img": "tos-useast5-i-omjb5zjo8w-tx/4e69abf2286f48a3bd5dbec85757a6af" },
+      { "name": "B", "available": true, "img": "tos-useast5-i-omjb5zjo8w-tx/48f5b217070941c2a4b83520a6b6009c" },
+      { "name": "C", "available": true, "img": "tos-useast5-i-omjb5zjo8w-tx/645d9afd235548dcb04cd406d67a1096" },
+      { "name": "D", "available": true, "img": "tos-useast5-i-omjb5zjo8w-tx/af54bbc131504b19906df054d91b1167" },
+      { "name": "E", "available": true, "img": "tos-useast5-i-omjb5zjo8w-tx/eeada3580042411faebf85f9bca53542" },
+      { "name": "F", "available": true, "img": "tos-useast5-i-omjb5zjo8w-tx/fde4d18c6626429188aedf7354fc4ddc" },
+      { "name": "G", "available": true, "img": "tos-useast5-i-omjb5zjo8w-tx/e43a29574f6843cfb730508f361b8697" },
+      { "name": "H", "available": true, "img": "tos-useast5-i-omjb5zjo8w-tx/6357930d6c484a65b42291e382440610" },
+      { "name": "I", "available": true, "img": "tos-useast5-i-omjb5zjo8w-tx/1c81ae039e474bdd9046f2e15df5ed20" },
+      { "name": "J", "available": true, "img": "tos-useast5-i-omjb5zjo8w-tx/35833173902f443b9c1622f8ea5f5eb0" },
+      { "name": "K", "available": true, "img": "tos-useast5-i-omjb5zjo8w-tx/637617474c174dbbb3a751f2973c55f2" },
+      { "name": "L", "available": true, "img": "tos-useast5-i-omjb5zjo8w-tx/11e46a0e9423457ab95828a8098b51da" },
+      { "name": "M", "available": false, "img": "tos-useast5-i-omjb5zjo8w-tx/54d638c0d6dd448ebdfeb6ae65689344" },
+      { "name": "N", "available": true, "img": "tos-useast5-i-omjb5zjo8w-tx/549ff8135de349fc8201dee7d8f7ff61" },
+      { "name": "O - rutile", "available": true, "img": "tos-useast5-i-omjb5zjo8w-tx/715d4f450bd047968cb158a38e83d118" },
+      { "name": "P", "available": true, "img": "tos-useast5-i-omjb5zjo8w-tx/203d63900c634c8b979a67ea1896ac05" },
+      { "name": "Q", "available": true, "img": "tos-useast5-i-omjb5zjo8w-tx/e6b5656d8adb4702ae6fe59e7ececb2c" },
+      { "name": "R", "available": true, "img": "tos-useast5-i-omjb5zjo8w-tx/1a432a9c624c488494fa48bd8b15fba9" },
+      { "name": "S", "available": true, "img": "tos-useast5-i-omjb5zjo8w-tx/67488148b4f7465fbb07500e7f2d2265" },
+      { "name": "T", "available": true, "img": "tos-useast5-i-omjb5zjo8w-tx/ac5d555acdfe43b18c076f703e2f545f" },
+      { "name": "U", "available": true, "img": "tos-useast5-i-omjb5zjo8w-tx/1604fc986c2c4b0cb18e40e83124937e" }
+    ]
+  },
+  {
+    "id": 33,
+    "name": "Caribbean Calcite Freeforms",
+    "price": 14.00,
+    "variants": [
+      { "name": "A", "available": false, "img": "tos-useast5-i-omjb5zjo8w-tx/182ed3cbad8d4e3f8010f50485a2f6d5" },
+      { "name": "B", "available": true, "img": "tos-useast5-i-omjb5zjo8w-tx/44c95b365d8c413a9fdd0330a78a0a9d" },
+      { "name": "C", "available": true, "img": "tos-useast5-i-omjb5zjo8w-tx/1b72396128184cecba46d6fcbb792f75" },
+      { "name": "E", "available": true, "img": "tos-useast5-i-omjb5zjo8w-tx/45a9e7c00ec540eeb667664b302fc379" },
+      { "name": "D", "available": false, "img": "tos-useast5-i-omjb5zjo8w-tx/eaadc4d98e964266836cf8d46c71c4f6" },
+      { "name": "F", "available": true, "img": "tos-useast5-i-omjb5zjo8w-tx/32ba7ada834d430b8e42224356881713" },
+      { "name": "G", "available": true, "img": "tos-useast5-i-omjb5zjo8w-tx/01cd3a3ec8064d74ba0854e9aff89572" },
+      { "name": "H", "available": true, "img": "tos-useast5-i-omjb5zjo8w-tx/d993b78847cd42f1b340030e2155f483" },
+      { "name": "I", "available": true, "img": "tos-useast5-i-omjb5zjo8w-tx/86a48a2ea18a4789b85bd93f40564f8e" },
+      { "name": "J", "available": true, "img": "tos-useast5-i-omjb5zjo8w-tx/63717d6039cb4b0bb289800225c6760a" },
+      { "name": "K", "available": false, "img": "tos-useast5-i-omjb5zjo8w-tx/6fb7f60377ab40819baa98ccba5c28c1" },
+      { "name": "L", "available": true, "img": "tos-useast5-i-omjb5zjo8w-tx/ffa684f9360643bc85b7dba68e009b2b" },
+      { "name": "Sphere", "available": true, "img": "tos-useast5-i-omjb5zjo8w-tx/73a165de099643fe9e7752289e02a38e" }
+    ]
+  },
+  {
+    "id": 34,
+    "name": "Lepidolite Palm Stone",
+    "price": 20.00,
+    "variants": [
+      { "name": "Style A", "available": false, "img": "tos-useast8-i-rt0ujvrtvp-tx2/93cfd87547d041a3a9616f25528b60dc" },
+      { "name": "Style B", "available": false, "img": "tos-useast8-i-rt0ujvrtvp-tx2/83205400b7ba416d8002427b45aac186" },
+      { "name": "Style C", "available": true, "img": "tos-useast8-i-rt0ujvrtvp-tx2/f6a8af598c794f8a9ad92639c2539414" },
+      { "name": "Style D", "available": true, "img": "tos-useast8-i-rt0ujvrtvp-tx2/d1384b4b02214464a91f409a1b81d3e7" },
+      { "name": "Style E", "available": false, "img": "tos-useast8-i-rt0ujvrtvp-tx2/232ce26c23b14ad4925c62c54776f852" }
+    ]
+  },
+  {
+    "id": 35,
+    "name": "Black Tourmaline Protection Keychain",
+    "price": 17.00,
+    "variants": [
+      { "name": "Default", "available": true, "img": "tos-useast5-i-omjb5zjo8w-tx/ffeb121d8123443cb1487c58d4e42e8d" }
+    ]
+  },
+  {
+    "id": 36,
+    "name": "Chocolate Calcite Chunks",
+    "price": 17.00,
+    "variants": [
+      { "name": "E-1.4oz", "available": true, "img": "tos-useast5-i-omjb5zjo8w-tx/55c01e6ca9a443dd8b39e657f8db2a5b" },
+      { "name": "D-4.2oz", "available": false, "img": "tos-useast5-i-omjb5zjo8w-tx/9daf06e94b8241c990e52f6adec174f8" },
+      { "name": "B-4.4oz", "available": true, "img": "tos-useast5-i-omjb5zjo8w-tx/20cee6c8219842aa9b568951f28b7072" },
+      { "name": "C-4.5oz", "available": false, "img": "tos-useast5-i-omjb5zjo8w-tx/e79a7d4e56214434a865ff29416ad9e3" },
+      { "name": "A-6.1oz", "available": false, "img": "tos-useast5-i-omjb5zjo8w-tx/89e5c82184254e38af16409748f25cc9" }
+    ]
+  },
+  {
+    "id": 37,
+    "name": "Velvet Malachite Specimen",
+    "price": 19.00,
+    "variants": [
+      { "name": "A", "available": true, "img": "tos-useast8-i-rt0ujvrtvp-tx2/a0b7b1b979354e6b9bfd81b359f51c1c" },
+      { "name": "B", "available": true, "img": "tos-useast8-i-rt0ujvrtvp-tx2/fc74f7c6b40f4f1c82a69f2dd17b3344" },
+      { "name": "C", "available": true, "img": "tos-useast5-i-omjb5zjo8w-tx/c32764803f954ea9a25ab8ab10a9eb3c" },
+      { "name": "D", "available": true, "img": "tos-useast5-i-omjb5zjo8w-tx/96b0630f0f1d4f5a833f40306a096498" },
+      { "name": "E", "available": false, "img": "tos-useast5-i-omjb5zjo8w-tx/241c3640a54f4c4283bc5634fc439079" }
+    ]
+  },
+  {
+    "id": 38,
+    "name": "Carnelian Towers",
+    "price": 20.00,
+    "variants": [
+      { "name": "Style A", "available": true, "img": "tos-useast5-i-omjb5zjo8w-tx/8a38caffb0c04cda89c0497997be12e3" },
+      { "name": "Style B", "available": false, "img": "tos-useast5-i-omjb5zjo8w-tx/019b5ab1a099450f8c82b5d679c96ff9" },
+      { "name": "Style C", "available": false, "img": "tos-useast5-i-omjb5zjo8w-tx/191ebfc619c146458cf68b5ae9161c39" },
+      { "name": "Style D", "available": false, "img": "tos-useast5-i-omjb5zjo8w-tx/fb10d9c4d7454862bcde876f389f2f67" },
+      { "name": "Style E", "available": false, "img": "tos-useast5-i-omjb5zjo8w-tx/24f1ec025112490580b843a09e25ce23" },
+      { "name": "Style F", "available": false, "img": "tos-useast5-i-omjb5zjo8w-tx/caedac8759d242fda36642c26432eeac" },
+      { "name": "Style G", "available": true, "img": "tos-useast5-i-omjb5zjo8w-tx/26af6bd4b282434aacb611ffea8feaf7" }
+    ]
+  },
+  {
+    "id": 39,
+    "name": "Amethyst Flowers Raw",
+    "price": 20.00,
+    "variants": [
+      { "name": "1", "available": false, "img": "tos-useast5-i-omjb5zjo8w-tx/c176e04465e9415ba2e75da714fa0bd1" },
+      { "name": "2", "available": true, "img": "tos-useast5-i-omjb5zjo8w-tx/e49199ec7ed64c48a4ae62ad9c944273" },
+      { "name": "3", "available": true, "img": "tos-useast5-i-omjb5zjo8w-tx/13dc8417c8cb470a9dc44eecb8cc0291" },
+      { "name": "4", "available": false, "img": "tos-useast5-i-omjb5zjo8w-tx/21d6c0ec07d74f22873b7d0d20ffe308" },
+      { "name": "5", "available": true, "img": "tos-useast5-i-omjb5zjo8w-tx/51291d59946741f38bb4984581797c4d" },
+      { "name": "6", "available": false, "img": "tos-useast5-i-omjb5zjo8w-tx/d4eb782e63654404832852f1079a3b01" },
+      { "name": "7", "available": true, "img": "tos-useast5-i-omjb5zjo8w-tx/03a2eab2a04a4c3fa7b38143a99f8bef" },
+      { "name": "8", "available": false, "img": "tos-useast5-i-omjb5zjo8w-tx/ea143fceb8854c2cb61149a59263a29f" },
+      { "name": "9", "available": true, "img": "tos-useast5-i-omjb5zjo8w-tx/9d59c585ea5f4e92b533c0dbd5f26852" },
+      { "name": "10", "available": true, "img": "tos-useast5-i-omjb5zjo8w-tx/215e09dd032c4f3db6d318c2c828fede" },
+      { "name": "11", "available": false, "img": "tos-useast5-i-omjb5zjo8w-tx/8f80306e8f6e424c8a076e0d6d756368" },
+      { "name": "12", "available": true, "img": "tos-useast5-i-omjb5zjo8w-tx/8b49af4c6a034399b4a930d08d593ae9" },
+      { "name": "13", "available": true, "img": "tos-useast5-i-omjb5zjo8w-tx/78ab60e1c3704c1e89f0f9ef9b516aa1" }
+    ]
+  },
+  {
+    "id": 40,
+    "name": "Smoky Quartz Polished Tops Towers",
+    "price": null,
+    "variants": [],
+    "_error": "Product not available in this country or region (TikTok error 23002002)"
+  },
+  {
+    "id": 41,
+    "name": "Rose Quartz Sphere Crystal",
+    "price": null,
+    "variants": [],
+    "_error": "Product not available in this country or region (TikTok error 23002002)"
+  },
+  {
+    "id": 42,
+    "name": "Owl Crystal Carving",
+    "price": null,
+    "variants": [],
+    "_error": "Product not available in this country or region (TikTok error 23002002)"
+  },
+  {
+    "id": 43,
+    "name": "Chrysanthemum Tower Polished",
+    "price": null,
+    "variants": [],
+    "_error": "Product not available in this country or region (TikTok error 23002002)"
+  },
+  {
+    "id": 44,
+    "name": "Black Banded Onyx Crystal Skull",
+    "price": null,
+    "variants": [],
+    "_error": "Product not available in this country or region (TikTok error 23002002)"
+  },
+  {
+    "id": 45,
+    "name": "Amethyst Cut Base",
+    "price": null,
+    "variants": [],
+    "_error": "Product not available in this country or region (TikTok error 23002002)"
+  }
+]

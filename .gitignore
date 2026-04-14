@@ -1,0 +1,10 @@
+node_modules/
+.env
+.env.*
+.netlify/
+.DS_Store
+
+# Scraper state — regenerated per run
+scraper/.chrome-profile/
+scraper/progress.json
+scraper/diagnose-output.txt

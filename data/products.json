@@ -1,0 +1,542 @@
+[
+  {
+    "id": 1,
+    "name": "Agate Druzy Meditating Woman Crystal Carving",
+    "price": 29,
+    "image": "https://p16-oec-general-useast5.ttcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/3dc19b955b4243f5b9057513a5e2ab68~tplv-fhlh96nyum-crop-webp:300:300.webp"
+  },
+  {
+    "id": 2,
+    "name": "Highland Cow Crystal Stone Carvings",
+    "price": 22,
+    "image": "https://p16-oec-general-useast5.ttcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/969f0cd4fc5b4deebb46d7a55f6ee587~tplv-fhlh96nyum-crop-webp:300:300.webp"
+  },
+  {
+    "id": 3,
+    "name": "Genuine Moldavite — Authentic Czech Tektite",
+    "price": 29,
+    "image": "https://p16-oec-general-useast5.ttcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/56f26b83c5ac49aea66ec50c35071970~tplv-fhlh96nyum-crop-webp:300:300.webp"
+  },
+  {
+    "id": 4,
+    "name": "Volcano Agate Sphere UV Reactive Crystal Ball",
+    "price": 49,
+    "image": "https://p16-oec-general-useast5.ttcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/0b1145b19d7f46f48d6929aff8c03ad9~tplv-fhlh96nyum-crop-webp:300:300.webp"
+  },
+  {
+    "id": 5,
+    "name": "Agate Druzy Crystal Decorative Set — Heart Star Oval on Gold Stands",
+    "price": 142,
+    "image": "https://p19-oec-general-useast5.ttcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/9e9a0abdfae54e07af406108de58d93f~tplv-fhlh96nyum-crop-webp:300:300.webp"
+  },
+  {
+    "id": 6,
+    "name": "Needle Point Malachite Specimens — Natural Green Crystal",
+    "price": 57,
+    "image": "https://p16-oec-general-useast8.ttcdn-us.com/tos-useast8-i-rt0ujvrtvp-tx2/f7fa4fb56ddf4e5ebfbbc6073f56d613~tplv-fhlh96nyum-crop-webp:300:300.webp"
+  },
+  {
+    "id": 7,
+    "name": "Lemurian Pendant Necklace — High Vibration Crystal Jewelry",
+    "price": 40,
+    "image": "https://p16-oec-general-useast5.ttcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/50b0684bc6e34e46a4e21e40c4b7b344~tplv-fhlh96nyum-crop-webp:300:300.webp"
+  },
+  {
+    "id": 8,
+    "name": "Charging Kits — Selenite and Palo Santo for Energy Healing",
+    "price": 14,
+    "image": "https://p16-oec-general-useast5.ttcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/7408e1fd11224db88b404b293f74a885~tplv-fhlh96nyum-crop-webp:300:300.webp"
+  },
+  {
+    "id": 9,
+    "name": "Golden Rutile Quartz for Spiritual Healing & Meditation",
+    "price": 48,
+    "image": "https://p16-oec-general-useast5.ttcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/7d204ed17f40481ab21424ed6f1446d8~tplv-fhlh96nyum-crop-webp:300:300.webp"
+  },
+  {
+    "id": 10,
+    "name": "Freeform Labradorite Polished with Flash",
+    "price": 53,
+    "image": "https://p16-oec-general-useast5.ttcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/d7ff6c0971fb4b43bc4eb6ba09bb2e6e~tplv-fhlh96nyum-crop-webp:300:300.webp"
+  },
+  {
+    "id": 11,
+    "name": "Rainbow Obsidian Palms — Natural Healing Stones",
+    "price": 21,
+    "image": "https://p16-oec-general-useast5.ttcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/426a678cdc38459ba7afe0831b7fb295~tplv-fhlh96nyum-crop-webp:300:300.webp"
+  },
+  {
+    "id": 12,
+    "name": "Mystery Mix Crystal & Stone Bag 3.5–4 oz",
+    "price": 7.77,
+    "image": "https://p16-oec-general-useast5.ttcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/322a9911ed4543c0b55e1fd82d68f1d6~tplv-fhlh96nyum-crop-webp:300:300.webp"
+  },
+  {
+    "id": 13,
+    "name": "Green Fluorite (Baja Blast) Crystal Spheres, Towers, Palms",
+    "price": 56,
+    "image": "https://p16-oec-general-useast8.ttcdn-us.com/tos-useast8-i-rt0ujvrtvp-tx2/d5872dffeec34a058588b38f9cd47f7c~tplv-fhlh96nyum-crop-webp:300:300.webp"
+  },
+  {
+    "id": 14,
+    "name": "Rainbow Sugar Amethyst Chunks — Natural Healing Crystals",
+    "price": 30,
+    "image": "https://p16-oec-general-useast5.ttcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/db41fd60fd9f42d58bbfe6c9ff281819~tplv-fhlh96nyum-crop-webp:300:300.webp"
+  },
+  {
+    "id": 15,
+    "name": "Clear Quartz Star and Crystal Carving",
+    "price": 5,
+    "image": "https://p16-oec-general-useast5.ttcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/e2fb796ffa9f4e1a99eb8f544802f780~tplv-fhlh96nyum-crop-webp:300:300.webp"
+  },
+  {
+    "id": 16,
+    "name": "Angel Aura Quartz Clusters and Towers",
+    "price": 37,
+    "image": "https://p16-oec-general-useast5.ttcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/b49608ae85ab4e4985af8e12035730c4~tplv-fhlh96nyum-crop-webp:300:300.webp"
+  },
+  {
+    "id": 17,
+    "name": "Flashy Labradorite Polished Freeforms",
+    "price": 25,
+    "image": "https://p16-oec-general-useast5.ttcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/98a4bffd88a3452880b849b0e49df133~tplv-fhlh96nyum-crop-webp:300:300.webp"
+  },
+  {
+    "id": 18,
+    "name": "Crazy Lace Agate Moon and Hearts with Gold Stands",
+    "price": 67,
+    "image": "https://p16-oec-general-useast5.ttcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/096ae1976c29435aae30e734860f495f~tplv-fhlh96nyum-crop-webp:300:300.webp"
+  },
+  {
+    "id": 19,
+    "name": "Pink Halite from Southern California",
+    "price": 77,
+    "image": "https://p16-oec-general-useast5.ttcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/ca41f694023044e4afd8305203419d25~tplv-fhlh96nyum-crop-webp:300:300.webp"
+  },
+  {
+    "id": 20,
+    "name": "Brazilian Citrine Towers — Natural Crystal for Healing",
+    "price": 67,
+    "image": "https://p16-oec-general-useast8.ttcdn-us.com/tos-useast8-i-rt0ujvrtvp-tx2/b2d2bd829e664c29bddd89b10812abc7~tplv-fhlh96nyum-crop-webp:300:300.webp"
+  },
+  {
+    "id": 21,
+    "name": "Labradorite Palm Crystal — High-Vibe Healing Stone",
+    "price": 5,
+    "image": "https://p16-oec-general-useast5.ttcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/0730a408a9664e35a539a5ed350f486a~tplv-fhlh96nyum-crop-webp:300:300.webp"
+  },
+  {
+    "id": 22,
+    "name": "Crystal Healing Chip Bracelet — Natural Gemstone Wristband",
+    "price": 12,
+    "image": "https://p16-oec-general-useast5.ttcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/84b68d886a79488ea1ba79f4d25f27da~tplv-fhlh96nyum-crop-webp:300:300.webp"
+  },
+  {
+    "id": 23,
+    "name": "Agate Druzy Moons and Hearts Crystal Carving",
+    "price": 14,
+    "image": "https://p16-oec-general-useast5.ttcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/0d76b74c3beb4b3f88f33661e340ee7c~tplv-fhlh96nyum-crop-webp:300:300.webp"
+  },
+  {
+    "id": 24,
+    "name": "Amethyst Raw Freeforms, Chunks, and Mini Hearts",
+    "price": 34,
+    "image": "https://p16-oec-general-useast5.ttcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/1d5ab3badeb34a62b4541afaac5f1ce7~tplv-fhlh96nyum-crop-webp:300:300.webp"
+  },
+  {
+    "id": 25,
+    "name": "Blue Flower Agate Palm and Heart Healing Crystals",
+    "price": 29,
+    "image": "https://p16-oec-general-useast5.ttcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/fc71a2a6512d4fb087887a0a84697250~tplv-fhlh96nyum-crop-webp:300:300.webp"
+  },
+  {
+    "id": 26,
+    "name": "Honey Calcite Spheres",
+    "price": 47,
+    "image": "https://p16-oec-general-useast5.ttcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/f3eb35eff0ba4eaaa86667413ecfbad1~tplv-fhlh96nyum-crop-webp:300:300.webp"
+  },
+  {
+    "id": 27,
+    "name": "Blue Halite Specimen",
+    "price": 37,
+    "image": "https://p16-oec-general-useast5.ttcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/43a2c7eb00ba4f7d9141e7f72e181cf1~tplv-fhlh96nyum-crop-webp:300:300.webp"
+  },
+  {
+    "id": 28,
+    "name": "Peacock Ore (Chalcopyrite) — Iridescent Metallic Crystal",
+    "price": 5,
+    "image": "https://p16-oec-general-useast5.ttcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/7d5b7fd9fcdb4649992adcd0cb1ec317~tplv-fhlh96nyum-crop-webp:300:300.webp"
+  },
+  {
+    "id": 29,
+    "name": "Thousand Layer Garden Quartz Tower",
+    "price": 11,
+    "image": "https://p16-oec-general-useast5.ttcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/4c7a57c4b44e407ab4bd51cfa10c4065~tplv-fhlh96nyum-crop-webp:300:300.webp"
+  },
+  {
+    "id": 30,
+    "name": "Wooden Stand with LED Light for Crystal Decor",
+    "price": 10,
+    "image": "https://p16-oec-general-useast5.ttcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/24a531754f5946d1a20bb8e21d8fae8a~tplv-fhlh96nyum-crop-webp:300:300.webp"
+  },
+  {
+    "id": 31,
+    "name": "Rose Quartz Turtle Carving",
+    "price": 11.11,
+    "image": "https://p16-oec-general-useast5.ttcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/00bb7013602f4aafbfe5d22fad0d910a~tplv-fhlh96nyum-crop-webp:300:300.webp"
+  },
+  {
+    "id": 32,
+    "name": "Thousand Layer Garden Quartz Spheres",
+    "price": 14,
+    "image": "https://p16-oec-general-useast5.ttcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/4c7a57c4b44e407ab4bd51cfa10c4065~tplv-fhlh96nyum-crop-webp:300:300.webp"
+  },
+  {
+    "id": 33,
+    "name": "Caribbean Calcite Freeforms",
+    "price": 14,
+    "image": "https://p16-oec-general-useast5.ttcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/826aa58339aa4d9b9611ad5d63896313~tplv-fhlh96nyum-crop-webp:300:300.webp"
+  },
+  {
+    "id": 34,
+    "name": "Lepidolite Palm Stone",
+    "price": 20,
+    "image": "https://p16-oec-general-useast8.ttcdn-us.com/tos-useast8-i-rt0ujvrtvp-tx2/ea2c0fc5edb84ad59515d76497f2cf05~tplv-fhlh96nyum-crop-webp:300:300.webp"
+  },
+  {
+    "id": 35,
+    "name": "Black Tourmaline Protection Keychain",
+    "price": 17,
+    "image": "https://p16-oec-general-useast5.ttcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/ffeb121d8123443cb1487c58d4e42e8d~tplv-fhlh96nyum-crop-webp:300:300.webp"
+  },
+  {
+    "id": 36,
+    "name": "Chocolate Calcite Chunks — Raw Natural Healing Crystals",
+    "price": 17,
+    "image": "https://p16-oec-general-useast5.ttcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/3797d72cb834410da9d402f067dc7ba2~tplv-fhlh96nyum-crop-webp:300:300.webp"
+  },
+  {
+    "id": 37,
+    "name": "Velvet Malachite Specimen — Abundance Stone",
+    "price": 19,
+    "image": "https://p16-oec-general-useast5.ttcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/5fcbc801da8e485db0e254922211b0db~tplv-fhlh96nyum-crop-webp:300:300.webp"
+  },
+  {
+    "id": 38,
+    "name": "Carnelian Towers",
+    "price": 20,
+    "image": "https://p16-oec-general-useast5.ttcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/5d043ce9c455480e9eec131b0662f75d~tplv-fhlh96nyum-crop-webp:300:300.webp"
+  },
+  {
+    "id": 39,
+    "name": "Amethyst Flowers Raw",
+    "price": 20,
+    "image": "https://p16-oec-general-useast5.ttcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/c276683d878444ceabf233ba70525ca5~tplv-fhlh96nyum-crop-webp:300:300.webp"
+  },
+  {
+    "id": 40,
+    "name": "Smoky Quartz Polished Tops Towers",
+    "price": 24,
+    "image": "https://p16-oec-general-useast5.ttcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/b2873e35cf3f42719a050b1ea68675cf~tplv-fhlh96nyum-crop-webp:300:300.webp"
+  },
+  {
+    "id": 41,
+    "name": "Rose Quartz Sphere Crystal",
+    "price": 25,
+    "image": "https://p16-oec-general-useast5.ttcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/23c5a0a261d94ffaa90baf9d8a09a5aa~tplv-fhlh96nyum-crop-webp:300:300.webp"
+  },
+  {
+    "id": 42,
+    "name": "Owl Crystal Carving — Decorative Figurine",
+    "price": 27,
+    "image": "https://p19-oec-general-useast5.ttcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/1d017d2c32da4e18a9455291c3ac19dc~tplv-fhlh96nyum-crop-webp:300:300.webp"
+  },
+  {
+    "id": 43,
+    "name": "Chrysanthemum Tower Polished — Natural Crystal Ornament",
+    "price": 27,
+    "image": "https://p16-oec-general-useast5.ttcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/d565081c59124a85abc84b576ef83e81~tplv-fhlh96nyum-crop-webp:300:300.webp"
+  },
+  {
+    "id": 44,
+    "name": "Black Banded Onyx Crystal Skull",
+    "price": 29,
+    "image": "https://p16-oec-general-useast5.ttcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/58f0e7aa45be49af9e7fd7202c2545b6~tplv-fhlh96nyum-crop-webp:300:300.webp"
+  },
+  {
+    "id": 45,
+    "name": "Amethyst Cut Base",
+    "price": 31,
+    "image": "https://p16-oec-general-useast5.ttcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/c91a577ad0884c28b04d7d0133e0df7a~tplv-fhlh96nyum-crop-webp:300:300.webp"
+  },
+  {
+    "id": 46,
+    "name": "Pink Amethyst on Rose Gold Stands — Brazilian Origin",
+    "price": 47,
+    "image": "https://p16-oec-general-useast5.ttcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/d0e56def8a4d46f19475f409ba0deaa3~tplv-fhlh96nyum-crop-webp:300:300.webp"
+  },
+  {
+    "id": 47,
+    "name": "Large Selenite Sphere Energy Charger 4-5in",
+    "price": 67,
+    "image": "https://p16-oec-general-useast8.ttcdn-us.com/tos-useast8-i-rt0ujvrtvp-tx2/5a66c55bb0d34164978fcc5a38d905de~tplv-fhlh96nyum-crop-webp:300:300.webp"
+  },
+  {
+    "id": 48,
+    "name": "Lemurian Points — High Vibration",
+    "price": 11,
+    "image": "https://p16-oec-general-useast5.ttcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/0c99170cff6a40f9959d6efca86296cb~tplv-fhlh96nyum-crop-webp:300:300.webp"
+  },
+  {
+    "id": 49,
+    "name": "Mystery Bag of Moon, Hearts, and Mushroom Carvings",
+    "price": 10,
+    "image": "https://p16-oec-general-useast5.ttcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/d0ef4fb7d3784a4fa507a13ec6f81a7d~tplv-fhlh96nyum-crop-webp:300:300.webp"
+  },
+  {
+    "id": 50,
+    "name": "Green Apophyllite with Stilbite Crystal Cluster on Basalt",
+    "price": 17,
+    "image": "https://p16-oec-general-useast8.ttcdn-us.com/tos-useast8-i-rt0ujvrtvp-tx2/b78d7b6ef70e47b79accced42bce5944~tplv-fhlh96nyum-crop-webp:300:300.webp"
+  },
+  {
+    "id": 51,
+    "name": "Moonstone Crystal Sphere",
+    "price": 12,
+    "image": "https://p16-oec-general-useast5.ttcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/edc67203640545ed95b2d4d8696b39be~tplv-fhlh96nyum-crop-webp:300:300.webp"
+  },
+  {
+    "id": 52,
+    "name": "Orca Agate Flames",
+    "price": 13,
+    "image": "https://p16-oec-general-useast8.ttcdn-us.com/tos-useast8-i-rt0ujvrtvp-tx2/d45d414bbcee4c3cad7520661b19c6f8~tplv-fhlh96nyum-crop-webp:300:300.webp"
+  },
+  {
+    "id": 53,
+    "name": "Pink Quartz Cluster — Lemurian-Style Striations",
+    "price": 14,
+    "image": "https://p16-oec-general-useast5.ttcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/a4b024d86a6c4ca9898697642c5a781a~tplv-fhlh96nyum-crop-webp:300:300.webp"
+  },
+  {
+    "id": 54,
+    "name": "Obsidian from California — Raw Natural Healing Stone",
+    "price": 15,
+    "image": "https://p16-oec-general-useast5.ttcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/1909931db9e5438baaa13afb45ea3b5a~tplv-fhlh96nyum-crop-webp:300:300.webp"
+  },
+  {
+    "id": 55,
+    "name": "Kambaba Jasper Palms — Natural Healing Stones",
+    "price": 19,
+    "image": "https://p16-oec-general-useast8.ttcdn-us.com/tos-useast8-i-rt0ujvrtvp-tx2/165fc2c2ff88448c86cdab5e3001a820~tplv-fhlh96nyum-crop-webp:300:300.webp"
+  },
+  {
+    "id": 56,
+    "name": "Garnet Cluster Crystal",
+    "price": 26,
+    "image": "https://p16-oec-general-useast5.ttcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/574a25935244456e9ceeba90925419f8~tplv-fhlh96nyum-crop-webp:300:300.webp"
+  },
+  {
+    "id": 57,
+    "name": "Sphalerite Druzy Sphere — High-Energy Crystal",
+    "price": 30,
+    "image": "https://p16-oec-general-useast5.ttcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/6fa81d2550b840f382bfec4ad7873e93~tplv-fhlh96nyum-crop-webp:300:300.webp"
+  },
+  {
+    "id": 58,
+    "name": "Rose Quartz Towers",
+    "price": 39,
+    "image": "https://p16-oec-general-useast5.ttcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/9d63f6c58da345d5bf7aa14cf8caa8bc~tplv-fhlh96nyum-crop-webp:300:300.webp"
+  },
+  {
+    "id": 59,
+    "name": "Sea Jasper Slices",
+    "price": 35,
+    "image": "https://p16-oec-general-useast8.ttcdn-us.com/tos-useast8-i-rt0ujvrtvp-tx2/749aa0d576f849cfa0c88068938525cf~tplv-fhlh96nyum-crop-webp:300:300.webp"
+  },
+  {
+    "id": 60,
+    "name": "Silver Sheen Obsidian Carving Cauldron",
+    "price": 48,
+    "image": "https://p16-oec-general-useast5.ttcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/ad8fe46130074f3eb5f3172f9ff5dfca~tplv-fhlh96nyum-crop-webp:300:300.webp"
+  },
+  {
+    "id": 61,
+    "name": "Clear Quartz Towers — Master Healer",
+    "price": 55,
+    "image": "https://p16-oec-general-useast5.ttcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/c693d2f58f424a9cb205cd0496fbdf26~tplv-fhlh96nyum-crop-webp:300:300.webp"
+  },
+  {
+    "id": 62,
+    "name": "Rainbow Fluorite Towers",
+    "price": 77,
+    "image": "https://p16-oec-general-useast5.ttcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/4fcc23c7038f4c0796b88245bf57bf39~tplv-fhlh96nyum-crop-webp:300:300.webp"
+  },
+  {
+    "id": 63,
+    "name": "Lemurian Quartz Crystal — High Vibration Raw Unpolished",
+    "price": 79,
+    "image": "https://p16-oec-general-useast5.ttcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/04b2718981644f21852449cf1ae707f0~tplv-fhlh96nyum-crop-webp:300:300.webp"
+  },
+  {
+    "id": 64,
+    "name": "Epidote on Quartz Specimen from Turkey",
+    "price": 98,
+    "image": "https://p16-oec-general-useast5.ttcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/aadd4c631b0e49e28e34b7eff4c2d808~tplv-fhlh96nyum-crop-webp:300:300.webp"
+  },
+  {
+    "id": 65,
+    "name": "Moss Agate Large Crystal Tower",
+    "price": 109,
+    "image": "https://p19-oec-general-useast5.ttcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/202d083fbd364623abe01f9d9084a053~tplv-fhlh96nyum-crop-webp:300:300.webp"
+  },
+  {
+    "id": 66,
+    "name": "Agate Slice Natural Crystal — Unique Organic Patterns",
+    "price": 147,
+    "image": "https://p16-oec-general-useast5.ttcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/70f056b0e91e4057ab63b06b69ce1db2~tplv-fhlh96nyum-crop-webp:300:300.webp"
+  },
+  {
+    "id": 67,
+    "name": "Serpentine Palm Stone",
+    "price": 12,
+    "image": "https://p16-oec-general-useast8.ttcdn-us.com/tos-useast8-i-rt0ujvrtvp-tx2/77a17622420d423c82fad8f490c2c150~tplv-fhlh96nyum-crop-webp:300:300.webp"
+  },
+  {
+    "id": 68,
+    "name": "Intuitively Chosen Shungite Worry Stone",
+    "price": 14,
+    "image": "https://p16-oec-general-useast5.ttcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/dc4560c240e24bdfa2b8840acec30ca5~tplv-fhlh96nyum-crop-webp:300:300.webp"
+  },
+  {
+    "id": 69,
+    "name": "Blue Tigers Eye Tower",
+    "price": 17,
+    "image": "https://p16-oec-general-useast5.ttcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/045612974d254e56be27a0b448cca468~tplv-fhlh96nyum-crop-webp:300:300.webp"
+  },
+  {
+    "id": 70,
+    "name": "Gemstone Anklets",
+    "price": 16,
+    "image": "https://p16-oec-general-useast8.ttcdn-us.com/tos-useast8-i-rt0ujvrtvp-tx2/8e6e22e097f74087b85c04a59a080bd8~tplv-fhlh96nyum-crop-webp:300:300.webp"
+  },
+  {
+    "id": 71,
+    "name": "Rose Quartz Large Palms — Self Love",
+    "price": 16,
+    "image": "https://p16-oec-general-useast8.ttcdn-us.com/tos-useast8-i-rt0ujvrtvp-tx2/2919394fb52f4561a964d26314254341~tplv-fhlh96nyum-crop-webp:300:300.webp"
+  },
+  {
+    "id": 72,
+    "name": "Honey Calcite Tower — Banded Golden Calcite Point",
+    "price": 24,
+    "image": "https://p16-oec-general-useast5.ttcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/555f29ffd9884a278bb8ff9544964df1~tplv-fhlh96nyum-crop-webp:300:300.webp"
+  },
+  {
+    "id": 73,
+    "name": "Carnelian Sphere — Natural Orange Gemstone Ball",
+    "price": 17,
+    "image": "https://p16-oec-general-useast5.ttcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/0ab6404095cc46638e6eea8f509c115e~tplv-fhlh96nyum-crop-webp:300:300.webp"
+  },
+  {
+    "id": 74,
+    "name": "Moss Agate Towers — Natural Green & White Crystal",
+    "price": 46,
+    "image": "https://p16-oec-general-useast5.ttcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/7d227329722140f38ea768a45ecbd17c~tplv-fhlh96nyum-crop-webp:300:300.webp"
+  },
+  {
+    "id": 75,
+    "name": "Moon Carving Moonstone",
+    "price": 29,
+    "image": "https://p16-oec-general-useast5.ttcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/674af060f21448818b3421fe7b696226~tplv-fhlh96nyum-crop-webp:300:300.webp"
+  },
+  {
+    "id": 76,
+    "name": "Cubic Pyrite Raw Specimen",
+    "price": 21,
+    "image": "https://p16-oec-general-useast8.ttcdn-us.com/tos-useast8-i-rt0ujvrtvp-tx2/d7e292df8e934ba899ce1281aaa8c66c~tplv-fhlh96nyum-crop-webp:300:300.webp"
+  },
+  {
+    "id": 77,
+    "name": "Amber Hearts and Sphere",
+    "price": 22,
+    "image": "https://p16-oec-general-useast5.ttcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/d47b25ebc3554e948d1e97c685bdb191~tplv-fhlh96nyum-crop-webp:300:300.webp"
+  },
+  {
+    "id": 78,
+    "name": "Blue Lace Towers and Hearts",
+    "price": 22,
+    "image": "https://p16-oec-general-useast5.ttcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/4147b131c1ea446eb4b1502419d5a580~tplv-fhlh96nyum-crop-webp:300:300.webp"
+  },
+  {
+    "id": 79,
+    "name": "Pink Tourmaline Raw Healing Crystal",
+    "price": 30.1,
+    "image": "https://p16-oec-general-useast5.ttcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/09d48367066c4b55a573d6fadb1f4617~tplv-fhlh96nyum-crop-webp:300:300.webp"
+  },
+  {
+    "id": 80,
+    "name": "Black Chalcedony with Quartz Crystal Cluster",
+    "price": 23,
+    "image": "https://p16-oec-general-useast8.ttcdn-us.com/tos-useast8-i-rt0ujvrtvp-tx2/99d737fe7c44421a941f63ffb9e1c842~tplv-fhlh96nyum-crop-webp:300:300.webp"
+  },
+  {
+    "id": 81,
+    "name": "Indonesian Carnelian Agate Freeform with Druzy",
+    "price": 27,
+    "image": "https://p16-oec-general-useast8.ttcdn-us.com/tos-useast8-i-rt0ujvrtvp-tx2/996b1059979f4363a5a0128b61e2b249~tplv-fhlh96nyum-crop-webp:300:300.webp"
+  },
+  {
+    "id": 82,
+    "name": "Fire Quartz Tower, Domes, Spheres, and a Heart",
+    "price": 25,
+    "image": "https://p16-oec-general-useast5.ttcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/d9eec51e83e24d1a8044fde335ae87ab~tplv-fhlh96nyum-crop-webp:300:300.webp"
+  },
+  {
+    "id": 83,
+    "name": "Marcasite Agate Flame and Palm Stone — Indonesia",
+    "price": 27,
+    "image": "https://p16-oec-general-useast8.ttcdn-us.com/tos-useast8-i-rt0ujvrtvp-tx2/f2d5ab2091194e1e9dd10b9e132030f2~tplv-fhlh96nyum-crop-webp:300:300.webp"
+  },
+  {
+    "id": 84,
+    "name": "Pyrite on Quartz with Hematite Inclusions",
+    "price": 73,
+    "image": "https://p16-oec-general-useast5.ttcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/c41bea10f17c4e9ba18d404149d876af~tplv-fhlh96nyum-crop-webp:300:300.webp"
+  },
+  {
+    "id": 85,
+    "name": "Calcite Crystal Heart — Polished Natural Stone",
+    "price": 29,
+    "image": "https://p16-oec-general-useast5.ttcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/cb5d9b8e378844239b37c1dbc045358b~tplv-fhlh96nyum-crop-webp:300:300.webp"
+  },
+  {
+    "id": 86,
+    "name": "Blue Calcite Crystal Carving Mushroom",
+    "price": 31,
+    "image": "https://p16-oec-general-useast5.ttcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/bdea364bb5d74e29a8396a624c84efb6~tplv-fhlh96nyum-crop-webp:300:300.webp"
+  },
+  {
+    "id": 87,
+    "name": "Brecciated Jasper Grounding Red Jasper Stone",
+    "price": 32,
+    "image": "https://p16-oec-general-useast5.ttcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/877d16da45ba45fcbaf2acb3d8bce706~tplv-fhlh96nyum-crop-webp:300:300.webp"
+  },
+  {
+    "id": 88,
+    "name": "Malachite Towers — Deep Green Protection Stone",
+    "price": 83,
+    "image": "https://p16-oec-general-useast5.ttcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/5d05f2a716a647b39f5d16dc962b9e1b~tplv-fhlh96nyum-crop-webp:300:300.webp"
+  },
+  {
+    "id": 89,
+    "name": "Snowflake Obsidian Sphere Crystal",
+    "price": 35,
+    "image": "https://p16-oec-general-useast5.ttcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/b3fc5110f6a942d38f2f30c382f6d5c9~tplv-fhlh96nyum-crop-webp:300:300.webp"
+  },
+  {
+    "id": 90,
+    "name": "Sphalerite Druzy Tower — High-Energy Crystal Point",
+    "price": 34,
+    "image": "https://p16-oec-general-useast5.ttcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/7de1f5664e8b488680e48c0180e85342~tplv-fhlh96nyum-crop-webp:300:300.webp"
+  }
+]
