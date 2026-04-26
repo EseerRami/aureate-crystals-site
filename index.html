@@ -1018,7 +1018,6 @@ footer {
         From raw specimens to polished palms, from rare moldavite to everyday amethyst — we believe every crystal finds its way to the person who needs it most. Our journey began with a love for the earth's most beautiful creations and a desire to share their healing power with the world.
       </p>
       <div class="about-socials">
-        <a href="https://www.tiktok.com/shop/store/aureate-crystals/7494195608991336048" target="_blank" class="social-link" title="TikTok Shop">♪</a>
         <a href="#" class="social-link" title="Instagram">✦</a>
       </div>
     </div>
@@ -1939,16 +1938,12 @@ function openPDP(productId) {
       // Everything sold out — still show product-level price
       document.getElementById('pdpPrice').textContent = '$' + product.price.toFixed(2);
     }
-  } else if (variants && variants.length === 1) {
+  } else {
+    // No variants OR exactly one variant — both render as a single
+    // one-of-a-kind piece (the most common case for natural crystals).
     labelEl.style.display = 'none';
     noVarEl.style.display = 'block';
     noVarEl.textContent = 'One-of-a-kind piece';
-    variantsEl.style.display = 'none';
-    selectedEl.innerHTML = '';
-  } else {
-    labelEl.style.display = 'none';
-    noVarEl.style.display = 'block';
-    noVarEl.textContent = 'Click to view on TikTok Shop for available styles';
     variantsEl.style.display = 'none';
     selectedEl.innerHTML = '';
   }
