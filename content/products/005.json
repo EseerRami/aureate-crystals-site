@@ -1,0 +1,76 @@
+{
+  "id": 5,
+  "name": "Agate Druzy Crystal Decorative Set — Heart Star Oval on Gold Stands",
+  "price": 142,
+  "image": "https://p19-oec-general-useast5.ttcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/9e9a0abdfae54e07af406108de58d93f~tplv-fhlh96nyum-crop-webp:300:300.webp",
+  "description": "",
+  "rating": 5,
+  "sold": 12,
+  "chakra": [
+    "crown",
+    "heart"
+  ],
+  "properties": "love, harmony, decoration",
+  "variants": [
+    {
+      "name": "C - medium star",
+      "price": 142,
+      "available": true,
+      "image": "https://p16-oec-general-useast5.ttcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/5e6fbca8a6384c87aa803b7cd996c90f~tplv-fhlh96nyum-crop-webp:300:300.webp"
+    },
+    {
+      "name": "F - heart",
+      "price": 0,
+      "available": false,
+      "image": "https://p16-oec-general-useast5.ttcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/b3245b86641844868d4a7ad5599c965b~tplv-fhlh96nyum-crop-webp:300:300.webp"
+    },
+    {
+      "name": "G - heart",
+      "price": 0,
+      "available": false,
+      "image": "https://p16-oec-general-useast5.ttcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/0837876ddf4144c28234535c50c78fad~tplv-fhlh96nyum-crop-webp:300:300.webp"
+    },
+    {
+      "name": "H - heart",
+      "price": 0,
+      "available": false,
+      "image": "https://p16-oec-general-useast5.ttcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/243b907168c54e08ac1a580ec7fa9d33~tplv-fhlh96nyum-crop-webp:300:300.webp"
+    },
+    {
+      "name": "I - moon",
+      "price": 0,
+      "available": false,
+      "image": "https://p16-oec-general-useast5.ttcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/ec275d54ee634adab900503474621755~tplv-fhlh96nyum-crop-webp:300:300.webp"
+    },
+    {
+      "name": "J - moon",
+      "price": 0,
+      "available": false,
+      "image": "https://p16-oec-general-useast5.ttcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/5437e7dc56964a23a9c36c79b8483d9e~tplv-fhlh96nyum-crop-webp:300:300.webp"
+    },
+    {
+      "name": "K - moon",
+      "price": 57,
+      "available": true,
+      "image": "https://p16-oec-general-useast5.ttcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/e9e427193589451086bdce71e7d040c2~tplv-fhlh96nyum-crop-webp:300:300.webp"
+    },
+    {
+      "name": "L - moon",
+      "price": 0,
+      "available": false,
+      "image": "https://p16-oec-general-useast5.ttcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/ef68e22974504be89d44fa70c92ba539~tplv-fhlh96nyum-crop-webp:300:300.webp"
+    },
+    {
+      "name": "M - moon",
+      "price": 0,
+      "available": false,
+      "image": "https://p16-oec-general-useast5.ttcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/f205e03717bc4d8994591fb90cbaabec~tplv-fhlh96nyum-crop-webp:300:300.webp"
+    },
+    {
+      "name": "N - moon",
+      "price": 0,
+      "available": false,
+      "image": "https://p16-oec-general-useast5.ttcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/4a05c6e9bbe441db8829a38f0ce5aecb~tplv-fhlh96nyum-crop-webp:300:300.webp"
+    }
+  ]
+}

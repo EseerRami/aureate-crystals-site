@@ -1,0 +1,64 @@
+{
+  "id": 3,
+  "name": "Genuine Moldavite — Authentic Czech Tektite",
+  "price": 29,
+  "image": "https://p16-oec-general-useast5.ttcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/56f26b83c5ac49aea66ec50c35071970~tplv-fhlh96nyum-crop-webp:300:300.webp",
+  "description": "",
+  "rating": 5,
+  "sold": 14,
+  "chakra": [
+    "heart",
+    "third-eye"
+  ],
+  "properties": "transformation, awakening, high-vibration",
+  "variants": [
+    {
+      "name": "A",
+      "price": 42,
+      "available": true,
+      "image": "https://p16-oec-general-useast5.ttcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/b0f3db6e49f74869b869dd92bca19919~tplv-fhlh96nyum-crop-webp:300:300.webp"
+    },
+    {
+      "name": "B",
+      "price": 42,
+      "available": true,
+      "image": "https://p16-oec-general-useast5.ttcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/a1b414de2d904d15b945e38388e9bfa3~tplv-fhlh96nyum-crop-webp:300:300.webp"
+    },
+    {
+      "name": "C",
+      "price": 0,
+      "available": false,
+      "image": "https://p16-oec-general-useast5.ttcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/29c19a00940f4758bf4e4d22f4f9388e~tplv-fhlh96nyum-crop-webp:300:300.webp"
+    },
+    {
+      "name": "D",
+      "price": 29,
+      "available": true,
+      "image": "https://p16-oec-general-useast5.ttcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/5598dbf963e54c45bec7a1ea21eeccac~tplv-fhlh96nyum-crop-webp:300:300.webp"
+    },
+    {
+      "name": "E",
+      "price": 0,
+      "available": false,
+      "image": "https://p16-oec-general-useast5.ttcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/f03304debf9b4d51955380b71f4e0ee9~tplv-fhlh96nyum-crop-webp:300:300.webp"
+    },
+    {
+      "name": "F",
+      "price": 33,
+      "available": true,
+      "image": "https://p16-oec-general-useast5.ttcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/c417f5e0507448a194d00ecfabd3964e~tplv-fhlh96nyum-crop-webp:300:300.webp"
+    },
+    {
+      "name": "G",
+      "price": 0,
+      "available": false,
+      "image": "https://p16-oec-general-useast5.ttcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/efec07687b034dce9b97ba9b278f1162~tplv-fhlh96nyum-crop-webp:300:300.webp"
+    },
+    {
+      "name": "H",
+      "price": 0,
+      "available": false,
+      "image": "https://p16-oec-general-useast5.ttcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/556cda619bfb441797409594734a8819~tplv-fhlh96nyum-crop-webp:300:300.webp"
+    }
+  ]
+}

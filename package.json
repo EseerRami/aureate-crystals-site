@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "private": true,
   "description": "Aureate Crystals storefront — static site + Netlify Functions for Stripe Checkout.",
+  "scripts": {
+    "build": "node scripts/build-catalog.js",
+    "migrate": "node scripts/migrate-to-cms.js"
+  },
   "dependencies": {
     "stripe": "^17.3.1"
   }

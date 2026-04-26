@@ -1,0 +1,94 @@
+{
+  "id": 9,
+  "name": "Golden Rutile Quartz for Spiritual Healing & Meditation",
+  "price": 48,
+  "image": "https://p16-oec-general-useast5.ttcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/7d204ed17f40481ab21424ed6f1446d8~tplv-fhlh96nyum-crop-webp:300:300.webp",
+  "description": "",
+  "rating": 5,
+  "sold": 8,
+  "chakra": [
+    "solar-plexus",
+    "crown"
+  ],
+  "properties": "clarity, abundance, manifestation",
+  "variants": [
+    {
+      "name": "B",
+      "price": 20,
+      "available": true,
+      "image": "https://p16-oec-general-useast5.ttcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/cd0398aa400149719999c7786330048a~tplv-fhlh96nyum-crop-webp:300:300.webp"
+    },
+    {
+      "name": "A",
+      "price": 36,
+      "available": true,
+      "image": "https://p16-oec-general-useast5.ttcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/a67de9f434104844b5a3071d2c216ff5~tplv-fhlh96nyum-crop-webp:300:300.webp"
+    },
+    {
+      "name": "B-2",
+      "price": 56,
+      "available": true,
+      "image": "https://p16-oec-general-useast5.ttcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/7cde3bbc813643128008b5599718fb0a~tplv-fhlh96nyum-crop-webp:300:300.webp"
+    },
+    {
+      "name": "C",
+      "price": 29,
+      "available": true,
+      "image": "https://p16-oec-general-useast5.ttcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/743f4bca70394395be72a153e0f2f616~tplv-fhlh96nyum-crop-webp:300:300.webp"
+    },
+    {
+      "name": "D",
+      "price": 38,
+      "available": true,
+      "image": "https://p16-oec-general-useast5.ttcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/71e8c714961c49c499458ed04792e67e~tplv-fhlh96nyum-crop-webp:300:300.webp"
+    },
+    {
+      "name": "E",
+      "price": 0,
+      "available": false,
+      "image": "https://p16-oec-general-useast5.ttcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/6a9b444a73b84967818e2029b05e7ec0~tplv-fhlh96nyum-crop-webp:300:300.webp"
+    },
+    {
+      "name": "F",
+      "price": 69,
+      "available": true,
+      "image": "https://p16-oec-general-useast5.ttcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/92407af025e342959738f49f3cca58ba~tplv-fhlh96nyum-crop-webp:300:300.webp"
+    },
+    {
+      "name": "G",
+      "price": 27,
+      "available": true,
+      "image": "https://p16-oec-general-useast5.ttcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/137b69cfcfac422abb5734554d0e3916~tplv-fhlh96nyum-crop-webp:300:300.webp"
+    },
+    {
+      "name": "H",
+      "price": 57,
+      "available": true,
+      "image": "https://p16-oec-general-useast5.ttcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/281e17a7eace4052823a07ec3f10be70~tplv-fhlh96nyum-crop-webp:300:300.webp"
+    },
+    {
+      "name": "I",
+      "price": 48,
+      "available": true,
+      "image": "https://p16-oec-general-useast5.ttcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/711a6382204d452387f1870afd4209a3~tplv-fhlh96nyum-crop-webp:300:300.webp"
+    },
+    {
+      "name": "J",
+      "price": 37,
+      "available": true,
+      "image": "https://p16-oec-general-useast5.ttcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/9292278c8d354884b40f6d32e7718a70~tplv-fhlh96nyum-crop-webp:300:300.webp"
+    },
+    {
+      "name": "K",
+      "price": 64,
+      "available": true,
+      "image": "https://p16-oec-general-useast5.ttcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/9707d2cc1ee24d23be004b984620dd95~tplv-fhlh96nyum-crop-webp:300:300.webp"
+    },
+    {
+      "name": "L",
+      "price": 49,
+      "available": true,
+      "image": "https://p16-oec-general-useast5.ttcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/c2395c23c9c24ed5902569aad8d89d00~tplv-fhlh96nyum-crop-webp:300:300.webp"
+    }
+  ]
+}

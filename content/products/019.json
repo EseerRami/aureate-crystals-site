@@ -1,0 +1,88 @@
+{
+  "id": 19,
+  "name": "Pink Halite from Southern California",
+  "price": 77,
+  "image": "https://p16-oec-general-useast5.ttcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/ca41f694023044e4afd8305203419d25~tplv-fhlh96nyum-crop-webp:300:300.webp",
+  "description": "",
+  "rating": 5,
+  "sold": 5,
+  "chakra": [
+    "heart",
+    "crown"
+  ],
+  "properties": "love, peace, cleansing",
+  "variants": [
+    {
+      "name": "A- moon on stand",
+      "price": 0,
+      "available": false,
+      "image": "https://p16-oec-general-useast5.ttcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/7e5f872158ba46569e6907a43fd9ab73~tplv-fhlh96nyum-crop-webp:300:300.webp"
+    },
+    {
+      "name": "B- moon on stand",
+      "price": 0,
+      "available": false,
+      "image": "https://p16-oec-general-useast5.ttcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/a191bf94388741e38e0d0b0d81e0bc21~tplv-fhlh96nyum-crop-webp:300:300.webp"
+    },
+    {
+      "name": "C- moon on stand",
+      "price": 0,
+      "available": false,
+      "image": "https://p16-oec-general-useast5.ttcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/d1a5d5a31bb24fa49afa3b388dfb3402~tplv-fhlh96nyum-crop-webp:300:300.webp"
+    },
+    {
+      "name": "D- moon on stand",
+      "price": 67,
+      "available": true,
+      "image": "https://p16-oec-general-useast5.ttcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/f36a8b0842cf40758b5efdabf0fce4b0~tplv-fhlh96nyum-crop-webp:300:300.webp"
+    },
+    {
+      "name": "A- heart on stand",
+      "price": 0,
+      "available": false,
+      "image": "https://p16-oec-general-useast5.ttcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/5428b59862fa48ccbd5639fa27f7a650~tplv-fhlh96nyum-crop-webp:300:300.webp"
+    },
+    {
+      "name": "B- heart on stand",
+      "price": 0,
+      "available": false,
+      "image": "https://p16-oec-general-useast5.ttcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/2b510433995f49fcb5e332d59e49c577~tplv-fhlh96nyum-crop-webp:300:300.webp"
+    },
+    {
+      "name": "C- heart on stand",
+      "price": 67,
+      "available": true,
+      "image": "https://p16-oec-general-useast5.ttcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/c06d1df729104ebb803064a668722171~tplv-fhlh96nyum-crop-webp:300:300.webp"
+    },
+    {
+      "name": "A- small moon",
+      "price": 29,
+      "available": true,
+      "image": "https://p16-oec-general-useast5.ttcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/5fc086d3321d47c888edc2e30886b6c0~tplv-fhlh96nyum-crop-webp:300:300.webp"
+    },
+    {
+      "name": "B- small moon",
+      "price": 0,
+      "available": false,
+      "image": "https://p16-oec-general-useast5.ttcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/fb2e1b7904c14815a19ebd68c133a962~tplv-fhlh96nyum-crop-webp:300:300.webp"
+    },
+    {
+      "name": "C- small moon",
+      "price": 29,
+      "available": true,
+      "image": "https://p16-oec-general-useast5.ttcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/41400505b89042e7903148c0136d31e6~tplv-fhlh96nyum-crop-webp:300:300.webp"
+    },
+    {
+      "name": "D- small heart",
+      "price": 21,
+      "available": true,
+      "image": "https://p16-oec-general-useast5.ttcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/04c2f22409cf4f3180b2dc253641e785~tplv-fhlh96nyum-crop-webp:300:300.webp"
+    },
+    {
+      "name": "E- small heart",
+      "price": 21,
+      "available": true,
+      "image": "https://p16-oec-general-useast5.ttcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/76238223a8114b159cd24965f74c36ea~tplv-fhlh96nyum-crop-webp:300:300.webp"
+    }
+  ]
+}

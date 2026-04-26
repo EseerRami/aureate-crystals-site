@@ -1,0 +1,110 @@
+# Decap CMS configuration for Aureate Crystals.
+# Wife edits products through this admin UI; changes commit straight to the
+# repo via Netlify Git Gateway. Netlify rebuilds and deploys automatically.
+
+backend:
+  name: git-gateway
+  branch: main
+
+# Wife's image uploads land here; site references them at /assets/products/*.
+media_folder: assets/products
+public_folder: /assets/products
+
+# No editorial workflow — Save = publish. Simpler for a 1-person team.
+publish_mode: simple
+
+# Friendly site URL shown in the admin header.
+site_url: /
+display_url: /
+
+collections:
+  - name: products
+    label: Crystals
+    label_singular: Crystal
+    folder: content/products
+    create: true
+    delete: true
+    extension: json
+    format: json
+    slug: '{{fields.id}}'
+    summary: '{{fields.name}} — ${{fields.price}}'
+    sortable_fields: [id, name, price, sold]
+    fields:
+      - label: ID
+        name: id
+        widget: number
+        value_type: int
+        min: 1
+        hint: 'Unique number. For new products, pick the next unused number (e.g. 91, 92…).'
+
+      - label: Name
+        name: name
+        widget: string
+
+      - label: Price (USD)
+        name: price
+        widget: number
+        value_type: float
+        min: 0
+        step: 0.01
+
+      - label: Main image
+        name: image
+        widget: image
+        required: false
+        hint: 'Square image works best. Drop a file or click to upload.'
+
+      - label: Description
+        name: description
+        widget: text
+        required: false
+
+      - label: Rating (0-5 stars)
+        name: rating
+        widget: number
+        value_type: int
+        min: 0
+        max: 5
+        default: 5
+        required: false
+
+      - label: Sold count
+        name: sold
+        widget: number
+        value_type: int
+        min: 0
+        default: 0
+        required: false
+        hint: 'Shown as a "X SOLD" badge on the product card.'
+
+      - label: Chakras
+        name: chakra
+        widget: select
+        multiple: true
+        required: false
+        options:
+          - root
+          - sacral
+          - solar-plexus
+          - heart
+          - throat
+          - third-eye
+          - crown
+          - all
+
+      - label: Properties / tags
+        name: properties
+        widget: list
+        required: false
+        hint: 'Comma-separated tags like: meditation, peace, abundance'
+
+      - label: Variants (sizes / colors / styles)
+        name: variants
+        widget: list
+        required: false
+        summary: '{{fields.name}} — ${{fields.price}}{{#if fields.available}}{{else}} (sold out){{/if}}'
+        fields:
+          - { label: Variant name, name: name, widget: string }
+          - { label: Price (USD), name: price, widget: number, value_type: float, min: 0, step: 0.01 }
+          - { label: Available, name: available, widget: boolean, default: true }
+          - { label: Image, name: image, widget: image, required: false }

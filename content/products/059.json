@@ -1,0 +1,15 @@
+{
+  "id": 59,
+  "name": "Sea Jasper Slices",
+  "price": 35,
+  "image": "https://p16-oec-general-useast8.ttcdn-us.com/tos-useast8-i-rt0ujvrtvp-tx2/749aa0d576f849cfa0c88068938525cf~tplv-fhlh96nyum-crop-webp:300:300.webp",
+  "description": "",
+  "rating": 5,
+  "sold": 2,
+  "chakra": [
+    "heart",
+    "solar-plexus"
+  ],
+  "properties": "joy, nature, healing",
+  "variants": []
+}

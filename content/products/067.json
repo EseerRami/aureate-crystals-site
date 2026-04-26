@@ -1,0 +1,15 @@
+{
+  "id": 67,
+  "name": "Serpentine Palm Stone",
+  "price": 12,
+  "image": "https://p16-oec-general-useast8.ttcdn-us.com/tos-useast8-i-rt0ujvrtvp-tx2/77a17622420d423c82fad8f490c2c150~tplv-fhlh96nyum-crop-webp:300:300.webp",
+  "description": "",
+  "rating": 0,
+  "sold": 0,
+  "chakra": [
+    "heart",
+    "crown"
+  ],
+  "properties": "healing, spiritual-growth, nature",
+  "variants": []
+}

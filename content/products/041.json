@@ -1,0 +1,14 @@
+{
+  "id": 41,
+  "name": "Rose Quartz Sphere Crystal",
+  "price": 25,
+  "image": "https://p16-oec-general-useast5.ttcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/23c5a0a261d94ffaa90baf9d8a09a5aa~tplv-fhlh96nyum-crop-webp:300:300.webp",
+  "description": "",
+  "rating": 5,
+  "sold": 3,
+  "chakra": [
+    "heart"
+  ],
+  "properties": "love, peace, healing",
+  "variants": []
+}

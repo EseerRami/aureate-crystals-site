@@ -1,0 +1,70 @@
+{
+  "id": 14,
+  "name": "Rainbow Sugar Amethyst Chunks — Natural Healing Crystals",
+  "price": 30,
+  "image": "https://p16-oec-general-useast5.ttcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/db41fd60fd9f42d58bbfe6c9ff281819~tplv-fhlh96nyum-crop-webp:300:300.webp",
+  "description": "",
+  "rating": 5,
+  "sold": 6,
+  "chakra": [
+    "crown",
+    "third-eye"
+  ],
+  "properties": "peace, intuition, spiritual-growth",
+  "variants": [
+    {
+      "name": "A",
+      "price": 0,
+      "available": false,
+      "image": "https://p16-oec-general-useast5.ttcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/6843f172577b4816a969c37297fce089~tplv-fhlh96nyum-crop-webp:300:300.webp"
+    },
+    {
+      "name": "B",
+      "price": 0,
+      "available": false,
+      "image": "https://p16-oec-general-useast5.ttcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/a82e9e7c09ea47f3ae18a8a9201828e1~tplv-fhlh96nyum-crop-webp:300:300.webp"
+    },
+    {
+      "name": "C",
+      "price": 0,
+      "available": false,
+      "image": "https://p16-oec-general-useast5.ttcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/f467e0492bf344e981afb57d7f85e2d9~tplv-fhlh96nyum-crop-webp:300:300.webp"
+    },
+    {
+      "name": "D",
+      "price": 0,
+      "available": false,
+      "image": "https://p16-oec-general-useast5.ttcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/805e8a604d2843d58447cd9ddf9b9733~tplv-fhlh96nyum-crop-webp:300:300.webp"
+    },
+    {
+      "name": "E",
+      "price": 47,
+      "available": true,
+      "image": "https://p16-oec-general-useast5.ttcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/47b97ca640fd44858c189c7d8c802e9a~tplv-fhlh96nyum-crop-webp:300:300.webp"
+    },
+    {
+      "name": "F",
+      "price": 0,
+      "available": false,
+      "image": "https://p16-oec-general-useast5.ttcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/ba149e1f600f4fdb8799491c177a3433~tplv-fhlh96nyum-crop-webp:300:300.webp"
+    },
+    {
+      "name": "G",
+      "price": 28,
+      "available": true,
+      "image": "https://p16-oec-general-useast5.ttcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/284241e663e847729e5299a380a1fd44~tplv-fhlh96nyum-crop-webp:300:300.webp"
+    },
+    {
+      "name": "H",
+      "price": 0,
+      "available": false,
+      "image": "https://p16-oec-general-useast5.ttcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/c2880de5d91346fe847314c5833906cb~tplv-fhlh96nyum-crop-webp:300:300.webp"
+    },
+    {
+      "name": "I",
+      "price": 65,
+      "available": true,
+      "image": "https://p16-oec-general-useast5.ttcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/e341136fe04643099c6990e5df5095de~tplv-fhlh96nyum-crop-webp:300:300.webp"
+    }
+  ]
+}

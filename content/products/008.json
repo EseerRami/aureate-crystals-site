@@ -1,0 +1,57 @@
+{
+  "id": 8,
+  "name": "Charging Kits — Selenite and Palo Santo for Energy Healing",
+  "price": 14,
+  "image": "https://p16-oec-general-useast5.ttcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/7408e1fd11224db88b404b293f74a885~tplv-fhlh96nyum-crop-webp:300:300.webp",
+  "description": "",
+  "rating": 5,
+  "sold": 8,
+  "chakra": [
+    "crown"
+  ],
+  "properties": "cleansing, healing, peace",
+  "variants": [
+    {
+      "name": "Moon Phases and Palo Santo",
+      "price": 18,
+      "available": true,
+      "image": "https://p16-oec-general-useast5.ttcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/f2d026cc396f423b80305dcfa9df49a3~tplv-fhlh96nyum-crop-webp:300:300.webp"
+    },
+    {
+      "name": "Large Selenite and Palo Santo",
+      "price": 8,
+      "available": true,
+      "image": "https://p16-oec-general-useast5.ttcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/8d84fd6f5d3a44fc9c89eab733235311~tplv-fhlh96nyum-crop-webp:300:300.webp"
+    },
+    {
+      "name": "Palo Santo",
+      "price": 3,
+      "available": true,
+      "image": "https://p16-oec-general-useast5.ttcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/3f9988d26ec849e0a23eab96c8176017~tplv-fhlh96nyum-crop-webp:300:300.webp"
+    },
+    {
+      "name": "Flower of Life Plate 4”",
+      "price": 14,
+      "available": true,
+      "image": "https://p16-oec-general-useast5.ttcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/c5bff668597648e9b3a51f8e0ac2daf1~tplv-fhlh96nyum-crop-webp:300:300.webp"
+    },
+    {
+      "name": "Tree, Sun, and Moon Plate 4”",
+      "price": 14,
+      "available": true,
+      "image": "https://p16-oec-general-useast5.ttcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/20b1f654802240bdb27b90671f999c43~tplv-fhlh96nyum-crop-webp:300:300.webp"
+    },
+    {
+      "name": "Moon Phases and Sun Plate 6”",
+      "price": 23,
+      "available": true,
+      "image": "https://p16-oec-general-useast5.ttcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/cabaaf2a5cb7423caab9b21d8e3a68c4~tplv-fhlh96nyum-crop-webp:300:300.webp"
+    },
+    {
+      "name": "Heart with Wings",
+      "price": 8,
+      "available": true,
+      "image": "https://p16-oec-general-useast5.ttcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/f1875dd484d44587ab537b2d65776e8e~tplv-fhlh96nyum-crop-webp:300:300.webp"
+    }
+  ]
+}
