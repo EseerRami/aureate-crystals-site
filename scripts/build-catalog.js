@@ -114,7 +114,29 @@ if (!variantsRe.test(html)) {
 }
 html = html.replace(variantsRe, variantsBlock);
 
-fs.writeFileSync(INDEX, html);
+// ───── Inject build-time flags (mode + maintenance) ─────
+function flagsScript(mode, maintenance) {
+  return `<script>
+  // Build-time flags. Live page sets mode='live'; /testing/ sets mode='test'.
+  window.AUREATE_MODE = ${JSON.stringify(mode)};
+  window.AUREATE_MAINTENANCE = ${maintenance ? 'true' : 'false'};
+</script>`;
+}
+const FLAGS_MARKER = /<!-- @@BUILD_FLAGS@@ -->[\s\S]*?(?=<\/head>|<script src="https:\/\/identity\.netlify\.com)/;
+// Match the marker through any prior generated flags block.
+const flagsRe = /<!-- @@BUILD_FLAGS@@ -->(\s*<script>[\s\S]*?<\/script>)?/;
+
+const maintenance = process.env.MAINTENANCE_MODE === 'true';
+
+const liveHtml = html.replace(flagsRe, '<!-- @@BUILD_FLAGS@@ -->\n' + flagsScript('live', maintenance));
+fs.writeFileSync(INDEX, liveHtml);
+
+// Mirror site for owner test purchases. Always shop-visible (maintenance flag
+// not honored) so QA work isn't blocked when the public site is down.
+const testHtml = html.replace(flagsRe, '<!-- @@BUILD_FLAGS@@ -->\n' + flagsScript('test', false));
+const TESTING_DIR = path.join(ROOT, 'testing');
+fs.mkdirSync(TESTING_DIR, { recursive: true });
+fs.writeFileSync(path.join(TESTING_DIR, 'index.html'), testHtml);
 
 // ───── Write data/products.json (slim Stripe-ready) ─────
 fs.mkdirSync(path.dirname(OUT_PROD), { recursive: true });

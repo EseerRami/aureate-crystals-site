@@ -10,7 +10,9 @@
  * and send a crystal at $0.01. We never trust client-sent prices —
  * only (productId, variantName, qty) — and look up the real price.
  *
- * Required env var: STRIPE_SECRET_KEY  (set in Netlify dashboard)
+ * Required env vars (set in Netlify dashboard):
+ *   STRIPE_SECRET_KEY   — live mode key (sk_live_…)
+ *   STRIPE_TEST_KEY     — test mode key (sk_test_…); used when client posts mode='test'
  */
 
 const fs = require('fs');
@@ -31,15 +33,21 @@ exports.handler = async (event) => {
     return { statusCode: 405, body: JSON.stringify({ error: 'Method not allowed' }) };
   }
 
-  const stripeKey = process.env.STRIPE_SECRET_KEY;
-  if (!stripeKey) {
-    return { statusCode: 500, body: JSON.stringify({ error: 'Stripe is not configured (STRIPE_SECRET_KEY missing).' }) };
-  }
-  const stripe = new Stripe(stripeKey, { apiVersion: '2024-11-20.acacia' });
-
   let body;
   try { body = JSON.parse(event.body || '{}'); }
   catch { return { statusCode: 400, body: JSON.stringify({ error: 'Invalid JSON' }) }; }
+
+  // Test vs live mode is decided by the client (which page sent the request).
+  // /testing/ sends mode='test' → uses STRIPE_TEST_KEY; otherwise live.
+  const mode = body.mode === 'test' ? 'test' : 'live';
+  const stripeKey = mode === 'test' ? process.env.STRIPE_TEST_KEY : process.env.STRIPE_SECRET_KEY;
+  if (!stripeKey) {
+    return {
+      statusCode: 500,
+      body: JSON.stringify({ error: `Stripe ${mode} mode is not configured on the server.` }),
+    };
+  }
+  const stripe = new Stripe(stripeKey, { apiVersion: '2024-11-20.acacia' });
 
   const items = Array.isArray(body.items) ? body.items : [];
   if (!items.length) {
@@ -112,11 +120,14 @@ exports.handler = async (event) => {
   // Stripe metadata caps each value at 500 chars. Compact manifest fits
   // ~20 line items in 500B; chunk if your catalog ever exceeds that.
   const cartJson = JSON.stringify(cartManifest);
+  // Return to wherever the buyer came from — keep test mode buyers on /testing/.
+  const returnPath = mode === 'test' ? '/testing/' : '/';
+
   const sessionParams = {
     mode: 'payment',
     line_items,
-    success_url: `${origin}/?checkout=success`,
-    cancel_url: `${origin}/?checkout=cancel`,
+    success_url: `${origin}${returnPath}?checkout=success`,
+    cancel_url: `${origin}${returnPath}?checkout=cancel`,
     shipping_address_collection: { allowed_countries: ['US', 'CA'] },
     phone_number_collection: { enabled: false },
     automatic_tax: { enabled: false },
