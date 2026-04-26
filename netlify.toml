@@ -7,6 +7,9 @@
 [functions]
   # Bundle node_modules for functions via esbuild (fast + small).
   node_bundler = "esbuild"
+  # Bundle the catalog JSON alongside the function code so checkout can
+  # validate prices server-side. Without this, esbuild ships only JS.
+  included_files = ["data/products.json", "data/variant-prices.clean.json"]
 
 [build.processing]
   skip_processing = false

@@ -756,7 +756,7 @@ footer {
 
 <!-- TEST MODE BANNER (shown only on /testing/) -->
 <div id="ac-test-banner" style="display:none;position:fixed;top:0;left:0;right:0;background:#1d4ed8;color:#fff;padding:8px 16px;text-align:center;font-family:system-ui,sans-serif;font-size:13px;font-weight:600;letter-spacing:0.5px;z-index:99999;box-shadow:0 2px 8px rgba(0,0,0,0.3);">
-  🧪 TEST MODE — Use card 4242 4242 4242 4242 · No real money charged · No inventory updates
+  🧪 TEST MODE — no real money · use card 4242 4242 4242 4242
 </div>
 
 <!-- MAINTENANCE OVERLAY (env-controlled — hides shop from public) -->
@@ -769,10 +769,14 @@ footer {
 </div>
 
 <script>
-  (function() {
+  // Run after nav is in DOM so we can shift it below the banner. Both the
+  // nav and the banner are position:fixed top:0 so they'd overlap otherwise.
+  document.addEventListener('DOMContentLoaded', function() {
     if (window.AUREATE_MODE === 'test') {
       var b = document.getElementById('ac-test-banner');
       if (b) b.style.display = 'block';
+      var nav = document.getElementById('nav');
+      if (nav) nav.style.top = '36px';
       document.body.style.paddingTop = '36px';
     }
     if (window.AUREATE_MAINTENANCE) {
@@ -780,7 +784,7 @@ footer {
       if (m) m.style.display = 'flex';
       document.body.style.overflow = 'hidden';
     }
-  })();
+  });
 </script>
 
 <!-- PARTICLES -->
