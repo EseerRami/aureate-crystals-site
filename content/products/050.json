@@ -1,15 +1,14 @@
 {
-  "id": 50,
   "name": "Green Apophyllite with Stilbite Crystal Cluster on Basalt",
+  "available": true,
   "price": 17,
   "image": "https://p16-oec-general-useast8.ttcdn-us.com/tos-useast8-i-rt0ujvrtvp-tx2/b78d7b6ef70e47b79accced42bce5944~tplv-fhlh96nyum-crop-webp:300:300.webp",
   "description": "",
-  "rating": 5,
-  "sold": 2,
   "chakra": [
     "heart",
     "crown"
   ],
   "properties": "healing, spiritual-growth, nature",
-  "variants": []
+  "variants": [],
+  "created": "2024-02-20T00:00:00.000Z"
 }

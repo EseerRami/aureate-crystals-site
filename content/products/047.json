@@ -1,14 +1,13 @@
 {
-  "id": 47,
   "name": "Large Selenite Sphere Energy Charger 4-5in",
+  "available": true,
   "price": 67,
   "image": "https://p16-oec-general-useast8.ttcdn-us.com/tos-useast8-i-rt0ujvrtvp-tx2/5a66c55bb0d34164978fcc5a38d905de~tplv-fhlh96nyum-crop-webp:300:300.webp",
   "description": "",
-  "rating": 5,
-  "sold": 3,
   "chakra": [
     "crown"
   ],
   "properties": "cleansing, peace, high-vibration",
-  "variants": []
+  "variants": [],
+  "created": "2024-02-17T00:00:00.000Z"
 }

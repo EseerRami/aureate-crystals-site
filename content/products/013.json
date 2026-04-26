@@ -1,11 +1,9 @@
 {
-  "id": 13,
   "name": "Green Fluorite (Baja Blast) Crystal Spheres, Towers, Palms",
+  "available": true,
   "price": 56,
   "image": "https://p16-oec-general-useast8.ttcdn-us.com/tos-useast8-i-rt0ujvrtvp-tx2/d5872dffeec34a058588b38f9cd47f7c~tplv-fhlh96nyum-crop-webp:300:300.webp",
   "description": "",
-  "rating": 5,
-  "sold": 6,
   "chakra": [
     "heart",
     "third-eye"
@@ -90,5 +88,6 @@
       "available": true,
       "image": "https://p16-oec-general-useast5.ttcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/34f63f04f7b44f0d87a42cb12e74536b~tplv-fhlh96nyum-crop-webp:300:300.webp"
     }
-  ]
+  ],
+  "created": "2024-01-14T00:00:00.000Z"
 }

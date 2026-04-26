@@ -26,20 +26,23 @@ collections:
     delete: true
     extension: json
     format: json
-    slug: '{{fields.id}}'
-    summary: '{{fields.name}} — ${{fields.price}}'
-    sortable_fields: [id, name, price, sold]
+    # Filename auto-derived from product name (e.g. "Rose Quartz Heart" →
+    # rose-quartz-heart.json). No manual ID picking — collisions impossible.
+    slug: '{{slug}}'
+    identifier_field: name
+    summary: '{{fields.name}} — ${{fields.price}}{{#if fields.available}}{{else}} · SOLD{{/if}}'
+    sortable_fields: [name, price, created]
     fields:
-      - label: ID
-        name: id
-        widget: number
-        value_type: int
-        min: 1
-        hint: 'Unique number. For new products, pick the next unused number (e.g. 91, 92…).'
-
       - label: Name
         name: name
         widget: string
+        hint: 'The filename and URL-friendly id are auto-generated from this name.'
+
+      - label: Available for purchase
+        name: available
+        widget: boolean
+        default: true
+        hint: 'Auto-flips to false after a Stripe sale. Toggle back on to re-list.'
 
       - label: Price (USD)
         name: price
@@ -58,24 +61,6 @@ collections:
         name: description
         widget: text
         required: false
-
-      - label: Rating (0-5 stars)
-        name: rating
-        widget: number
-        value_type: int
-        min: 0
-        max: 5
-        default: 5
-        required: false
-
-      - label: Sold count
-        name: sold
-        widget: number
-        value_type: int
-        min: 0
-        default: 0
-        required: false
-        hint: 'Shown as a "X SOLD" badge on the product card.'
 
       - label: Chakras
         name: chakra
@@ -108,3 +93,9 @@ collections:
           - { label: Price (USD), name: price, widget: number, value_type: float, min: 0, step: 0.01 }
           - { label: Available, name: available, widget: boolean, default: true }
           - { label: Image, name: image, widget: image, required: false }
+
+      # Hidden — auto-set to creation timestamp; used to sort newest-first.
+      - label: Created
+        name: created
+        widget: hidden
+        default: '{{now}}'

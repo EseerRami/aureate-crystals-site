@@ -1,14 +1,13 @@
 {
-  "id": 37,
   "name": "Velvet Malachite Specimen — Abundance Stone",
+  "available": true,
   "price": 19,
   "image": "https://p16-oec-general-useast5.ttcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/5fcbc801da8e485db0e254922211b0db~tplv-fhlh96nyum-crop-webp:300:300.webp",
   "description": "",
-  "rating": 5,
-  "sold": 3,
   "chakra": [
     "heart"
   ],
   "properties": "abundance, transformation, healing",
-  "variants": []
+  "variants": [],
+  "created": "2024-02-07T00:00:00.000Z"
 }

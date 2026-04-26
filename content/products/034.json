@@ -1,15 +1,14 @@
 {
-  "id": 34,
   "name": "Lepidolite Palm Stone",
+  "available": true,
   "price": 20,
   "image": "https://p16-oec-general-useast8.ttcdn-us.com/tos-useast8-i-rt0ujvrtvp-tx2/ea2c0fc5edb84ad59515d76497f2cf05~tplv-fhlh96nyum-crop-webp:300:300.webp",
   "description": "",
-  "rating": 5,
-  "sold": 3,
   "chakra": [
     "third-eye",
     "crown"
   ],
   "properties": "peace, healing, transformation",
-  "variants": []
+  "variants": [],
+  "created": "2024-02-04T00:00:00.000Z"
 }

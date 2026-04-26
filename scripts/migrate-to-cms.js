@@ -73,16 +73,18 @@ function resolveVariantImage(i) {
 // ───── Write one file per product ─────
 fs.mkdirSync(OUT_DIR, { recursive: true });
 
+// Spread legacy products across a year so newest-first sort is sensible.
+// id 1 → oldest, id 90 → newest.
+const BASELINE = new Date('2024-01-01T00:00:00Z').getTime();
+
 for (const p of products) {
   const variantArr = variants[String(p.id)] || [];
   const entry = {
-    id: p.id,
     name: p.name,
+    available: true,                          // Stripe webhook flips to false on purchase
     price: p.price,
     image: p.image,                           // already full URL
     description: '',                          // wife can fill in
-    rating: typeof p.rating === 'number' ? p.rating : 5,
-    sold: typeof p.sold === 'number' ? p.sold : 0,
     chakra: Array.isArray(p.chakra) ? p.chakra : [],
     // CSV string — matches Decap's tag-style list widget (renders as chips)
     properties: Array.isArray(p.properties) ? p.properties.join(', ') : '',
@@ -92,7 +94,9 @@ for (const p of products) {
       available: !!v.a,
       image: resolveVariantImage(v.i),
     })),
+    created: new Date(BASELINE + p.id * 24 * 3600 * 1000).toISOString(),
   };
+  // Filename = stable id. Build script uses this as the product id (string).
   const filename = String(p.id).padStart(3, '0') + '.json';
   fs.writeFileSync(path.join(OUT_DIR, filename), JSON.stringify(entry, null, 2) + '\n');
 }

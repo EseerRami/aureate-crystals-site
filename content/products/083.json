@@ -1,15 +1,14 @@
 {
-  "id": 83,
   "name": "Marcasite Agate Flame and Palm Stone — Indonesia",
+  "available": true,
   "price": 27,
   "image": "https://p16-oec-general-useast8.ttcdn-us.com/tos-useast8-i-rt0ujvrtvp-tx2/f2d5ab2091194e1e9dd10b9e132030f2~tplv-fhlh96nyum-crop-webp:300:300.webp",
   "description": "",
-  "rating": 5,
-  "sold": 1,
   "chakra": [
     "root",
     "solar-plexus"
   ],
   "properties": "grounding, energy, protection",
-  "variants": []
+  "variants": [],
+  "created": "2024-03-24T00:00:00.000Z"
 }

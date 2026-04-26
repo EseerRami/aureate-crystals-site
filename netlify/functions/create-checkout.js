@@ -52,14 +52,17 @@ exports.handler = async (event) => {
     return { statusCode: 500, body: JSON.stringify({ error: 'Catalog data missing on server' }) };
   }
 
-  // Validate + build line_items from server-side catalog
+  // Validate + build line_items from server-side catalog.
+  // We also collect a compact cart manifest to attach to the Stripe session
+  // metadata — the post-purchase webhook reads it back to mark items sold.
   const line_items = [];
+  const cartManifest = [];
   for (const item of items) {
-    const productId = Number(item.id);
+    const productId = String(item.id);
     const variantName = (item.variantName || '').toString();
     const qty = Math.max(1, Math.min(99, Number(item.qty) || 1));
 
-    const product = PRODUCTS.find(p => p.id === productId);
+    const product = PRODUCTS.find(p => String(p.id) === productId);
     if (!product) {
       return { statusCode: 400, body: JSON.stringify({ error: `Unknown product id ${productId}` }) };
     }
@@ -67,8 +70,10 @@ exports.handler = async (event) => {
     let unitAmount;           // cents
     let displayName = product.name;
 
+    cartManifest.push({ id: productId, v: variantName, q: qty });
+
     if (variantName) {
-      const variants = VARIANTS[String(productId)] || [];
+      const variants = VARIANTS[productId] || [];
       const variant = variants.find(v => v.n === variantName);
       if (!variant) {
         return { statusCode: 400, body: JSON.stringify({ error: `Unknown variant "${variantName}" for product ${productId}` }) };
@@ -104,16 +109,28 @@ exports.handler = async (event) => {
   // Origin URL for success/cancel redirects
   const origin = event.headers.origin || `https://${event.headers.host || 'localhost'}`;
 
-  const session = await stripe.checkout.sessions.create({
+  // Stripe metadata caps each value at 500 chars. Compact manifest fits
+  // ~20 line items in 500B; chunk if your catalog ever exceeds that.
+  const cartJson = JSON.stringify(cartManifest);
+  const sessionParams = {
     mode: 'payment',
     line_items,
     success_url: `${origin}/?checkout=success`,
     cancel_url: `${origin}/?checkout=cancel`,
-    // Enable taxes + shipping when you're ready — for now, simplest flow.
     shipping_address_collection: { allowed_countries: ['US', 'CA'] },
     phone_number_collection: { enabled: false },
     automatic_tax: { enabled: false },
-  });
+  };
+  if (cartJson.length <= 500) {
+    sessionParams.metadata = { cart: cartJson };
+  } else {
+    // Fallback for huge carts — split into 1..N chunks (cart_0, cart_1, ...).
+    const chunks = cartJson.match(/.{1,490}/g) || [];
+    sessionParams.metadata = Object.fromEntries(
+      chunks.map((c, i) => ['cart_' + i, c]).concat([['cart_chunks', String(chunks.length)]])
+    );
+  }
+  const session = await stripe.checkout.sessions.create(sessionParams);
 
   return {
     statusCode: 200,

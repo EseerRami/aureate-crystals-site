@@ -1,14 +1,13 @@
 {
-  "id": 70,
   "name": "Gemstone Anklets",
+  "available": true,
   "price": 16,
   "image": "https://p16-oec-general-useast8.ttcdn-us.com/tos-useast8-i-rt0ujvrtvp-tx2/8e6e22e097f74087b85c04a59a080bd8~tplv-fhlh96nyum-crop-webp:300:300.webp",
   "description": "",
-  "rating": 0,
-  "sold": 0,
   "chakra": [
     "all"
   ],
   "properties": "energy, balance, joy",
-  "variants": []
+  "variants": [],
+  "created": "2024-03-11T00:00:00.000Z"
 }

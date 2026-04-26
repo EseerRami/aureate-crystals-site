@@ -1,11 +1,9 @@
 {
-  "id": 10,
   "name": "Freeform Labradorite Polished with Flash",
+  "available": true,
   "price": 53,
   "image": "https://p16-oec-general-useast5.ttcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/d7ff6c0971fb4b43bc4eb6ba09bb2e6e~tplv-fhlh96nyum-crop-webp:300:300.webp",
   "description": "",
-  "rating": 5,
-  "sold": 8,
   "chakra": [
     "third-eye",
     "throat"
@@ -30,5 +28,6 @@
       "available": true,
       "image": "https://p16-oec-general-useast5.ttcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/d6434bbfcf084fb4bac4fdc868840a9e~tplv-fhlh96nyum-crop-webp:300:300.webp"
     }
-  ]
+  ],
+  "created": "2024-01-11T00:00:00.000Z"
 }
