@@ -4,7 +4,7 @@
 
 backend:
   name: git-gateway
-  branch: main
+  branch: master
 
 # Wife's image uploads land here; site references them at /assets/products/*.
 media_folder: assets/products
