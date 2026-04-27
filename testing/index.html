@@ -692,15 +692,15 @@ footer {
   background: linear-gradient(135deg, transparent 47%, rgba(200,50,50,0.75) 47%, rgba(200,50,50,0.75) 53%, transparent 53%);
 }
 .pdp-variant.sold-out .pdp-variant-name {
-  text-decoration: line-through;
+  /* Diagonal red overlay already signals sold-out; keep the name readable. */
   color: var(--text-dim);
 }
 .pdp-variant img {
   width: 100%; aspect-ratio: 1; object-fit: cover; display: block;
 }
 .pdp-variant-name {
-  font-size: 9px; color: var(--text-dim); text-align: center;
-  padding: 3px 2px; letter-spacing: 0.5px;
+  font-size: 11px; color: var(--text); text-align: center;
+  padding: 4px 2px; letter-spacing: 0.5px; font-weight: 500;
   white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
 }
 .pdp-selected-name {
