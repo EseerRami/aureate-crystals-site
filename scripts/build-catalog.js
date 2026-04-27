@@ -182,3 +182,141 @@ console.log(
   `✅ Built ${products.length} products → index.html, data/products.json, data/variant-prices.clean.json` +
     (hidden ? ` (${hidden} hidden as sold)` : '')
 );
+
+// ───── Owner audit page (/audit/) ─────
+// Visual list of every product (including sold-out) with photo, name, price,
+// and a thumbnail grid of all variants. Each card has a deep-link to its CMS
+// entry so the owner can fix mismatched names/photos in one click.
+//
+// Not linked from the public site. Bookmark /audit/ for editorial review.
+function htmlEscape(s) {
+  return String(s).replace(/[&<>"']/g, c => ({
+    '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;'
+  }[c]));
+}
+
+function renderAuditCard(p) {
+  const editUrl = `/admin/#/collections/products/entries/${encodeURIComponent(p.id)}`;
+  const variantTiles = (p.variants || []).map(v => {
+    const dim = !v.available ? 'opacity:0.4;filter:grayscale(0.7);' : '';
+    const overlay = !v.available
+      ? `<div style="position:absolute;inset:0;background:linear-gradient(135deg,transparent 47%,rgba(200,50,50,0.7) 47%,rgba(200,50,50,0.7) 53%,transparent 53%);"></div>`
+      : '';
+    return `
+      <div style="position:relative;width:64px;height:64px;border:1px solid #333;border-radius:4px;overflow:hidden;${dim}">
+        <img src="${htmlEscape(v.image || '')}" alt="${htmlEscape(v.name)}" style="width:100%;height:100%;object-fit:cover;display:block;" loading="lazy">
+        ${overlay}
+        <div style="position:absolute;bottom:0;left:0;right:0;background:rgba(0,0,0,0.7);color:#fff;font-size:9px;text-align:center;padding:1px 0;">${htmlEscape(v.name)}</div>
+      </div>`;
+  }).join('');
+
+  const soldBadge = p.available === false
+    ? '<span style="background:#7c2d12;color:#fff;font-size:10px;font-weight:600;padding:2px 6px;border-radius:3px;letter-spacing:0.5px;">SOLD</span>'
+    : '';
+
+  const variantSection = (p.variants && p.variants.length)
+    ? `<div style="display:flex;flex-wrap:wrap;gap:6px;margin-top:12px;padding-top:12px;border-top:1px solid #222;">${variantTiles}</div>`
+    : '<div style="font-size:11px;color:#666;margin-top:12px;font-style:italic;">No variants</div>';
+
+  return `
+    <div style="background:#111;border:1px solid #222;border-radius:8px;padding:16px;display:flex;flex-direction:column;${p.available === false ? 'opacity:0.65;' : ''}">
+      <div style="display:flex;gap:12px;margin-bottom:8px;">
+        <img src="${htmlEscape(p.image || '')}" alt="${htmlEscape(p.name)}" style="width:96px;height:96px;object-fit:cover;border-radius:4px;background:#222;flex-shrink:0;" loading="lazy">
+        <div style="flex:1;min-width:0;">
+          <div style="display:flex;justify-content:space-between;gap:8px;align-items:start;margin-bottom:4px;">
+            <div style="font-size:14px;font-weight:600;color:#e5e5e5;line-height:1.3;">${htmlEscape(p.name)}</div>
+            ${soldBadge}
+          </div>
+          <div style="font-size:18px;color:#c9a84c;font-weight:600;margin-bottom:6px;">$${(p.price || 0).toFixed(2)}</div>
+          <div style="font-size:11px;color:#666;font-family:monospace;">id: ${htmlEscape(p.id)}</div>
+        </div>
+      </div>
+      ${variantSection}
+      <a href="${editUrl}" target="_blank" style="margin-top:12px;display:block;text-align:center;background:#1d4ed8;color:#fff;padding:8px;border-radius:4px;font-size:12px;font-weight:600;text-decoration:none;letter-spacing:0.5px;">EDIT IN CMS →</a>
+    </div>`;
+}
+
+// Show ALL products (including sold-out) so owner can review/restore.
+const auditProducts = [...allProducts].sort((a, b) => {
+  // Available first (the ones the customer sees), then sold, both by name.
+  if (a.available === false && b.available !== false) return 1;
+  if (a.available !== false && b.available === false) return -1;
+  return String(a.name || '').localeCompare(String(b.name || ''));
+});
+const auditCards = auditProducts.map(renderAuditCard).join('\n');
+
+const auditHtml = `<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Aureate Crystals — Catalog Audit</title>
+<link rel="icon" type="image/png" href="/assets/favicon.png">
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { background: #0a0a0a; color: #e5e5e5; font-family: system-ui, -apple-system, sans-serif; padding: 24px; }
+  header { max-width: 1400px; margin: 0 auto 24px; }
+  h1 { font-size: 24px; color: #c9a84c; margin-bottom: 4px; }
+  .sub { color: #888; font-size: 14px; }
+  .grid { max-width: 1400px; margin: 0 auto; display: grid; grid-template-columns: repeat(auto-fill, minmax(380px, 1fr)); gap: 16px; }
+  .filter-bar { max-width: 1400px; margin: 0 auto 16px; display: flex; gap: 8px; flex-wrap: wrap; align-items: center; }
+  input[type="search"] { background: #111; border: 1px solid #333; color: #e5e5e5; padding: 8px 12px; border-radius: 4px; flex: 1; min-width: 240px; font-size: 14px; }
+  button { background: #1f1f1f; border: 1px solid #333; color: #e5e5e5; padding: 8px 14px; border-radius: 4px; cursor: pointer; font-size: 13px; }
+  button.active { background: #1d4ed8; border-color: #1d4ed8; }
+  a { color: inherit; }
+</style>
+</head>
+<body>
+<header>
+  <h1>📋 Catalog Audit</h1>
+  <p class="sub">${auditProducts.length} products · ${auditProducts.filter(p => p.available !== false).length} available · ${auditProducts.filter(p => p.available === false).length} sold</p>
+  <p class="sub" style="margin-top:6px;font-size:13px;">Use this page to spot mismatched names / photos. Click any product to edit it in the CMS. Not visible to the public.</p>
+</header>
+<div class="filter-bar">
+  <input type="search" id="search" placeholder="Search by name or id…">
+  <button class="active" data-filter="all">All</button>
+  <button data-filter="available">Available</button>
+  <button data-filter="sold">Sold</button>
+  <button data-filter="variants">With variants</button>
+</div>
+<div class="grid" id="grid">
+${auditCards}
+</div>
+<script>
+  const grid = document.getElementById('grid');
+  const cards = Array.from(grid.children);
+  const data = cards.map(c => {
+    const name = c.querySelector('div > div > div > div')?.textContent?.toLowerCase() || '';
+    const id = c.querySelector('[style*="monospace"]')?.textContent?.toLowerCase() || '';
+    const isSold = c.style.opacity === '0.65';
+    const hasVariants = !!c.querySelector('[style*="grayscale"], [style*="display:flex;flex-wrap:wrap"] > div');
+    return { el: c, search: name + ' ' + id, isSold, hasVariants };
+  });
+  let currentFilter = 'all';
+  function apply() {
+    const q = document.getElementById('search').value.toLowerCase().trim();
+    for (const d of data) {
+      let show = !q || d.search.includes(q);
+      if (currentFilter === 'available' && d.isSold) show = false;
+      if (currentFilter === 'sold' && !d.isSold) show = false;
+      if (currentFilter === 'variants' && !d.hasVariants) show = false;
+      d.el.style.display = show ? '' : 'none';
+    }
+  }
+  document.getElementById('search').addEventListener('input', apply);
+  document.querySelectorAll('[data-filter]').forEach(b => {
+    b.addEventListener('click', () => {
+      document.querySelectorAll('[data-filter]').forEach(x => x.classList.remove('active'));
+      b.classList.add('active');
+      currentFilter = b.dataset.filter;
+      apply();
+    });
+  });
+</script>
+</body>
+</html>`;
+
+const AUDIT_DIR = path.join(ROOT, 'audit');
+fs.mkdirSync(AUDIT_DIR, { recursive: true });
+fs.writeFileSync(path.join(AUDIT_DIR, 'index.html'), auditHtml);
+console.log(`✅ Wrote audit page → audit/index.html (${auditProducts.length} entries)`);
