@@ -83,16 +83,33 @@ const productsBlock =
   '\n];';
 
 // ───── Build inline VARIANTS object ─────
+// Some scraped products have multiple variants all named "A" (the original
+// TikTok listing used a single label for many distinct pieces). Disambiguate
+// duplicates by appending a counter so customers see "A 1, A 2, A 3" instead.
+function dedupeNames(variants) {
+  const counts = {};
+  for (const v of variants) counts[v.name] = (counts[v.name] || 0) + 1;
+  const seen = {};
+  return variants.map(v => {
+    if (counts[v.name] <= 1) return v;
+    seen[v.name] = (seen[v.name] || 0) + 1;
+    return { ...v, name: `${v.name} ${seen[v.name]}` };
+  });
+}
+
 const variantsObj = {};
 for (const p of products) {
   if (Array.isArray(p.variants) && p.variants.length) {
-    variantsObj[p.id] = p.variants.map(v => ({
+    const deduped = dedupeNames(p.variants);
+    variantsObj[p.id] = deduped.map(v => ({
       n: v.name,
       p: typeof v.price === 'number' ? v.price : 0,
       a: !!v.available,
       // Full URL (or path). variantImgUrl in index.html returns it as-is.
       i: v.image || '',
     }));
+    // Persist the dedup back so server validation matches what the client sees.
+    p.variants = deduped;
   }
 }
 const variantsBlock = 'const VARIANTS = ' + JSON.stringify(variantsObj) + ';';
