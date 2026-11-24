@@ -126,7 +126,8 @@ body {
   font-size: 16px; font-weight: 400; letter-spacing: normal;
 }
 .shop-menu-list summary { display: list-item; }
-.shop-menu-list details a { padding-left: 26px; }
+.shop-menu-list details a, .shop-menu-list details details summary { padding-left: 26px; }
+.shop-menu-list details details a { padding-left: 42px; }
 .shop-menu-list a[aria-current] { color: var(--gold); }
 .shop-trail { text-align: center; color: var(--text); margin-bottom: 12px; }
 .shop-trail a { color: var(--gold); }
@@ -701,9 +702,15 @@ footer a {
 }
 .pdp-close:hover { background: rgba(201,168,76,0.2); color: var(--gold); }
 .pdp-content { display: flex; gap: 0; }
-.pdp-gallery { flex: 1; position: relative; min-height: 300px; }
+.pdp-gallery { flex: 1; min-width: 0; }
+.pdp-thumbs { display: flex; flex-wrap: wrap; gap: 6px; padding: 8px; }
+.pdp-thumbs:empty, .pdp-description:empty { display: none; }
+.pdp-thumbs button { padding: 0; border: 2px solid transparent; border-radius: 4px; overflow: hidden; cursor: pointer; background: transparent; }
+.pdp-thumbs button[aria-pressed="true"] { border-color: var(--gold); }
+.pdp-thumbs img { display: block; width: 44px; height: 44px; object-fit: cover; }
+.pdp-description { font-size: 15px; line-height: 1.55; white-space: pre-line; margin-bottom: 20px; }
 .pdp-main-img {
-  width: 100%; aspect-ratio: 1; object-fit: cover;
+  display: block; width: 100%; aspect-ratio: 1; object-fit: contain;
   border-radius: 12px 0 0 12px;
 }
 .pdp-info {
@@ -850,11 +857,22 @@ footer a {
       <summary>Shop</summary>
       <div class="shop-menu-list">
         <a href="#shop">Shop all</a>
-        <a href="#shop/crystal-type">Crystal Type</a>
+        <details>
+          <summary>Crystal Type</summary>
+          <a href="#shop/crystal-type" data-label="Crystal Type">All Crystal Types</a>
+          <a href="#shop/crystal-type/polished">Polished</a>
+          <details>
+            <summary>Specimen</summary>
+            <a href="#shop/crystal-type/specimen" data-label="Specimen">All Specimens</a>
+            <a href="#shop/crystal-type/specimen/black-tourmaline">Black Tourmaline</a>
+            <a href="#shop/crystal-type/specimen/quartz">Quartz</a>
+            <a href="#shop/crystal-type/specimen/feldspar">Feldspar</a>
+          </details>
+        </details>
         <a href="#shop/statement-pieces">Statement Pieces</a>
         <details>
           <summary>Jewelry</summary>
-          <a href="#shop/jewelry">All Jewelry</a>
+          <a href="#shop/jewelry" data-label="Jewelry">All Jewelry</a>
           <a href="#shop/jewelry/wire-wrapped">Wire Wrapped</a>
           <a href="#shop/jewelry/pendants">Pendants</a>
           <a href="#shop/jewelry/rings">Rings</a>
@@ -1138,11 +1156,13 @@ footer a {
     <button class="pdp-close" onclick="closePDP()">×</button>
     <div class="pdp-content">
       <div class="pdp-gallery">
-        <img class="pdp-main-img" id="pdpMainImg" src="" alt="">
+        <img class="pdp-main-img" id="pdpMainImg" alt="">
+        <div class="pdp-thumbs" id="pdpThumbs" role="group" aria-label="Product photos"></div>
       </div>
       <div class="pdp-info">
         <div class="pdp-name" id="pdpName"></div>
         <div class="pdp-price" id="pdpPrice"></div>
+        <div class="pdp-description" id="pdpDescription"></div>
         <div class="pdp-variants-label" id="pdpVariantsLabel">Select Style</div>
         <div class="pdp-selected-name" id="pdpSelectedName"></div>
         <div class="pdp-variants" id="pdpVariants"></div>
@@ -1209,7 +1229,7 @@ const IMG_CODES = [
 ];
 
 const PRODUCTS = [
-
+  { id:"black-tourmaline-quartz-on-feldspar", name:"Black Tourmaline (Schorl) with Quartz on Feldspar", price:433, image:"/assets/products/IMG_8579.jpeg", chakra:[], properties:[], photos:["/assets/products/IMG_8575.jpeg","/assets/products/IMG_8577.jpeg","/assets/products/IMG_8578.jpeg","/assets/products/IMG_8576.jpeg","/assets/products/IMG_8580.jpeg","/assets/products/IMG_8582.jpeg","/assets/products/IMG_8583.jpeg","/assets/products/IMG_8581.jpeg"], categories:["statement-pieces","crystal-type/specimen/black-tourmaline","crystal-type/specimen/quartz","crystal-type/specimen/feldspar"], description:"Clear quartz points rise from a bed of creamy white feldspar, with black tourmaline (schorl) crystals scattered across its stepped faces. At 11.2 lb, this natural specimen makes a substantial display piece. Each side shows a different arrangement of glassy quartz, ridged feldspar and slender black crystals.\n\nCondition and care\nSome edges show wear, and loose crystals can shed during handling. Minor crystal loss is possible. Choose a sturdy, permanent display spot and handle the specimen as little as possible. The price reflects its condition.\n\nIn crystal traditions, black tourmaline is associated with grounding, protection and emotional strength. Clear quartz is traditionally paired with it to amplify those qualities." }
 ];
 
 /* ═══════════════════════════════════════════
@@ -1377,7 +1397,8 @@ const categoryLinks = new Map(Array.from(shopMenu.querySelectorAll('a[href^="#sh
 let activeCategory = '';
 
 function categoryLabel(path) {
-  return path === 'jewelry' ? 'Jewelry' : categoryLinks.get(path).textContent;
+  const link = categoryLinks.get(path);
+  return link.dataset.label || link.textContent;
 }
 
 function normalizeSearch(text) {
@@ -1429,8 +1450,9 @@ function loadShopLocation() {
     all.href = '#shop';
     all.textContent = 'Shop';
     trail.append(all, ' / ');
-    const parent = activeCategory.split('/')[0];
-    if (parent !== activeCategory) {
+    const parts = activeCategory.split('/');
+    for (let depth = 1; depth < parts.length; depth++) {
+      const parent = parts.slice(0, depth).join('/');
       const parentLink = document.createElement('a');
       parentLink.href = shopHash(parent, '');
       parentLink.textContent = categoryLabel(parent);
@@ -1969,6 +1991,38 @@ const VARIANTS = {};
 let currentPdpProduct = null;
 let currentPdpVariant = null;
 
+function showProductPhoto(src, alt) {
+  const main = document.getElementById('pdpMainImg');
+  if (src) main.src = src;
+  else main.removeAttribute('src');
+  main.alt = alt;
+  for (const button of document.getElementById('pdpThumbs').children) {
+    button.setAttribute('aria-pressed', String(button.dataset.src === src));
+  }
+}
+
+function renderProductPhotos(product) {
+  const thumbs = document.getElementById('pdpThumbs');
+  thumbs.replaceChildren();
+  const photos = [...new Set([product.image, ...(product.photos || [])].filter(Boolean))];
+  if (photos.length > 1) {
+    photos.forEach((src, index) => {
+      const button = document.createElement('button');
+      button.type = 'button';
+      button.dataset.src = src;
+      const label = 'Photo ' + (index + 1) + ' of ' + photos.length;
+      button.setAttribute('aria-label', label);
+      button.onclick = () => showProductPhoto(src, product.name + ', ' + label);
+      const image = document.createElement('img');
+      image.src = src;
+      image.alt = '';
+      button.appendChild(image);
+      thumbs.appendChild(button);
+    });
+  }
+  showProductPhoto(photos[0], product.name);
+}
+
 function openPDP(productId) {
   const product = PRODUCTS.find(p => p.id === productId);
   if (!product) return;
@@ -1977,8 +2031,8 @@ function openPDP(productId) {
   document.getElementById('pdpName').textContent = product.name;
   document.getElementById('pdpPrice').textContent = '$' + product.price.toFixed(2);
   // Rating/sold removed — every piece is one-of-a-kind so the numbers were noise.
-  document.getElementById('pdpMainImg').src = product.image;
-  document.getElementById('pdpMainImg').alt = product.name;
+  document.getElementById('pdpDescription').textContent = product.description || '';
+  renderProductPhotos(product);
 
   const variants = VARIANTS[product.id];
   const variantsEl = document.getElementById('pdpVariants');
@@ -2039,7 +2093,7 @@ function selectVariant(el, variant) {
   document.querySelectorAll('.pdp-variant').forEach(v => v.classList.remove('selected'));
   el.classList.add('selected');
   currentPdpVariant = variant;
-  document.getElementById('pdpMainImg').src = variantImgUrl(variant.i);
+  showProductPhoto(variantImgUrl(variant.i) || currentPdpProduct.image, currentPdpProduct.name + ', ' + variant.n);
   document.getElementById('pdpSelectedName').innerHTML = `Style: <span>${variant.n}</span>`;
   // Show the currently-selected variant's price. Fall back to the
   // product's base price if the scraper didn't capture a variant price.
