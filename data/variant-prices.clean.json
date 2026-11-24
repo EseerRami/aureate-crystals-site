@@ -37,14 +37,12 @@
   "055": [],
   "054": [],
   "053": [],
-  "052": [],
   "051": [],
   "050": [],
   "049": [],
   "048": [],
   "047": [],
   "046": [],
-  "045": [],
   "044": [],
   "043": [],
   "042": [],
@@ -55,7 +53,6 @@
   "037": [],
   "036": [],
   "035": [],
-  "034": [],
   "033": [],
   "032": [],
   "031": [],
@@ -475,32 +472,6 @@
       "p": 12,
       "a": true,
       "i": "https://p16-oec-general-useast5.ttcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/bb716ba1336b40a6b27628ddd97c2461~tplv-fhlh96nyum-crop-webp:300:300.webp"
-    }
-  ],
-  "022": [
-    {
-      "n": "A",
-      "p": 0,
-      "a": false,
-      "i": "https://p16-oec-general-useast5.ttcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/fe4d1517ff154ed7bdaf77d6511b74f6~tplv-fhlh96nyum-crop-webp:300:300.webp"
-    },
-    {
-      "n": "B",
-      "p": 101,
-      "a": true,
-      "i": "https://p16-oec-general-useast5.ttcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/2eac9b48afd849629e3c30cb515a2dbe~tplv-fhlh96nyum-crop-webp:300:300.webp"
-    },
-    {
-      "n": "C",
-      "p": 67,
-      "a": true,
-      "i": "https://p16-oec-general-useast5.ttcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/5f3d0428dcda4e4bb9579d9aa8a3c8b3~tplv-fhlh96nyum-crop-webp:300:300.webp"
-    },
-    {
-      "n": "D",
-      "p": 0,
-      "a": false,
-      "i": "https://p16-oec-general-useast5.ttcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/11502c5665fd40d7b61e7ff1aee76299~tplv-fhlh96nyum-crop-webp:300:300.webp"
     }
   ],
   "021": [
@@ -1095,26 +1066,6 @@
       "i": "https://p16-oec-general-useast5.ttcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/fca0249b42754b6fa05558fe69cb8300~tplv-fhlh96nyum-crop-webp:300:300.webp"
     }
   ],
-  "010": [
-    {
-      "n": "C",
-      "p": 40,
-      "a": true,
-      "i": "https://p16-oec-general-useast5.ttcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/25da70809f2343a8ba3d829ac1336359~tplv-fhlh96nyum-crop-webp:300:300.webp"
-    },
-    {
-      "n": "I",
-      "p": 53,
-      "a": true,
-      "i": "https://p16-oec-general-useast5.ttcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/3b2bf1070359476d8126dcaf6e2f7e71~tplv-fhlh96nyum-crop-webp:300:300.webp"
-    },
-    {
-      "n": "A",
-      "p": 87,
-      "a": true,
-      "i": "https://p16-oec-general-useast5.ttcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/d6434bbfcf084fb4bac4fdc868840a9e~tplv-fhlh96nyum-crop-webp:300:300.webp"
-    }
-  ],
   "009": [
     {
       "n": "B",
@@ -1301,50 +1252,6 @@
       "i": "https://p16-oec-general-useast5.ttcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/408da4d469ef4e729774383382bb9bd1~tplv-fhlh96nyum-crop-webp:300:300.webp"
     }
   ],
-  "006": [
-    {
-      "n": "A",
-      "p": 5,
-      "a": true,
-      "i": "https://p16-oec-general-useast5.ttcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/d6c7b8aa6e7142c688fed15cf92e89a9~tplv-fhlh96nyum-crop-webp:300:300.webp"
-    },
-    {
-      "n": "B",
-      "p": 8,
-      "a": true,
-      "i": "https://p16-oec-general-useast5.ttcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/49a3af19fb824647bdccbb5650713570~tplv-fhlh96nyum-crop-webp:300:300.webp"
-    },
-    {
-      "n": "C",
-      "p": 22,
-      "a": true,
-      "i": "https://p16-oec-general-useast5.ttcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/29a9e84ca263487aae02bae427b49e9b~tplv-fhlh96nyum-crop-webp:300:300.webp"
-    },
-    {
-      "n": "D",
-      "p": 57,
-      "a": true,
-      "i": "https://p16-oec-general-useast5.ttcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/a18f4b5db5734beb987af5d1a3aedaf2~tplv-fhlh96nyum-crop-webp:300:300.webp"
-    },
-    {
-      "n": "E",
-      "p": 25,
-      "a": true,
-      "i": "https://p16-oec-general-useast5.ttcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/db1b0818b26346ffad1ae00516e6d286~tplv-fhlh96nyum-crop-webp:300:300.webp"
-    },
-    {
-      "n": "F",
-      "p": 10,
-      "a": true,
-      "i": "https://p16-oec-general-useast5.ttcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/a0e499b128d843a6882d70ea6d046905~tplv-fhlh96nyum-crop-webp:300:300.webp"
-    },
-    {
-      "n": "G",
-      "p": 6,
-      "a": true,
-      "i": "https://p16-oec-general-useast5.ttcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/ed54763599ee4b81b6a2c40c1a7cfb2d~tplv-fhlh96nyum-crop-webp:300:300.webp"
-    }
-  ],
   "005": [
     {
       "n": "C - medium star",
@@ -1517,98 +1424,6 @@
       "p": 0,
       "a": false,
       "i": "https://p16-oec-general-useast5.ttcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/556cda619bfb441797409594734a8819~tplv-fhlh96nyum-crop-webp:300:300.webp"
-    }
-  ],
-  "002": [
-    {
-      "n": "Pink blossom calcite",
-      "p": 22,
-      "a": true,
-      "i": "https://p16-oec-general-useast5.ttcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/3a60f53f590c4de280bb0ca2629e2ead~tplv-fhlh96nyum-crop-webp:300:300.webp"
-    },
-    {
-      "n": "White agate",
-      "p": 22,
-      "a": true,
-      "i": "https://p16-oec-general-useast5.ttcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/441524c404524999bb5663c3402fd636~tplv-fhlh96nyum-crop-webp:300:300.webp"
-    },
-    {
-      "n": "Strawberry Quartz",
-      "p": 0,
-      "a": false,
-      "i": "https://p16-oec-general-useast5.ttcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/4399317a8c30495a961cd1d25acf1452~tplv-fhlh96nyum-crop-webp:300:300.webp"
-    },
-    {
-      "n": "Calligraphy Jasper A",
-      "p": 0,
-      "a": false,
-      "i": "https://p16-oec-general-useast5.ttcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/584a1d4311ad4397be9423b665720d00~tplv-fhlh96nyum-crop-webp:300:300.webp"
-    },
-    {
-      "n": "Calligraphy Jasper B",
-      "p": 22,
-      "a": true,
-      "i": "https://p16-oec-general-useast5.ttcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/751b450603d1443982e71536c6626288~tplv-fhlh96nyum-crop-webp:300:300.webp"
-    },
-    {
-      "n": "Red Network Jasper A",
-      "p": 22,
-      "a": true,
-      "i": "https://p16-oec-general-useast5.ttcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/70aec7b47b244ec39a917a930d126ff9~tplv-fhlh96nyum-crop-webp:300:300.webp"
-    },
-    {
-      "n": "Red network Jasper B",
-      "p": 0,
-      "a": false,
-      "i": "https://p16-oec-general-useast5.ttcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/b0bca99ded9a484ab161b1e33bdbf164~tplv-fhlh96nyum-crop-webp:300:300.webp"
-    },
-    {
-      "n": "Green onyx A",
-      "p": 22,
-      "a": true,
-      "i": "https://p16-oec-general-useast5.ttcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/7bc43092e28746029375aa936e337973~tplv-fhlh96nyum-crop-webp:300:300.webp"
-    },
-    {
-      "n": "Green onyx B",
-      "p": 0,
-      "a": false,
-      "i": "https://p16-oec-general-useast5.ttcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/84fe8ea112c348f39e8e7ce49dd821f8~tplv-fhlh96nyum-crop-webp:300:300.webp"
-    },
-    {
-      "n": "Green Jade",
-      "p": 22,
-      "a": true,
-      "i": "https://p16-oec-general-useast5.ttcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/50c611b9d6a34650a75849d10e97855d~tplv-fhlh96nyum-crop-webp:300:300.webp"
-    },
-    {
-      "n": "Pink Opal A",
-      "p": 0,
-      "a": false,
-      "i": "https://p16-oec-general-useast5.ttcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/4b549e3dda8d4ee98cf578e9760a0762~tplv-fhlh96nyum-crop-webp:300:300.webp"
-    },
-    {
-      "n": "Pink opal B",
-      "p": 0,
-      "a": false,
-      "i": "https://p16-oec-general-useast5.ttcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/17ed2d49a8874828841542416acb955b~tplv-fhlh96nyum-crop-webp:300:300.webp"
-    },
-    {
-      "n": "Qinghai Jade A",
-      "p": 0,
-      "a": false,
-      "i": "https://p16-oec-general-useast5.ttcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/fe101747dacd4d8e9180633109a7cab1~tplv-fhlh96nyum-crop-webp:300:300.webp"
-    },
-    {
-      "n": "Qinghai Jade B",
-      "p": 0,
-      "a": false,
-      "i": "https://p16-oec-general-useast5.ttcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/8da50cf6eefa4ebb976d82a8b99ec6b9~tplv-fhlh96nyum-crop-webp:300:300.webp"
-    },
-    {
-      "n": "Blue Jade A",
-      "p": 0,
-      "a": false,
-      "i": "https://p16-oec-general-useast5.ttcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/2e1921e676cd4357ac72d45805b55112~tplv-fhlh96nyum-crop-webp:300:300.webp"
     }
   ],
   "001": [
