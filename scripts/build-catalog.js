@@ -73,6 +73,8 @@ const productLines = products.map(p => {
     `chakra:${arrLit(p.chakra || [])}`,
     `properties:${arrLit(toTagArray(p.properties))}`,
   ];
+  const categories = toTagArray(p.categories);
+  if (categories.length) fields.push(`categories:${arrLit(categories)}`);
   if (p.description) fields.push(`description:${escapeJsString(p.description)}`);
   return `  { ${fields.join(', ')} }`;
 });
