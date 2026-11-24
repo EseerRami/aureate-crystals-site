@@ -26,6 +26,7 @@ const OUT_PROD  = path.join(ROOT, 'data', 'products.json');
 const OUT_VAR   = path.join(ROOT, 'data', 'variant-prices.clean.json');
 
 // ───── Load + filter ─────
+fs.mkdirSync(CONTENT, { recursive: true });
 const files = fs.readdirSync(CONTENT).filter(f => f.endsWith('.json'));
 const allProducts = files.map(f => {
   const data = JSON.parse(fs.readFileSync(path.join(CONTENT, f), 'utf-8'));
@@ -43,11 +44,6 @@ const products = allProducts
     if (ac !== bc) return bc - ac;
     return String(b.id).localeCompare(String(a.id));
   });
-
-if (!products.length) {
-  console.error('❌ No available products found in content/products/');
-  process.exit(1);
-}
 
 // ───── Helpers ─────
 function escapeJsString(s) {
