@@ -69,6 +69,7 @@ const productLines = products.map(p => {
     `chakra:${arrLit(p.chakra || [])}`,
     `properties:${arrLit(toTagArray(p.properties))}`,
   ];
+  if (Array.isArray(p.photos) && p.photos.length) fields.push(`photos:${arrLit(p.photos)}`);
   const categories = toTagArray(p.categories);
   if (categories.length) fields.push(`categories:${arrLit(categories)}`);
   if (p.description) fields.push(`description:${escapeJsString(p.description)}`);
@@ -223,7 +224,7 @@ function renderAuditCard(p) {
         <div style="flex:1;min-width:0;">
           <div style="display:flex;justify-content:space-between;gap:8px;align-items:start;margin-bottom:4px;">
             <div style="font-size:14px;font-weight:600;color:#e5e5e5;line-height:1.3;">${htmlEscape(p.name)}</div>
-            ${soldBadge}
+${soldBadge}
           </div>
           <div style="font-size:18px;color:#c9a84c;font-weight:600;margin-bottom:6px;">$${(p.price || 0).toFixed(2)}</div>
           <div style="font-size:11px;color:#666;font-family:monospace;">id: ${htmlEscape(p.id)}</div>
