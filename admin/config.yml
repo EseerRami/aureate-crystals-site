@@ -62,6 +62,24 @@ collections:
         widget: text
         required: false
 
+      - label: Shop categories
+        name: categories
+        widget: select
+        multiple: true
+        required: false
+        hint: 'Choose every category that applies. Jewelry subcategories also appear under All Jewelry.'
+        options:
+          - { label: Crystal Type, value: crystal-type }
+          - { label: Statement Pieces, value: statement-pieces }
+          - { label: Jewelry, value: jewelry }
+          - { label: Jewelry / Wire Wrapped, value: jewelry/wire-wrapped }
+          - { label: Jewelry / Pendants, value: jewelry/pendants }
+          - { label: Jewelry / Rings, value: jewelry/rings }
+          - { label: Jewelry / Bracelets, value: jewelry/bracelets }
+          - { label: Cleansing, value: cleansing }
+          - { label: Sale, value: sale }
+          - { label: Wholesale, value: wholesale }
+
       - label: Chakras
         name: chakra
         widget: select
