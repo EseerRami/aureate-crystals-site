@@ -57,6 +57,12 @@ collections:
         required: false
         hint: 'Square image works best. Drop a file or click to upload.'
 
+      - label: Additional photos
+        name: photos
+        widget: list
+        required: false
+        field: { label: Photo, name: photo, widget: image }
+
       - label: Description
         name: description
         widget: text
@@ -67,9 +73,14 @@ collections:
         widget: select
         multiple: true
         required: false
-        hint: 'Choose every category that applies. Jewelry subcategories also appear under All Jewelry.'
+        hint: 'Choose every category that applies. Subcategories also appear in their parent categories.'
         options:
           - { label: Crystal Type, value: crystal-type }
+          - { label: Crystal Type / Polished, value: crystal-type/polished }
+          - { label: Crystal Type / Specimen, value: crystal-type/specimen }
+          - { label: Specimen / Black Tourmaline, value: crystal-type/specimen/black-tourmaline }
+          - { label: Specimen / Quartz, value: crystal-type/specimen/quartz }
+          - { label: Specimen / Feldspar, value: crystal-type/specimen/feldspar }
           - { label: Statement Pieces, value: statement-pieces }
           - { label: Jewelry, value: jewelry }
           - { label: Jewelry / Wire Wrapped, value: jewelry/wire-wrapped }
