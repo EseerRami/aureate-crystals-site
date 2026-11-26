@@ -14,11 +14,6 @@ function checkoutContext(request, requestedMode) {
   return { origin, mode, key: mode === 'test' ? process.env.STRIPE_TEST_KEY : process.env.STRIPE_SECRET_KEY };
 }
 
-function cardStore(mode) {
-  const { getStore } = require('@netlify/blobs');
-  return getStore({ name: 'gift-cards-' + mode, consistency: 'strong' });
-}
-
 function amountInCents(value) {
   if (!/^\d{1,6}(\.\d{1,2})?$/.test(String(value))) throw new GiftError('Enter a USD amount with up to two decimal places.');
   const [whole, fraction = ''] = String(value).split('.');
@@ -133,4 +128,4 @@ async function redeem(store, stripe, code, params) {
   return { url: session.url };
 }
 
-module.exports = { GiftError, checkoutContext, cardStore, amountInCents, keyFor, purchase, inspect, redeem, settleOrder };
+module.exports = { GiftError, checkoutContext, amountInCents, keyFor, purchase, inspect, redeem, settleOrder };
