@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="referrer" content="no-referrer">
+<title>Gift Cards · Aureate Crystals</title>
+<link rel="icon" href="/assets/favicon.png">
+<style>
+  * { box-sizing: border-box; }
+  :root { color-scheme: dark; --gold: #e0bf73; --muted: #c2baab; }
+  body { margin: 0; min-height: 100vh; color: #f4eee2; background: #111014; font: 16px/1.55 system-ui,sans-serif; }
+  header, main, footer { max-width: 1040px; margin: auto; padding: 22px clamp(20px,5vw,58px); }
+  header { display: flex; align-items: center; justify-content: space-between; border-bottom: 1px solid #3b3531; }
+  a, summary { color: var(--gold); }
+  header a { text-decoration: none; }
+  .brand { letter-spacing: .13em; text-transform: uppercase; font: 17px Georgia,serif; }
+  main { padding-block: clamp(34px,9vh,100px); }
+  #layout { display: grid; grid-template-columns: 1fr 1fr; gap: clamp(24px,5vw,76px); align-items: start; }
+  .card { background: radial-gradient(ellipse at top left,#574433,#282027 60%,#19171c); border: 1px solid #8c744d; border-radius: 14px; padding: 24px; aspect-ratio: 1.6; display: flex; flex-direction: column; justify-content: space-between; box-shadow: 0 16px 48px #0005; }
+  .card img { height: 68px; max-width: 65%; object-fit: contain; object-position: left; align-self: start; }
+  .card span { color: var(--gold); font: 27px Georgia,serif; }
+  .card strong { font: 36px Georgia,serif; align-self: flex-end; }
+  h1 { font: clamp(32px,4.5vw,52px)/1.1 Georgia,serif; margin: 0 0 12px; }
+  p { color: var(--muted); margin: 0 0 20px; }
+  label { display: block; margin-top: 14px; }
+  input { width: 100%; color: #fff; background: #19171c; border: 1px solid #716758; border-radius: 5px; padding: 10px; font: inherit; }
+  button { border: 0; border-radius: 5px; background: var(--gold); color: #221c11; padding: 12px 20px; font: 600 16px system-ui; cursor: pointer; margin-top: 18px; }
+  button:disabled { opacity: .65; }
+  .secondary { margin-top: 26px; border-top: 1px solid #423a36; padding-top: 16px; }
+  summary { cursor: pointer; }
+  .status { margin: 10px 0 0; color: #f5d095; }
+  code { font: bold 18px/1.8 monospace; overflow-wrap: anywhere; }
+  #test { background: #332c27; color: #f0dca6; text-align: center; margin: 0; padding: 4px; }
+  :focus-visible { outline: 2px solid #fce3a9; outline-offset: 3px; }
+  footer { color: var(--muted); }
+  @media (max-width: 650px) { #layout { grid-template-columns: 1fr; } .card { max-width: 430px; aspect-ratio: 2.1; } }
+</style>
+</head>
+<body>
+<p id="test" hidden>Test checkout · No real payment</p>
+<header><a class="brand" id="home" href="/">Aureate Crystals</a><a id="shop" href="/#shop">Back to shop</a></header>
+<main>
+<div id="layout">
+  <div class="card" aria-hidden="true"><img src="/assets/logo.png" alt=""><span>Digital Gift Card</span><strong id="face"></strong></div>
+  <div>
+    <section id="purchase">
+      <h1>Give a gift card</h1>
+      <p>Choose any amount from $10. After payment, share the code with your recipient. They can enter it in their cart and keep any remaining balance for another order.</p>
+      <form id="buy">
+        <label for="amount">Gift amount (USD)</label>
+        <input id="amount" type="number" inputmode="decimal" min="10" step="0.01" placeholder="10.00" required>
+        <label for="email">Your email for the receipt</label>
+        <input id="email" type="email" autocomplete="email" required maxlength="254">
+        <button>Buy gift card</button>
+        <p class="status" id="buyStatus" role="status"></p>
+      </form>
+    </section>
+    <section id="receipt" hidden>
+      <h1>Your digital gift card</h1>
+      <p id="receiptStatus" role="status">Checking your gift card…</p>
+      <div id="ready" hidden><p><code id="issued"></code></p><button type="button" id="copy">Copy gift code</button>
+        <p class="status" id="copyStatus" role="status"></p><a id="another" href="/gift-cards/">Buy another gift card</a></div>
+    </section>
+    <details class="secondary"><summary>Check a gift card balance</summary>
+      <form id="lookup"><label for="code">Gift card code</label><input id="code" required maxlength="48" spellcheck="false" autocomplete="off">
+        <button>Check balance</button><p class="status" id="lookupStatus" role="status"></p>
+      </form>
+    </details>
+  </div>
+</div>
+</main>
+<footer><a href="mailto:aureatecrystals@gmail.com">Contact us</a></footer>
+<script>
+'use strict';
+const el = id => document.getElementById(id);
+const test = new URLSearchParams(location.search).get('mode') === 'test' || /^deploy-preview-\d+--/.test(location.hostname);
+const mode = test ? 'test' : 'live';
+const money = cents => (cents / 100).toLocaleString('en-US', { style: 'currency', currency: 'USD' });
+if (test) {
+  el('test').hidden = false; el('shop').href = '/testing/#shop'; el('home').href = '/testing/'; el('another').href += '?mode=test';
+}
+async function request(body) {
+  const response = await fetch('/.netlify/functions/gift-card', { method: 'POST',
+    headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ ...body, mode }) });
+  const data = await response.json();
+  if (!response.ok) throw new Error(data.error || 'Please try again.');
+  return data;
+}
+el('amount').oninput = () => {
+  const input = el('amount');
+  el('face').textContent = input.value && input.validity.valid ? money(Math.round(input.valueAsNumber * 100)) : '';
+};
+el('buy').onsubmit = async e => {
+  e.preventDefault();
+  const button = el('buy').querySelector('button');
+  button.disabled = true; el('buyStatus').textContent = 'Opening checkout…';
+  try {
+    const result = await request({ action: 'buy', amount: el('amount').value, email: el('email').value });
+    location.assign(result.url);
+  } catch (err) { el('buyStatus').textContent = err.message; button.disabled = false; }
+};
+function balanceText(data) {
+  return 'Balance: ' + money(data.balance) + (data.reserved ? ' (' + money(data.reserved) + ' reserved for an open checkout).' : '.');
+}
+el('lookup').onsubmit = async e => {
+  e.preventDefault();
+  el('lookupStatus').textContent = 'Checking…';
+  try { el('lookupStatus').textContent = balanceText(await request({ action: 'balance', code: el('code').value })); }
+  catch (err) { el('lookupStatus').textContent = err.message; }
+};
+const received = location.hash.slice(1);
+if (/^AC(?:-[0-9A-F]{4}){6}$/.test(received)) {
+  el('purchase').hidden = true; el('receipt').hidden = false;
+  request({ action: 'balance', code: received }).then(data => {
+    el('face').textContent = money(data.balance);
+    el('receiptStatus').textContent = balanceText(data) + ' Share this code with your recipient to use at checkout.';
+    el('issued').textContent = received; el('ready').hidden = false;
+  }).catch(err => { el('receiptStatus').textContent = err.message + ' Refresh this page to check again.'; });
+  el('copy').onclick = async () => {
+    try { await navigator.clipboard.writeText(received); el('copyStatus').textContent = 'Code copied.'; }
+    catch { el('copyStatus').textContent = 'Select the code above to copy it.'; }
+  };
+}
+</script>
+</body></html>
