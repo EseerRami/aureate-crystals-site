@@ -881,9 +881,9 @@ footer a {
         <a href="#shop/cleansing">Cleansing</a>
         <a href="#shop/sale">Sale</a>
         <a href="#shop/wholesale">Wholesale</a>
-        <a href="#shop/gift-cards">Gift Cards</a>
       </div>
     </details>
+    <a id="giftCardsLink" href="/gift-cards/">Gift Cards</a>
     <a href="#dream">Dream Package</a>
     <a href="#about">About</a>
     <a href="#" class="cart-btn" onclick="toggleCart(event)">Cart <span class="cart-count" id="cartCount">0</span></a>
@@ -1143,6 +1143,8 @@ footer a {
     <div class="cart-empty" id="cartEmpty">Your cart is empty</div>
   </div>
   <div class="cart-footer" id="cartFooter" style="display:none;">
+    <label for="cartGiftCode">Gift card code (optional)</label>
+    <input class="shop-search" id="cartGiftCode" type="text" placeholder="Enter gift card code" autocomplete="off" spellcheck="false" maxlength="48" style="width:100%;margin:6px 0 12px">
     <div class="cart-total">
       <span class="cart-total-label">Total</span>
       <span class="cart-total-price" id="cartTotal">$0.00</span>
@@ -1432,6 +1434,10 @@ function shopHash(category, query) {
 }
 
 function loadShopLocation() {
+  if (location.hash.split('?')[0] === '#shop/gift-cards') {
+    location.replace(document.getElementById('giftCardsLink').href);
+    return;
+  }
   const [path, params] = location.hash.split('?');
   const category = path.slice(6);
   activeCategory = categoryLinks.has(category) ? category : '';
@@ -1643,7 +1649,7 @@ async function checkout() {
     const res = await fetch('/.netlify/functions/create-checkout', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ items, mode: window.AUREATE_MODE || 'live' }),
+      body: JSON.stringify({ items, mode: window.AUREATE_MODE || 'live', giftCode: document.getElementById('cartGiftCode').value.trim() }),
     });
     const data = await res.json();
     if (!res.ok || !data.url) {
@@ -2117,6 +2123,7 @@ function pdpAddToCart() {
 /* ═══════════════════════════════════════════
    INIT
    ═══════════════════════════════════════════ */
+if (window.AUREATE_MODE === 'test') document.getElementById('giftCardsLink').href = '/gift-cards/?mode=test';
 renderFeatured();
 loadShopLocation();
 handleCheckoutReturn();
