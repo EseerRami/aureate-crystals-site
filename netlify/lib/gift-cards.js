@@ -7,16 +7,15 @@ class GiftError extends Error {
   }
 }
 
-function checkoutContext(event, requestedMode) {
-  const origin = event.rawUrl ? new URL(event.rawUrl).origin : 'https://' + event.headers.host;
+function checkoutContext(request, requestedMode) {
+  const origin = new URL(request.url).origin;
   const preview = process.env.CONTEXT === 'deploy-preview' || /^deploy-preview-\d+--/.test(new URL(origin).hostname);
   const mode = preview || requestedMode === 'test' ? 'test' : 'live';
   return { origin, mode, key: mode === 'test' ? process.env.STRIPE_TEST_KEY : process.env.STRIPE_SECRET_KEY };
 }
 
-function cardStore(event, mode) {
-  const { connectLambda, getStore } = require('@netlify/blobs');
-  if (event.blobs) connectLambda(event);
+function cardStore(mode) {
+  const { getStore } = require('@netlify/blobs');
   return getStore({ name: 'gift-cards-' + mode, consistency: 'strong' });
 }
 
