@@ -19,6 +19,7 @@
  */
 
 const Stripe = require('stripe');
+const { cardStore, settleOrder } = require('../lib/gift-cards');
 
 const REPO   = process.env.GITHUB_REPO;
 const TOKEN  = process.env.GITHUB_TOKEN;
@@ -137,11 +138,19 @@ exports.handler = async (event) => {
     return { statusCode: 400, body: `Bad signature: ${e.message}` };
   }
 
-  if (stripeEvent.type !== 'checkout.session.completed') {
+  if (!['checkout.session.completed', 'checkout.session.async_payment_succeeded'].includes(stripeEvent.type)) {
     return { statusCode: 200, body: 'ignored' };
   }
 
   const session = stripeEvent.data.object;
+  if (!session.livemode || !['paid', 'no_payment_required'].includes(session.payment_status)) {
+    return { statusCode: 200, body: 'ignored' };
+  }
+  if (session.metadata?.gift_purchase) return { statusCode: 200, body: 'gift card funded' };
+  if (session.metadata?.gift_debit) {
+    try { await settleOrder(cardStore(event, 'live'), session); }
+    catch { return { statusCode: 500, body: 'Gift card settlement pending' }; }
+  }
   const cart = decodeCart(session.metadata);
   if (!cart.length) {
     console.warn('[webhook] no cart manifest on session', session.id);

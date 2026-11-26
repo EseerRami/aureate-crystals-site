@@ -18,9 +18,10 @@
 const fs = require('fs');
 const path = require('path');
 const Stripe = require('stripe');
+const { GiftError, checkoutContext, cardStore, redeem } = require('../lib/gift-cards');
 
-const PRODUCTS_FILE = path.join(__dirname, '..', '..', 'data', 'products.json');
-const VARIANTS_FILE = path.join(__dirname, '..', '..', 'data', 'variant-prices.clean.json');
+const PRODUCTS_FILE = path.join(process.cwd(), 'data', 'products.json');
+const VARIANTS_FILE = path.join(process.cwd(), 'data', 'variant-prices.clean.json');
 
 let PRODUCTS, VARIANTS;
 function loadCatalog() {
@@ -39,8 +40,7 @@ exports.handler = async (event) => {
 
   // Test vs live mode is decided by the client (which page sent the request).
   // /testing/ sends mode='test' → uses STRIPE_TEST_KEY; otherwise live.
-  const mode = body.mode === 'test' ? 'test' : 'live';
-  const stripeKey = mode === 'test' ? process.env.STRIPE_TEST_KEY : process.env.STRIPE_SECRET_KEY;
+  const { mode, key: stripeKey, origin } = checkoutContext(event, body.mode);
   if (!stripeKey) {
     return {
       statusCode: 500,
@@ -68,7 +68,10 @@ exports.handler = async (event) => {
   for (const item of items) {
     const productId = String(item.id);
     const variantName = (item.variantName || '').toString();
-    const qty = Math.max(1, Math.min(99, Number(item.qty) || 1));
+    const qty = Number(item.qty ?? 1);
+    if (!Number.isSafeInteger(qty) || qty < 1 || qty > 99) {
+      return { statusCode: 400, body: JSON.stringify({ error: 'Invalid item quantity.' }) };
+    }
 
     const product = PRODUCTS.find(p => String(p.id) === productId);
     if (!product) {
@@ -107,15 +110,12 @@ exports.handler = async (event) => {
         currency: 'usd',
         product_data: {
           name: displayName,
-          images: product.image ? [product.image] : [],
+          images: product.image ? [new URL(product.image, origin).href] : [],
         },
         unit_amount: unitAmount,
       },
     });
   }
-
-  // Origin URL for success/cancel redirects
-  const origin = event.headers.origin || `https://${event.headers.host || 'localhost'}`;
 
   // Stripe metadata caps each value at 500 chars. Compact manifest fits
   // ~20 line items in 500B; chunk if your catalog ever exceeds that.
@@ -141,7 +141,16 @@ exports.handler = async (event) => {
       chunks.map((c, i) => ['cart_' + i, c]).concat([['cart_chunks', String(chunks.length)]])
     );
   }
-  const session = await stripe.checkout.sessions.create(sessionParams);
+  let session;
+  try {
+    session = body.giftCode
+      ? await redeem(cardStore(event, mode), stripe, body.giftCode, sessionParams)
+      : await stripe.checkout.sessions.create(sessionParams);
+  } catch (err) {
+    if (!(err instanceof GiftError)) console.error('Checkout unavailable', err.name, err.code || '');
+    return { statusCode: err instanceof GiftError ? err.status : 503,
+      body: JSON.stringify({ error: err instanceof GiftError ? err.message : 'Checkout is temporarily unavailable. Please try again.' }) };
+  }
 
   return {
     statusCode: 200,
