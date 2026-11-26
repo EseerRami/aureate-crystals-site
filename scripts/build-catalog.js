@@ -144,7 +144,8 @@ const flagsRe = /<!-- @@BUILD_FLAGS@@ -->(\s*<script>[\s\S]*?<\/script>)?/;
 
 const maintenance = process.env.MAINTENANCE_MODE === 'true';
 
-const liveHtml = html.replace(flagsRe, '<!-- @@BUILD_FLAGS@@ -->\n' + flagsScript('live', maintenance));
+const storefrontMode = process.env.CONTEXT === 'deploy-preview' ? 'test' : 'live';
+const liveHtml = html.replace(flagsRe, '<!-- @@BUILD_FLAGS@@ -->\n' + flagsScript(storefrontMode, maintenance));
 fs.writeFileSync(INDEX, liveHtml);
 
 // Mirror site for owner test purchases. Always shop-visible (maintenance flag
