@@ -18,7 +18,7 @@ export default async function handler(request) {
     return reply(200, { balance, reserved });
   } catch (err) {
     if (err instanceof GiftError) return reply(err.status, { error: err.message });
-    console.error('Gift card request failed', err.name, err.code || err.statusCode || '');
+    console.error('Gift card request failed', err.name, err.code || err.statusCode || '', err.code === 'MODULE_NOT_FOUND' ? err.message.split('\n')[0] : '');
     return reply(503, { error: 'Gift cards are temporarily unavailable. Please try again.' });
   }
 }
