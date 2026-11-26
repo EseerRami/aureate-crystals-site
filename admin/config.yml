@@ -90,7 +90,6 @@ collections:
           - { label: Cleansing, value: cleansing }
           - { label: Sale, value: sale }
           - { label: Wholesale, value: wholesale }
-          - { label: Gift Cards, value: gift-cards }
 
       - label: Chakras
         name: chakra
