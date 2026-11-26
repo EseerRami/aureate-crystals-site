@@ -1,6 +1,7 @@
 import Stripe from 'stripe';
+import { cardStore } from '../lib/card-store.mjs';
 import giftCards from '../lib/gift-cards.js';
-const { GiftError, checkoutContext, cardStore, keyFor, purchase, inspect } = giftCards;
+const { GiftError, checkoutContext, keyFor, purchase, inspect } = giftCards;
 const reply = (statusCode, data) => Response.json(data, { status: statusCode, headers: { 'Cache-Control': 'no-store' } });
 
 export default async function handler(request) {

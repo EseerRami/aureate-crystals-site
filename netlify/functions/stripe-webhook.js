@@ -19,8 +19,9 @@
  */
 
 import Stripe from 'stripe';
+import { cardStore } from '../lib/card-store.mjs';
 import giftCards from '../lib/gift-cards.js';
-const { cardStore, settleOrder } = giftCards;
+const { settleOrder } = giftCards;
 
 const REPO   = process.env.GITHUB_REPO;
 const TOKEN  = process.env.GITHUB_TOKEN;

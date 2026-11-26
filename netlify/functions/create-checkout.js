@@ -18,8 +18,9 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import Stripe from 'stripe';
+import { cardStore } from '../lib/card-store.mjs';
 import giftCards from '../lib/gift-cards.js';
-const { GiftError, checkoutContext, cardStore, redeem } = giftCards;
+const { GiftError, checkoutContext, redeem } = giftCards;
 
 const PRODUCTS_FILE = path.join(process.cwd(), 'data', 'products.json');
 const VARIANTS_FILE = path.join(process.cwd(), 'data', 'variant-prices.clean.json');
