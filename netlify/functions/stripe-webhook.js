@@ -18,7 +18,10 @@
  *   Copy the signing secret into STRIPE_WEBHOOK_SECRET.
  */
 
-const Stripe = require('stripe');
+import Stripe from 'stripe';
+import { cardStore } from '../lib/card-store.mjs';
+import giftCards from '../lib/gift-cards.js';
+const { settleOrder } = giftCards;
 
 const REPO   = process.env.GITHUB_REPO;
 const TOKEN  = process.env.GITHUB_TOKEN;
@@ -109,43 +112,49 @@ function decodeCart(metadata) {
   return [];
 }
 
-exports.handler = async (event) => {
-  if (event.httpMethod !== 'POST') return { statusCode: 405, body: 'Method not allowed' };
+export default async function handler(request) {
+  if (request.method !== 'POST') return new Response('Method not allowed', { status: 405 });
 
   const stripeKey = process.env.STRIPE_SECRET_KEY;
   const whSecret  = process.env.STRIPE_WEBHOOK_SECRET;
   if (!stripeKey || !whSecret || !REPO || !TOKEN) {
     console.error('[webhook] missing required env vars');
-    return { statusCode: 500, body: 'Webhook misconfigured' };
+    return new Response('Webhook misconfigured', { status: 500 });
   }
   const stripe = new Stripe(stripeKey, { apiVersion: '2024-11-20.acacia' });
 
   // Stripe needs the raw body for signature verification.
-  const rawBody = event.isBase64Encoded
-    ? Buffer.from(event.body, 'base64').toString('utf-8')
-    : event.body;
+  const rawBody = await request.text();
 
   let stripeEvent;
   try {
     stripeEvent = stripe.webhooks.constructEvent(
       rawBody,
-      event.headers['stripe-signature'] || event.headers['Stripe-Signature'],
+      request.headers.get('stripe-signature'),
       whSecret
     );
   } catch (e) {
     console.error('[webhook] signature verification failed:', e.message);
-    return { statusCode: 400, body: `Bad signature: ${e.message}` };
+    return new Response(`Bad signature: ${e.message}`, { status: 400 });
   }
 
-  if (stripeEvent.type !== 'checkout.session.completed') {
-    return { statusCode: 200, body: 'ignored' };
+  if (!['checkout.session.completed', 'checkout.session.async_payment_succeeded'].includes(stripeEvent.type)) {
+    return new Response('ignored', { status: 200 });
   }
 
   const session = stripeEvent.data.object;
+  if (!session.livemode || !['paid', 'no_payment_required'].includes(session.payment_status)) {
+    return new Response('ignored', { status: 200 });
+  }
+  if (session.metadata?.gift_purchase) return new Response('gift card funded', { status: 200 });
+  if (session.metadata?.gift_debit) {
+    try { await settleOrder(cardStore('live'), session); }
+    catch { return new Response('Gift card settlement pending', { status: 500 }); }
+  }
   const cart = decodeCart(session.metadata);
   if (!cart.length) {
     console.warn('[webhook] no cart manifest on session', session.id);
-    return { statusCode: 200, body: 'no manifest' };
+    return new Response('no manifest', { status: 200 });
   }
 
   // Process sequentially — keeps git history readable and avoids hammering
@@ -156,9 +165,9 @@ exports.handler = async (event) => {
     } catch (e) {
       console.error('[webhook] failed to mark item', item, e.message);
       // Return 500 so Stripe retries. Idempotent — already-marked items skip.
-      return { statusCode: 500, body: e.message };
+      return new Response(e.message, { status: 500 });
     }
   }
 
-  return { statusCode: 200, body: 'ok' };
-};
+  return new Response('ok', { status: 200 });
+}

@@ -26,6 +26,7 @@ const OUT_PROD  = path.join(ROOT, 'data', 'products.json');
 const OUT_VAR   = path.join(ROOT, 'data', 'variant-prices.clean.json');
 
 // ───── Load + filter ─────
+fs.mkdirSync(CONTENT, { recursive: true });
 const files = fs.readdirSync(CONTENT).filter(f => f.endsWith('.json'));
 const allProducts = files.map(f => {
   const data = JSON.parse(fs.readFileSync(path.join(CONTENT, f), 'utf-8'));
@@ -43,11 +44,6 @@ const products = allProducts
     if (ac !== bc) return bc - ac;
     return String(b.id).localeCompare(String(a.id));
   });
-
-if (!products.length) {
-  console.error('❌ No available products found in content/products/');
-  process.exit(1);
-}
 
 // ───── Helpers ─────
 function escapeJsString(s) {
@@ -73,6 +69,9 @@ const productLines = products.map(p => {
     `chakra:${arrLit(p.chakra || [])}`,
     `properties:${arrLit(toTagArray(p.properties))}`,
   ];
+  if (Array.isArray(p.photos) && p.photos.length) fields.push(`photos:${arrLit(p.photos)}`);
+  const categories = toTagArray(p.categories);
+  if (categories.length) fields.push(`categories:${arrLit(categories)}`);
   if (p.description) fields.push(`description:${escapeJsString(p.description)}`);
   return `  { ${fields.join(', ')} }`;
 });
@@ -145,7 +144,8 @@ const flagsRe = /<!-- @@BUILD_FLAGS@@ -->(\s*<script>[\s\S]*?<\/script>)?/;
 
 const maintenance = process.env.MAINTENANCE_MODE === 'true';
 
-const liveHtml = html.replace(flagsRe, '<!-- @@BUILD_FLAGS@@ -->\n' + flagsScript('live', maintenance));
+const storefrontMode = process.env.CONTEXT === 'deploy-preview' ? 'test' : 'live';
+const liveHtml = html.replace(flagsRe, '<!-- @@BUILD_FLAGS@@ -->\n' + flagsScript(storefrontMode, maintenance));
 fs.writeFileSync(INDEX, liveHtml);
 
 // Mirror site for owner test purchases. Always shop-visible (maintenance flag
@@ -225,7 +225,7 @@ function renderAuditCard(p) {
         <div style="flex:1;min-width:0;">
           <div style="display:flex;justify-content:space-between;gap:8px;align-items:start;margin-bottom:4px;">
             <div style="font-size:14px;font-weight:600;color:#e5e5e5;line-height:1.3;">${htmlEscape(p.name)}</div>
-            ${soldBadge}
+${soldBadge}
           </div>
           <div style="font-size:18px;color:#c9a84c;font-weight:600;margin-bottom:6px;">$${(p.price || 0).toFixed(2)}</div>
           <div style="font-size:11px;color:#666;font-family:monospace;">id: ${htmlEscape(p.id)}</div>
